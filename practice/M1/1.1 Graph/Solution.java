@@ -22,7 +22,7 @@ public final class Solution {
 				graph.addEdge(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]));
 			}
 
-			System.out.println(graph.V() + " vertices, " + graph.E() + "edges");
+			System.out.println(graph.V() + " vertices, " + graph.E() + " edges");
 			for (int i = 0; i < graph.V(); i++) {
 				StringBuffer str = new StringBuffer();
 				str.append(hashst.get(i) + ": ");

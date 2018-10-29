@@ -110,6 +110,6 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:12: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:17: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:22: Line is longer than 80 characters (found 104). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:25: Line is longer than 80 characters (found 92). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:25: Line is longer than 80 characters (found 93). [LineLength]
 Audit done.
 Checkstyle ends with 10 errors.

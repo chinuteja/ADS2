@@ -25,7 +25,7 @@ public final class Solution {
 			System.out.println(graph.V() + " vertices, " + graph.E() + "edges");
 			for (int i = 0; i < graph.V(); i++) {
 				StringBuffer str = new StringBuffer();
-				str.append(hashst.get(i) + ":");
+				str.append(hashst.get(i) + ": ");
 				for (int w : graph.adj(i)) {
 					str.append(hashst.get(w) + " ");
 				}

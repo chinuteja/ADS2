@@ -16,7 +16,7 @@ Gujarat: Delhi Haryana
 Haryana: Gujarat Delhi
 
 Your Output: 
-13 vertices,13edges
+13 vertices, 13edges
 Andaman and Nicobar:Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh:Andaman and Nicobar
 Arunachal Pradesh:Andaman and Nicobar
@@ -94,7 +94,7 @@ Uttarakhand: Assam
 West Bengal: Uttar Pradesh Bihar
 
 Your Output: 
-36 vertices,78edges
+36 vertices, 78edges
 Andaman and Nicobar:Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh:Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh:Tamil Nadu Maharashtra Goa Andaman and Nicobar
@@ -183,7 +183,7 @@ Expected Output:
 No edges
 
 Your Output: 
-1 vertices,1edges
+1 vertices, 1edges
 Hyderabad:Hyderabad Hyderabad
 ----------------------------------------
 
@@ -211,6 +211,6 @@ Expected Output:
 No edges
 
 Your Output: 
-0 vertices,0edges
+0 vertices, 0edges
 ----------------------------------------
 

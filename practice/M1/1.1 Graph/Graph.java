@@ -55,6 +55,8 @@ public class Graph {
      * @throws IllegalArgumentException unless both {@code 0 <= v < V} and {@code 0 <= w < V}
      */
     public void addEdge(int v, int w) {
+        if(v == w) 
+            return;
         validateVertex(v);
         validateVertex(w);
         E++;

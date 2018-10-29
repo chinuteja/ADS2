@@ -33,7 +33,7 @@ public final class Solution {
 				for (int w : graph.adj(i)) {
 					str.append(hashst.get(w) + " ");
 				}
-				System.out.println(str.toString().trim());
+				System.out.println(str.toString());
 			}
 
 		}

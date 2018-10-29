@@ -58,6 +58,11 @@ public class Graph {
         if(v == w){
         //System.out.println("No edges"); 
             return;}
+        for(int i : adj[v]) {
+            if(i == w)
+                return;
+        }
+        //if(adj[v].contains(w))
         validateVertex(v);
         validateVertex(w);
         E++;

@@ -61,10 +61,13 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:60:20: ';' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:60:20: '}' at column 20 should have line break before. [RightCurly]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:60:20: '}' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:78:34: Parameter v should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:90:23: Parameter v should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:61:12: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:62: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:62:15: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:83:34: Parameter v should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:95:23: Parameter v should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 33 errors.
+Checkstyle ends with 36 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:24: First sentence should end with a period. [JavadocStyle]

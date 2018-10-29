@@ -56,7 +56,7 @@ public class Graph {
      */
     public void addEdge(int v, int w) {
         if(v == w){
-        System.out.println("No edges"); 
+        //System.out.println("No edges"); 
             return;}
         validateVertex(v);
         validateVertex(w);

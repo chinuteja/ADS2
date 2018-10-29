@@ -55,13 +55,16 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:55: Line is longer than 80 characters (found 93). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:57:25: Parameter v should be final. [FinalParameters]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:57:32: Parameter w should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:58: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:58: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:58:11: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:77:34: Parameter v should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:89:23: Parameter v should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:58:19: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:59: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:60:20: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:60:20: '}' at column 20 should have line break before. [RightCurly]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:60:20: '}' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:78:34: Parameter v should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:90:23: Parameter v should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 30 errors.
+Checkstyle ends with 33 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:24: First sentence should end with a period. [JavadocStyle]

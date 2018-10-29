@@ -184,7 +184,6 @@ No edges
 
 Your Output: 
 1 vertices, 0 edges
-Hyderabad:
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########

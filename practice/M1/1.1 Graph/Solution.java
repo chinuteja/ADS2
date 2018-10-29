@@ -23,8 +23,10 @@ public final class Solution {
 			}
 
 			System.out.println(graph.V() + " vertices, " + graph.E() + " edges");
-			if(graph.E() == 0)
+			if (graph.E() == 0) {
+				System.out.println("No edges");
 				break;
+			}
 			for (int i = 0; i < graph.V(); i++) {
 				StringBuffer str = new StringBuffer();
 				str.append(hashst.get(i) + ": ");

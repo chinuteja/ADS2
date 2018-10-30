@@ -119,7 +119,7 @@ public class AdjMatrixGraph {
 
     // string representation of Graph - takes quadratic time
     public String toString() {
-        System.out.println("hello");
+        System.out.println("hello" +V);
         StringBuilder s = new StringBuilder();
         s.append(V + " " + E + NEWLINE);
         for (int v = 0; v < V; v++) {

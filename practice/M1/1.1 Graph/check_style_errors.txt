@@ -34,8 +34,9 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:116: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:121:5: Class 'AdjMatrixGraph' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AdjMatrixGraph' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:121:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:122:37: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 35 errors.
+Checkstyle ends with 36 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:13: Line has trailing spaces. [RegexpSingleline]

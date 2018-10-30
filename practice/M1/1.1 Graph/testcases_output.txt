@@ -51,7 +51,7 @@ Expected Output:
 
 Your Output: 
 13 vertices, 13 edges
-hello
+hello13
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -176,7 +176,7 @@ Expected Output:
 
 Your Output: 
 36 vertices, 72 edges
-hello
+hello36
 ----------------------------------------
 
 ########## Testcase 4: Passed ##########

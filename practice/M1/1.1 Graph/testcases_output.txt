@@ -187,13 +187,14 @@ Your Output:
 No edges
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 1 vertices, 0 edges
 No edges
 
 Your Output: 
-1 vertices, 1 edges
+1 vertices, 0 edges
+No edges
 ----------------------------------------
 
 ########## Testcase 6: Passed ##########

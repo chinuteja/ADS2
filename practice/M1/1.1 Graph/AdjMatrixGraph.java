@@ -38,6 +38,7 @@ public class AdjMatrixGraph {
 
     // add undirected edge v-w
     public void addEdge(int v, int w) {
+        if(v == w) return;
         if (!adj[v][w]) E++;
         adj[v][w] = true;
         adj[w][v] = true;

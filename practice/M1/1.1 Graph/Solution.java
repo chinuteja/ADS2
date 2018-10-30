@@ -62,6 +62,9 @@ public final class Solution {
 				System.out.println("No edges");
 				break;
 			}
+			matrixgraph.toString();
+			break;
+			
 		}
 	}
 }

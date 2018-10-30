@@ -1,50 +1,73 @@
+/**.
+ * imports iterator
+ */
 import java.util.Iterator;
+/**.
+ * imports nosuch element exception
+ */
 import java.util.NoSuchElementException;
-
-
+/**.
+ * Class for adj matrix graph.
+ */
 public class AdjMatrixGraph {
     private static final String NEWLINE = System.getProperty("line.separator");
-
+    /**.
+     * number of vertices
+     */
     private final int V;
+    /**.
+     * number of edges
+     */
     private int E;
+    /**.
+     * adjcent matrix of boolean type
+     */
     private boolean[][] adj;
     
-    // empty graph with V vertices
+    /**
+     * Constructs the object for Adjmatrixgraph
+     *
+     * @param      V     { number of vertices }
+     */
     public AdjMatrixGraph(int V) {
         if (V < 0) throw new IllegalArgumentException("Too few vertices");
         this.V = V;
         this.E = 0;
         this.adj = new boolean[V][V];
     }
-
-    // random graph with V vertices and E edges
-    // public AdjMatrixGraph(int V, int E) {
-    //     this(V);
-    //     if (E > (long) V*(V-1)/2 + V) throw new IllegalArgumentException("Too many edges");
-    //     if (E < 0)                    throw new IllegalArgumentException("Too few edges");
-
-    //     // can be inefficient
-    //     while (this.E != E) {
-    //         int v = StdRandom.uniform(V);
-    //         int w = StdRandom.uniform(V);
-    //         addEdge(v, w);
-    //     }
-    // }
-
-    // number of vertices and edges
+    /**.
+     * number of vertices
+     * Time complesxity is constant as each statement is executed only once
+     * @return     { returns number of vertices }
+     */
     public int V() { return V; }
+    /**.
+     * { number of edges }
+     * Time complesxity is constant as each statement is executed only once
+     * @return     { returns number of edges }
+     */
     public int E() { return E; }
-
-
-    // add undirected edge v-w
+    /**.
+     * Adds an edge.
+     *
+     * @param      v     { integer type }
+     * @param      w     { integer type }
+     */
     public void addEdge(int v, int w) {
         if(v == w) return;
         if (!adj[v][w]) E++;
         adj[v][w] = true;
         adj[w][v] = true;
     }
-
-    // does the graph contain the edge v-w?
+    /**.
+     * checks if given components are connected or not
+     *
+     * @param      v     { integer type }
+     * @param      w     { integer type  }
+     *
+     * @return     { returns true if the two components are connected
+     *             else returns false }
+     */
     public boolean contains(int v, int w) {
         return adj[v][w];
     }
@@ -66,7 +89,11 @@ public class AdjMatrixGraph {
         public Iterator<Integer> iterator() {
             return this;
         }
-
+        /**.
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext() {
             while (w < V) {
                 if (adj[v][w]) return true;
@@ -74,7 +101,11 @@ public class AdjMatrixGraph {
             }
             return false;
         }
-
+        /**
+         * 
+         *
+         * @return     { returns integer type }
+         */
         public Integer next() {
             if (!hasNext()) {
                 throw new NoSuchElementException();
@@ -82,9 +113,7 @@ public class AdjMatrixGraph {
             return w++;
         }
 
-        public void remove()  {
-            throw new UnsupportedOperationException();
-        }
+        
     }
 
 

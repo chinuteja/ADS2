@@ -65,7 +65,7 @@ public final class Solution {
 			for (int i = 0; i < matrixgraph.V(); i++) {
 				String str = "";
 				for (int j = 0; j < matrixgraph.V(); j++) {
-					str = str + matrixgraph.E() + "";
+					str = str + matrixgraph.contains(1,3) + "";
 				}
 				System.out.println(str);
 				System.out.println();

@@ -30,7 +30,7 @@ Delhi: Gujarat Goa Haryana
 Goa: Delhi 
 Gujarat: Delhi Haryana 
 Haryana: Gujarat Delhi 
-13vertices, 0 edges
+13 vertices, 0 edges
 No edges
 ----------------------------------------
 
@@ -52,7 +52,7 @@ Expected Output:
 0 0 0 0 0 0 0 0 0 1 0 1 0
 
 Your Output: 
-13vertices, 13 edges
+13 vertices, 13 edges
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -133,7 +133,7 @@ Tripura: Gujarat Delhi
 Uttar Pradesh: West Bengal 
 Uttarakhand: Assam 
 West Bengal: Uttar Pradesh Bihar 
-36vertices, 0 edges
+36 vertices, 0 edges
 No edges
 ----------------------------------------
 
@@ -178,7 +178,7 @@ Expected Output:
 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
 
 Your Output: 
-36vertices, 72 edges
+36 vertices, 72 edges
 ----------------------------------------
 
 ########## Testcase 4: Passed ##########
@@ -197,16 +197,16 @@ Expected Output:
 No edges
 
 Your Output: 
-1vertices, 1 edges
+1 vertices, 1 edges
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 0 vertices, 0 edges
 No edges
 
 Your Output: 
-0vertices, 0 edges
+0 vertices, 0 edges
 No edges
 ----------------------------------------
 

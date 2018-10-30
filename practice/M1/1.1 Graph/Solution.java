@@ -50,6 +50,7 @@ public final class Solution {
 				}
 				System.out.println(str.toString());
 			}
+			break;
 		case "Matrix" :
 			AdjMatrixGraph matrixgraph = new AdjMatrixGraph(vertices);
 			while (scan.hasNext()) {
@@ -59,7 +60,7 @@ public final class Solution {
 			System.out.println(matrixgraph.V() + " vertices, " + matrixgraph.E() + " edges");
 			if (matrixgraph.E() == 0) {
 				System.out.println("No edges");
-                break;
+				break;
 			}
 		}
 	}

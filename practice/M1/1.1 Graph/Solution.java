@@ -63,6 +63,7 @@ public final class Solution {
 				break;
 			}
 			while(scan.hasNext()){
+				System.out.println("hello");
 				String[] tokens2 = scan.nextLine().split(" ");
 			for (int i = 0; i < matrixgraph.V(); i++) {
 				String str = "";

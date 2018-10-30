@@ -161,10 +161,10 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:60: Line is longer than 80 characters (found 105). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:65:30: 'while' is not followed by whitespace. [WhitespaceAround]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:65:46: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:70: Line is longer than 80 characters (found 136). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:70:103: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:70:132: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:74:26: '}' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:74:26: '}' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:71: Line is longer than 80 characters (found 136). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:71:103: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:71:132: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:75:26: '}' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:75:26: '}' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
 Checkstyle ends with 18 errors.

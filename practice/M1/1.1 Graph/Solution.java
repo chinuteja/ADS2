@@ -62,9 +62,17 @@ public final class Solution {
 				System.out.println("No edges");
 				break;
 			}
-			matrixgraph.toString();
+			for (int i = 0; i < matrixgraph.V(); i++) {
+				String str = "";
+				for (int j = 0; j < matrixgraph.V(); j++) {
+					str = str + matrixgraph.E() + "";
+				}
+				System.out.println(str);
+				System.out.println();
+			}
+
 			break;
-			
+
 		}
 	}
 }

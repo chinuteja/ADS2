@@ -1,9 +1,24 @@
+/**.
+ * imports Scanner package
+ */
 import java.util.Scanner;
+/**.
+ * class for solution
+ */
 public final class Solution {
+	/**
+	 * Constructs the object for SOlution
+	 * @author Teja
+	 */
 	private Solution() {
 
 	}
-	public static void main(String[] args) {
+	/**
+	 * main funciton which demonstrates operations
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String type = scan.nextLine();
 		int vertices = scan.nextInt();
@@ -35,11 +50,17 @@ public final class Solution {
 				}
 				System.out.println(str.toString());
 			}
-
+		case "Matrix" :
+			AdjMatrixGraph matrixgraph = new AdjMatrixGraph(vertices);
+			while (scan.hasNext()) {
+				String[] tokens1 = scan.nextLine().split(" ");
+				matrixgraph.addEdge(Integer.parseInt(tokens1[0]), Integer.parseInt(tokens1[1]));
+			}
+			System.out.println(matrixgraph.V() + "vertices, " + matrixgraph.E() + " edges");
+			if (matrixgraph.E() == 0) {
+				System.out.println("No edges");
+                break;
+			}
 		}
-		//System.out.println(type);
-
 	}
-
-
 }

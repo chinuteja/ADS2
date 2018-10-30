@@ -159,8 +159,12 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:55: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:58: Line is longer than 80 characters (found 112). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:60: Line is longer than 80 characters (found 105). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:68: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:68:76: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:68:76: '3' is a magic number. [MagicNumber]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:65:30: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:65:46: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:70: Line is longer than 80 characters (found 136). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:70:103: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:70:132: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:74:26: '}' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:74:26: '}' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 18 errors.

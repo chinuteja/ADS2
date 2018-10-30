@@ -62,14 +62,16 @@ public final class Solution {
 				System.out.println("No edges");
 				break;
 			}
+			while(scan.hasNext()){
+				String[] tokens2 = scan.nextLine().split(" ");
 			for (int i = 0; i < matrixgraph.V(); i++) {
 				String str = "";
 				for (int j = 0; j < matrixgraph.V(); j++) {
-					str = str + matrixgraph.contains(1,3) + "";
+					str = str + matrixgraph.contains(Integer.parseInt(tokens2[0]),Integer.parseInt(tokens2[1]))+ "";
 				}
 				System.out.println(str);
 				System.out.println();
-			}
+			}}
 
 			break;
 

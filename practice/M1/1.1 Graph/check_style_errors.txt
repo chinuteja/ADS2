@@ -6,11 +6,9 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:109:31: 'v' hides a field. [HiddenField]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:112: First sentence should end with a period. [JavadocStyle]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:127: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:152: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:152:31: Expression can be simplified. [SimplifyBooleanExpression]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:154: 'else' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 8 errors.
 Starting audit...
 Audit done.
 Starting audit...

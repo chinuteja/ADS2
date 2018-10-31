@@ -149,10 +149,11 @@ public final  class AdjMatrixGraph {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < V(); i++) {
             for (int j = 0; j < V(); j++) {
-                if (adj[i][j] == true)
+                if (adj[i][j] == true) {
                     sb.append("1 ");
-                else
+                } else {
                     sb.append("0 ");
+                }
             }
             sb.append(NEWLINE);
         }

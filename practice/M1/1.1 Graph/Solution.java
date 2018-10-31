@@ -38,13 +38,13 @@ public final class Solution {
                 graph.addEdge(Integer.parseInt(tokens[0]),
                               Integer.parseInt(tokens[1]));
             }
-            System.out.println(graph.V() + " vertices, "
-                               + graph.E() + " edges");
-            if (graph.E() == 0) {
+            System.out.println(graph.numberofVertices() + " vertices, "
+                               + graph.numberofEdges() + " edges");
+            if (graph.numberofEdges() == 0) {
                 System.out.println("No edges");
                 break;
             }
-            for (int i = 0; i < graph.V(); i++) {
+            for (int i = 0; i < graph.numberofVertices(); i++) {
                 StringBuffer str = new StringBuffer();
                 str.append(hashst.get(i) + ": ");
                 for (int w : graph.adj(i)) {

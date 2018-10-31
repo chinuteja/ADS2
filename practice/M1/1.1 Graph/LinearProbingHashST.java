@@ -58,7 +58,7 @@ public class LinearProbingHashST<Key, Value> {
      * @return     {hash number of int tuype }
      */
     private int hash(final Key key) {
-        return (key.hashCode() * 11) % m;
+        return (key.hashCode() * (10 + 1)) % m;
     }
     /**.
      * check if the key contains or not
@@ -69,8 +69,8 @@ public class LinearProbingHashST<Key, Value> {
      */
     public boolean contains(final Key key) {
         if (key == null) {
-            throw new IllegalArgumentException
-            ("argument to contains() is null");
+            throw new
+            IllegalArgumentException("argument to contains() is null");
         }
         return get(key) != null;
     }
@@ -97,18 +97,18 @@ public class LinearProbingHashST<Key, Value> {
      * @param      val   The value
      */
     public void put(final Key key, final Value val) {
-        if (key == null) { 
-            throw new 
+        if (key == null) {
+            throw new
             IllegalArgumentException("first argument to put() is null");
         }
         if (val == null) {
             delete(key);
             return;
         }
-
         // double table size if 50% full
-        if (n >= m / 2) resize(2 * m);
-
+        if (n >= m / 2) {
+            resize(2 * m);
+        }
         int i;
         for (i = hash(key); keys[i] != null; i = (i + 1) % m) {
             if (keys[i].equals(key)) {

@@ -62,7 +62,7 @@ public class Bag<Item> implements Iterable<Item> {
     /**.
       * Add the item to the bag.
       * Time complesxity is constant as each statement is executed only once
-      *@param Item
+      *@param Item of item type
       */
     public void add(final Item item) {
         Node oldfirst = first;
@@ -100,7 +100,7 @@ public class Bag<Item> implements Iterable<Item> {
          * @return     { returns item of ITem type }
          */
         public Item next() {
-            if (!hasNext()) throw new NoSuchElementException();
+            if (!hasNext()) { throw new NoSuchElementException(); }
             Item item = current.item;
             current = current.next;
             return item;

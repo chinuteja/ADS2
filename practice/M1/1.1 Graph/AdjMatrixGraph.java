@@ -23,7 +23,7 @@ public class AdjMatrixGraph {
      * adjcent matrix of boolean type
      */
     private boolean[][] adj;
-    
+
     /**
      * Constructs the object for Adjmatrixgraph
      *
@@ -54,7 +54,7 @@ public class AdjMatrixGraph {
      * @param      w     { integer type }
      */
     public void addEdge(int v, int w) {
-        if(v == w) return;
+        if (v == w) return;
         if (!adj[v][w]) E++;
         adj[v][w] = true;
         adj[w][v] = true;
@@ -102,7 +102,7 @@ public class AdjMatrixGraph {
             return false;
         }
         /**
-         * 
+         *
          *
          * @return     { returns integer type }
          */
@@ -112,11 +112,12 @@ public class AdjMatrixGraph {
             }
             return w++;
         }
-
-        
     }
-
-
+    /**
+     * Returns a string representation of the object.
+     * Time complexity is N^2 as each for loop iterates for N times.
+     * @return     String representation of the object.
+     */
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < V(); i++) {
@@ -130,19 +131,5 @@ public class AdjMatrixGraph {
         }
         return sb.toString();
     }
-
-    // string representation of Graph - takes quadratic time
-    // public String toString() {
-    //     StringBuilder s = new StringBuilder();
-    //     s.append(V + " " + E + NEWLINE);
-    //     for (int v = 0; v < V; v++) {
-    //         s.append(v + ": ");
-    //         for (int w : adj(v)) {
-    //             s.append(w + " ");
-    //         }
-    //         s.append(NEWLINE);
-    //     }
-    //     return s.toString();
-    // }
 
 }

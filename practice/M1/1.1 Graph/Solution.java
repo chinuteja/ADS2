@@ -63,7 +63,7 @@ public final class Solution {
 				break;
 			}
 			//String[] tokens2 = scan.nextLine().split(" ");
-			System.out.println(matrixgraph);
+			System.out.println(matrixgraph.toString());
 			break;
 		}
 	}

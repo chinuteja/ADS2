@@ -30,11 +30,11 @@ public class AdjMatrixGraph {
     /**.
      * Constructs the object for Adjmatrixgraph
      *
-     * @param      V     { number of vertices }
+     * @param      vertices1    { number of vertices }
      */
-    public AdjMatrixGraph(int vertices) {
-        if (vertices < 0) throw new IllegalArgumentException("Too few vertices");
-        this.vertices = vertices;
+    public AdjMatrixGraph(final int vertices1) {
+        if (vertices1 < 0) throw new IllegalArgumentException("Too few vertices");
+        this.vertices = vertices1;
         this.edges = 0;
         this.adj = new boolean[vertices][vertices];
     }
@@ -60,7 +60,7 @@ public class AdjMatrixGraph {
      * @param      v     { integer type }
      * @param      w     { integer type }
      */
-    public void addEdge(int v, int w) {
+    public void addEdge(final int v, final int w) {
         if (v == w) return;
         if (!adj[v][w]) edges++;
         adj[v][w] = true;
@@ -75,12 +75,12 @@ public class AdjMatrixGraph {
      * @return     { returns true if the two components are connected
      *             else returns false }
      */
-    public boolean contains(int v, int w) {
+    public boolean contains(final int v, final int w) {
         return adj[v][w];
     }
 
     // return list of neighbors of v
-    public Iterable<Integer> adj(int v) {
+    public Iterable<Integer> adj(final int v) {
         return new AdjIterator(v);
     }
 
@@ -89,7 +89,7 @@ public class AdjMatrixGraph {
         private int v;
         private int w = 0;
 
-        AdjIterator(int v) {
+        AdjIterator(final int v) {
             this.v = v;
         }
 

@@ -34,18 +34,16 @@ Checkstyle ends with 30 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:18:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:66:32: Expected @param tag for 'item'. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:76: Expected @return tag. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:81: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:82:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:84: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:84:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:85: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:85:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:67:32: Expected @param tag for 'item'. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:85:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:87:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:88: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:90: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:90:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:91: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:93:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:94: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 10 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:1:8: Unused import - java.util.NoSuchElementException. [UnusedImports]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:2: Missing a Javadoc comment. [JavadocType]

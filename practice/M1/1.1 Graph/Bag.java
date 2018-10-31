@@ -62,6 +62,7 @@ public class Bag<Item> implements Iterable<Item> {
     /**.
       * Add the item to the bag.
       * Time complesxity is constant as each statement is executed only once
+      *@param Item
       */
     public void add(final Item item) {
         Node oldfirst = first;
@@ -72,18 +73,23 @@ public class Bag<Item> implements Iterable<Item> {
     }
     /**.
       * Return an iterator that iterates over the items in the bag.
+      * @return Listiterator
       */
     public Iterator<Item> iterator()  {
         return new ListIterator();
     }
-
-    // an iterator, doesn't implement remove() since it's optional
+    /**.
+     * Class for list iterator.
+     */
     private class ListIterator implements Iterator<Item> {
         private Node current = first;
 
-        public boolean hasNext()  { return current != null;                     }
-        public void remove()      { throw new UnsupportedOperationException();  }
-
+        public boolean hasNext()  {
+            return current != null;
+        }
+        public void remove()      { 
+            throw new UnsupportedOperationException();  
+        }
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException();
             Item item = current.item;

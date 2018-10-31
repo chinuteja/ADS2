@@ -30,7 +30,6 @@ public class Graph {
      * @throws IllegalArgumentException if {@code V < 0}
      */
     public Graph(final int vertices1) {
-        // if (vertices < 0) throw new IllegalArgumentException("Number of vertices must be nonnegative");
         this.vertices = vertices1;
         this.edges = 0;
         adj = (Bag<Integer>[]) new Bag[vertices];
@@ -62,10 +61,10 @@ public class Graph {
      * @param      v     { vertex }
      */
     private void validateVertex(final int v) {
-        if (v < 0 || v >= vertices){
-            throw new 
+        if (v < 0 || v >= vertices) {
+            throw new
             IllegalArgumentException
-            ("vertex " + v + " is not between 0 and " + (vertices-1));
+            ("vertex " + v + " is not between 0 and " + (vertices - 1));
         }
     }
     /**.
@@ -76,11 +75,12 @@ public class Graph {
      * @throws IllegalArgumentException unless both {@code 0 <= v < V} and {@code 0 <= w < V}
      */
     public void addEdge(final int v, final int w) {
-        if(v == w){
-        //System.out.println("No edges"); 
-            return;}
-        for(int i : adj[v]) {
-            if(i == w)
+        if (v == w) {
+            //System.out.println("No edges");
+            return;
+        }
+        for (int i : adj[v]) {
+            if (i == w)
                 return;
         }
         //if(adj[v].contains(w))

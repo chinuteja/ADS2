@@ -146,15 +146,7 @@ Audit done.
 Checkstyle ends with 38 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:9: First sentence should end with a period. [JavadocStyle]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:9:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:16: First sentence should end with a period. [JavadocStyle]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:27: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:32: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:37: Line is longer than 80 characters (found 104). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:40: Line is longer than 80 characters (found 93). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:55: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:58: Line is longer than 80 characters (found 112). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:60: Line is longer than 80 characters (found 105). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:27: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:41: Line is longer than 80 characters (found 81). [LineLength]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 3 errors.

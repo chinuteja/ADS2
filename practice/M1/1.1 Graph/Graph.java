@@ -1,8 +1,4 @@
 /**.
- * { imports NoSuchElementException }
- */
-import java.util.NoSuchElementException;
-/**.
  * Class for graph.
  */
 public class Graph {
@@ -80,7 +76,7 @@ public class Graph {
             return;
         }
         for (int i : adj[v]) {
-            if (i == w){
+            if (i == w) {
                 return;
             }
         }

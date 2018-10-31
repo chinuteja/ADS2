@@ -24,7 +24,8 @@ public final class Solution {
         int vertices = scan.nextInt();
         int edges = scan.nextInt();
         scan.nextLine();
-        LinearProbingHashST<Integer, String> hashst = new LinearProbingHashST<>();
+        LinearProbingHashST<Integer, String> hashst =
+            new LinearProbingHashST<>();
         String[] places = scan.nextLine().split(",");
         for (int i = 0; i < places.length; i++) {
             hashst.put(i, places[i]);
@@ -38,7 +39,8 @@ public final class Solution {
                               Integer.parseInt(tokens[1]));
             }
 
-            System.out.println(graph.V() + " vertices, " + graph.E() + " edges");
+            System.out.println(graph.V() + " vertices, "
+                               + graph.E() + " edges");
             if (graph.E() == 0) {
                 System.out.println("No edges");
                 break;
@@ -73,4 +75,5 @@ public final class Solution {
         }
     }
 }
+
 

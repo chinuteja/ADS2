@@ -145,8 +145,4 @@ Starting audit...
 Audit done.
 Checkstyle ends with 38 errors.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:27: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:41: Line is longer than 80 characters (found 81). [LineLength]
 Audit done.
-Checkstyle ends with 3 errors.

@@ -117,18 +117,32 @@ public class AdjMatrixGraph {
     }
 
 
-    // string representation of Graph - takes quadratic time
     public String toString() {
-        StringBuilder s = new StringBuilder();
-        s.append(V + " " + E + NEWLINE);
-        for (int v = 0; v < V; v++) {
-            s.append(v + ": ");
-            for (int w : adj(v)) {
-                s.append(w + " ");
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < V(); i++) {
+            for (int j = 0; j < V(); j++) {
+                if (adj[i][j] == true)
+                    sb.append("1 ");
+                else
+                    sb.append("0 ");
             }
-            s.append(NEWLINE);
+            sb.append(NEWLINE);
         }
-        return s.toString();
+        return sb.toString();
     }
+
+    // string representation of Graph - takes quadratic time
+    // public String toString() {
+    //     StringBuilder s = new StringBuilder();
+    //     s.append(V + " " + E + NEWLINE);
+    //     for (int v = 0; v < V; v++) {
+    //         s.append(v + ": ");
+    //         for (int w : adj(v)) {
+    //             s.append(w + " ");
+    //         }
+    //         s.append(NEWLINE);
+    //     }
+    //     return s.toString();
+    // }
 
 }

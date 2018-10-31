@@ -32,10 +32,13 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:99: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:105: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:116: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:121:5: Class 'AdjMatrixGraph' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AdjMatrixGraph' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:121:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:120:5: Class 'AdjMatrixGraph' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AdjMatrixGraph' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:120:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:124: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:124:31: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:126: 'else' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 35 errors.
+Checkstyle ends with 38 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Bag.java:13: Line has trailing spaces. [RegexpSingleline]
@@ -159,12 +162,5 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:55: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:58: Line is longer than 80 characters (found 112). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:60: Line is longer than 80 characters (found 105). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:65:30: 'while' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:65:46: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:71: Line is longer than 80 characters (found 136). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:71:103: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:71:132: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:75:26: '}' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:75:26: '}' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 18 errors.
+Checkstyle ends with 11 errors.

@@ -10,7 +10,7 @@ public class LinearProbingHashST<Key, Value> {
      */
     private static final int INIT_CAPACITY = 4;
     /**.
-     * n number of key value pairs of int type 
+     * n number of key value pairs of int type
      */
     private int n;
     /**.
@@ -175,20 +175,19 @@ public class LinearProbingHashST<Key, Value> {
      * displays the hash table in dictonary format
      * TIme complexity is N because the for loop iterates till the size of hashtable.
      */
-     public void display() {
-        if(size() == 0) {
+    public void display() {
+        if (size() == 0) {
             System.out.println("{}");
             return;
         }
         String str = "{";
-        for(int i=0; i<keys.length;i++) {
-            if(keys[i] != null) {
+        for (int i = 0; i < keys.length; i++) {
+            if (keys[i] != null) {
                 str += keys[i] + ":" + vals[i] + ", ";
             }
         }
-        str = str.substring(0, str.length()-2);
+        str = str.substring(0, str.length() - 2);
         str += "}";
         System.out.println(str);
     }
-
 }

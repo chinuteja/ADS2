@@ -10,6 +10,9 @@ import java.util.NoSuchElementException;
  * Class for adj matrix graph.
  */
 public class AdjMatrixGraph {
+    /**.
+     * NEWLINE
+     */
     private static final String NEWLINE = System.getProperty("line.separator");
     /**.
      * number of vertices
@@ -24,7 +27,7 @@ public class AdjMatrixGraph {
      */
     private boolean[][] adj;
 
-    /**
+    /**.
      * Constructs the object for Adjmatrixgraph
      *
      * @param      V     { number of vertices }
@@ -49,7 +52,7 @@ public class AdjMatrixGraph {
     public int E() { return E; }
     /**.
      * Adds an edge.
-     *
+     * Time complesxity is constant as each statement is executed only once
      * @param      v     { integer type }
      * @param      w     { integer type }
      */
@@ -61,7 +64,7 @@ public class AdjMatrixGraph {
     }
     /**.
      * checks if given components are connected or not
-     *
+     * Time complesxity is constant as each statement is executed only once
      * @param      v     { integer type }
      * @param      w     { integer type  }
      *

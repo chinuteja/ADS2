@@ -17,11 +17,11 @@ public class AdjMatrixGraph {
     /**.
      * number of vertices
      */
-    private final int V;
+    private final int vertices;
     /**.
      * number of edges
      */
-    private int E;
+    private int edges;
     /**.
      * adjcent matrix of boolean type
      */
@@ -32,24 +32,28 @@ public class AdjMatrixGraph {
      *
      * @param      V     { number of vertices }
      */
-    public AdjMatrixGraph(int V) {
-        if (V < 0) throw new IllegalArgumentException("Too few vertices");
-        this.V = V;
-        this.E = 0;
-        this.adj = new boolean[V][V];
+    public AdjMatrixGraph(int vertices) {
+        if (vertices < 0) throw new IllegalArgumentException("Too few vertices");
+        this.vertices = vertices;
+        this.edges = 0;
+        this.adj = new boolean[vertices][vertices];
     }
     /**.
      * number of vertices
      * Time complesxity is constant as each statement is executed only once
      * @return     { returns number of vertices }
      */
-    public int V() { return V; }
+    public int V() {
+        return vertices;
+    }
     /**.
      * { number of edges }
      * Time complesxity is constant as each statement is executed only once
      * @return     { returns number of edges }
      */
-    public int E() { return E; }
+    public int E() {
+        return edges;
+    }
     /**.
      * Adds an edge.
      * Time complesxity is constant as each statement is executed only once
@@ -58,7 +62,7 @@ public class AdjMatrixGraph {
      */
     public void addEdge(int v, int w) {
         if (v == w) return;
-        if (!adj[v][w]) E++;
+        if (!adj[v][w]) edges++;
         adj[v][w] = true;
         adj[w][v] = true;
     }
@@ -98,15 +102,14 @@ public class AdjMatrixGraph {
          * @return     True if has next, False otherwise.
          */
         public boolean hasNext() {
-            while (w < V) {
+            while (w < vertices) {
                 if (adj[v][w]) return true;
                 w++;
             }
             return false;
         }
-        /**
-         *
-         *
+        /**.
+         * 
          * @return     { returns integer type }
          */
         public Integer next() {
@@ -134,5 +137,4 @@ public class AdjMatrixGraph {
         }
         return sb.toString();
     }
-
 }

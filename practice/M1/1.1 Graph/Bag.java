@@ -19,7 +19,7 @@ public class Bag<Item> implements Iterable<Item> {
     /**.
      * beginning of bag
      */
-    private Node first;   
+    private Node first;
     /**.
      * Class for node.
      */
@@ -34,33 +34,35 @@ public class Bag<Item> implements Iterable<Item> {
         private Node next;
     }
 
-   /**.
-     * Create an empty stack.
-     */
+    /**.
+      * Create an empty stack.
+      */
     public Bag() {
         first = null;
         N = 0;
     }
 
-   /**.
-     * Is the BAG empty?
-     * Time complesxity is constant as each statement is executed only once
-     */
+    /**.
+      * Is the BAG empty?
+      * Time complesxity is constant as each statement is executed only once
+      * @return is boolean type
+      */
     public boolean isEmpty() {
         return first == null;
     }
 
-   /**.
-     * Return the number of items in the bag.
-     * Time complesxity is constant as each statement is executed only once
-     */
+    /**.
+      * Return the number of items in the bag.
+      * Time complesxity is constant as each statement is executed only once
+      * @return returns size of bag of int type
+      */
     public int size() {
         return N;
     }
-   /**.
-     * Add the item to the bag.
-     * Time complesxity is constant as each statement is executed only once
-     */
+    /**.
+      * Add the item to the bag.
+      * Time complesxity is constant as each statement is executed only once
+      */
     public void add(final Item item) {
         Node oldfirst = first;
         first = new Node();
@@ -68,11 +70,11 @@ public class Bag<Item> implements Iterable<Item> {
         first.next = oldfirst;
         N++;
     }
-   /**
-     * Return an iterator that iterates over the items in the bag.
-     */
+    /**.
+      * Return an iterator that iterates over the items in the bag.
+      */
     public Iterator<Item> iterator()  {
-        return new ListIterator();  
+        return new ListIterator();
     }
 
     // an iterator, doesn't implement remove() since it's optional
@@ -85,7 +87,7 @@ public class Bag<Item> implements Iterable<Item> {
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException();
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             return item;
         }
     }

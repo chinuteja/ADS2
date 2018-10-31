@@ -74,24 +74,16 @@ Audit done.
 Checkstyle ends with 36 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:61:34: '11' is a magic number. [MagicNumber]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:71: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:71: Line is longer than 80 characters (found 94). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:79:25: Parameter capacity should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:80: Line is longer than 80 characters (found 93). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:91: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:97: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:97: Line is longer than 80 characters (found 95). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:105: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:126: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:128: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:129: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:139: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:139: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:141: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:169: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:169:31: '8' is a magic number. [MagicNumber]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:173: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:73:13: '(' should be on the previous line. [MethodParamPad]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:82:25: Parameter capacity should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:83: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:94: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:100: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:101: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:110: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:179: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\LinearProbingHashST.java:179:31: '8' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 18 errors.
+Checkstyle ends with 10 errors.
 Starting audit...
 Audit done.

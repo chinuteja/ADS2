@@ -68,7 +68,10 @@ public class LinearProbingHashST<Key, Value> {
      * @return     { returns true if key contained else false}
      */
     public boolean contains(final Key key) {
-        if (key == null) throw new IllegalArgumentException("argument to contains() is null");
+        if (key == null) {
+            throw new IllegalArgumentException
+            ("argument to contains() is null");
+        }
         return get(key) != null;
     }
     /**.
@@ -94,8 +97,10 @@ public class LinearProbingHashST<Key, Value> {
      * @param      val   The value
      */
     public void put(final Key key, final Value val) {
-        if (key == null) throw new IllegalArgumentException("first argument to put() is null");
-
+        if (key == null) { 
+            throw new 
+            IllegalArgumentException("first argument to put() is null");
+        }
         if (val == null) {
             delete(key);
             return;
@@ -123,11 +128,15 @@ public class LinearProbingHashST<Key, Value> {
      * @return     {gets value of Key of value type }
      */
     public Value get(final Key key) {
-        if (key == null) throw new
+        if (key == null) {
+            throw new
             IllegalArgumentException("argument to get() is null");
-        for (int i = hash(key); keys[i] != null; i = (i + 1) % m)
-            if (keys[i].equals(key))
+        }
+        for (int i = hash(key); keys[i] != null; i = (i + 1) % m) {
+            if (keys[i].equals(key)) {
                 return vals[i];
+            }
+        }
         return null;
     }
     /**.
@@ -136,10 +145,13 @@ public class LinearProbingHashST<Key, Value> {
      * @param      key   The key
      */
     public void delete(final Key key) {
-        if (key == null) throw new 
+        if (key == null) {
+            throw new
             IllegalArgumentException("argument to delete() is null");
-        if (!contains(key)) return;
-
+        }
+        if (!contains(key)) {
+            return;
+        }
         // find position i of key
         int i = hash(key);
         while (!key.equals(keys[i])) {
@@ -162,15 +174,14 @@ public class LinearProbingHashST<Key, Value> {
             put(keyToRehash, valToRehash);
             i = (i + 1) % m;
         }
-
         n--;
-
         // halves size of array if it's 12.5% full or less
         if (n > 0 && n <= m / 8) resize(m / 2);
     }
     /**.
      * displays the hash table in dictonary format
-     * TIme complexity is N because the for loop iterates till the size of hashtable.
+     * TIme complexity is N because the for loop iterates till
+     * the size of hashtable.
      */
     public void display() {
         if (size() == 0) {

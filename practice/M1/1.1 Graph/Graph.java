@@ -63,8 +63,8 @@ public class Graph {
     private void validateVertex(final int v) {
         if (v < 0 || v >= vertices) {
             throw new
-            IllegalArgumentException
-            ("vertex " + v + " is not between 0 and " + (vertices - 1));
+            IllegalArgumentException(
+                "vertex " + v + " is not between 0 and " + (vertices - 1));
         }
     }
     /**.
@@ -72,7 +72,7 @@ public class Graph {
      *
      * @param  v one vertex in the edge
      * @param  w the other vertex in the edge
-     * @throws IllegalArgumentException unless both {@code 0 <= v < V} and {@code 0 <= w < V}
+     * @throws IllegalArgumentException unless both
      */
     public void addEdge(final int v, final int w) {
         if (v == w) {
@@ -80,8 +80,9 @@ public class Graph {
             return;
         }
         for (int i : adj[v]) {
-            if (i == w)
+            if (i == w){
                 return;
+            }
         }
         //if(adj[v].contains(w))
         validateVertex(v);

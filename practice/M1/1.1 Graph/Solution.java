@@ -60,9 +60,9 @@ public final class Solution {
                 matrixgraph.addEdge(Integer.parseInt(tokens1[0]),
                                     Integer.parseInt(tokens1[1]));
             }
-            System.out.println(matrixgraph.Vertices() + " vertices, "
-                               + matrixgraph.Edges() + " edges");
-            if (matrixgraph.Edges() == 0) {
+            System.out.println(matrixgraph.numberofVertices() + " vertices, "
+                               + matrixgraph.numberofEdges() + " edges");
+            if (matrixgraph.numberofEdges() == 0) {
                 System.out.println("No edges");
                 break;
             }

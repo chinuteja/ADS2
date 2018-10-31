@@ -1,10 +1,8 @@
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:48:16: Name 'Vertices' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:56:16: Name 'Edges' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:118: First sentence should end with a period. [JavadocStyle]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:160:31: Expression can be simplified. [SimplifyBooleanExpression]
 Audit done.
-Checkstyle ends with 4 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
 Starting audit...
@@ -49,4 +47,6 @@ Checkstyle ends with 36 errors.
 Starting audit...
 Audit done.
 Starting audit...
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
+Checkstyle ends with 1 errors.

@@ -115,7 +115,7 @@ public final  class AdjMatrixGraph {
         AdjIterator(final int v1) {
             this.v = v1;
         }
-        /**
+        /**.
          * iterator
          *
          * @return     { description_of_the_return_value }
@@ -157,7 +157,7 @@ public final  class AdjMatrixGraph {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < numberofVertices(); i++) {
             for (int j = 0; j < numberofVertices(); j++) {
-                if (adj[i][j] == true) {
+                if (adj[i][j]) {
                     sb.append("1 ");
                 } else {
                     sb.append("0 ");

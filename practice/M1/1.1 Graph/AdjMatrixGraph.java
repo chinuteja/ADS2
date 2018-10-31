@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
 /**.
  * Class for adj matrix graph.
  */
-public class AdjMatrixGraph {
+public final  class AdjMatrixGraph {
     /**.
      * NEWLINE
      */
@@ -84,22 +84,36 @@ public class AdjMatrixGraph {
     public boolean contains(final int v, final int w) {
         return adj[v][w];
     }
-
-    // return list of neighbors of v
+    /**.
+     *  return list of neighbors of v
+     *
+     * @param      v     { vertex of integer type }
+     *
+     * @return     {  return list of neighbors of v }
+     */
     public Iterable<Integer> adj(final int v) {
         return new AdjIterator(v);
     }
-
-    // support iteration over graph vertices
-    private final class AdjIterator implements 
-    Iterator<Integer>, Iterable<Integer> {
+    /**.
+     * support iteration over graph vertices
+     */
+    private final class AdjIterator implements
+        Iterator<Integer>, Iterable<Integer> {
         private int v;
         private int w = 0;
-
+        /**.
+         * Constructs the object.
+         *
+         * @param      v     { integer type }
+         */
         AdjIterator(final int v) {
             this.v = v;
         }
-
+        /**
+         * iterator
+         *
+         * @return     { description_of_the_return_value }
+         */
         public Iterator<Integer> iterator() {
             return this;
         }
@@ -126,7 +140,7 @@ public class AdjMatrixGraph {
             return w++;
         }
     }
-    /**
+    /**.
      * Returns a string representation of the object.
      * Time complexity is N^2 as each for loop iterates for N times.
      * @return     String representation of the object.

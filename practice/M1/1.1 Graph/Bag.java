@@ -15,7 +15,7 @@ public class Bag<Item> implements Iterable<Item> {
     /**.
      * number of elements in bag
      */
-    private int N;
+    private int numberofelementinbag;
     /**.
      * beginning of bag
      */
@@ -39,7 +39,7 @@ public class Bag<Item> implements Iterable<Item> {
       */
     public Bag() {
         first = null;
-        N = 0;
+        numberofelementinbag = 0;
     }
 
     /**.
@@ -57,7 +57,7 @@ public class Bag<Item> implements Iterable<Item> {
       * @return returns size of bag of int type
       */
     public int size() {
-        return N;
+        return numberofelementinbag;
     }
     /**.
       * Add the item to the bag.
@@ -69,7 +69,7 @@ public class Bag<Item> implements Iterable<Item> {
         first = new Node();
         first.item = item;
         first.next = oldfirst;
-        N++;
+        numberofelementinbag++;
     }
     /**.
       * Return an iterator that iterates over the items in the bag.
@@ -94,7 +94,11 @@ public class Bag<Item> implements Iterable<Item> {
         public boolean hasNext()  {
             return current != null;
         }
-        
+        /**.
+         * checks if next vertex is there or not
+         *
+         * @return     { returns item of ITem type }
+         */
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException();
             Item item = current.item;

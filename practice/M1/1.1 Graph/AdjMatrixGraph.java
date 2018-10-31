@@ -99,15 +99,21 @@ public final  class AdjMatrixGraph {
      */
     private final class AdjIterator implements
         Iterator<Integer>, Iterable<Integer> {
+        /**.
+         * vertex
+         */
         private int v;
+        /**.
+         * vertex
+         */
         private int w = 0;
         /**.
          * Constructs the object.
          *
          * @param      v     { integer type }
          */
-        AdjIterator(final int v) {
-            this.v = v;
+        AdjIterator(final int v1) {
+            this.v = v1;
         }
         /**
          * iterator

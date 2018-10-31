@@ -1,14 +1,13 @@
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:48:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:56:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:102:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:103:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:109:31: 'v' hides a field. [HiddenField]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:112: First sentence should end with a period. [JavadocStyle]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:127: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:152:31: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:113:12: Unused @param tag for 'v'. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:115:31: Expected @param tag for 'v1'. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:118: First sentence should end with a period. [JavadocStyle]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:133: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:158:31: Expression can be simplified. [SimplifyBooleanExpression]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 7 errors.
 Starting audit...
 Audit done.
 Starting audit...

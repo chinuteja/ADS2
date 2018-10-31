@@ -45,7 +45,7 @@ public final  class AdjMatrixGraph {
      * Time complesxity is constant as each statement is executed only once
      * @return     { returns number of vertices }
      */
-    public int V() {
+    public int Vertices() {
         return vertices;
     }
     /**.
@@ -53,7 +53,7 @@ public final  class AdjMatrixGraph {
      * Time complesxity is constant as each statement is executed only once
      * @return     { returns number of edges }
      */
-    public int E() {
+    public int Edges() {
         return edges;
     }
     /**.
@@ -110,7 +110,7 @@ public final  class AdjMatrixGraph {
         /**.
          * Constructs the object.
          *
-         * @param      v     { integer type }
+         * @param      v1    { integer type }
          */
         AdjIterator(final int v1) {
             this.v = v1;
@@ -130,7 +130,9 @@ public final  class AdjMatrixGraph {
          */
         public boolean hasNext() {
             while (w < vertices) {
-                if (adj[v][w]) return true;
+                if (adj[v][w]) {
+                    return true;
+                }
                 w++;
             }
             return false;
@@ -153,8 +155,8 @@ public final  class AdjMatrixGraph {
      */
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < V(); i++) {
-            for (int j = 0; j < V(); j++) {
+        for (int i = 0; i < Vertices(); i++) {
+            for (int j = 0; j < Vertices(); j++) {
                 if (adj[i][j] == true) {
                     sb.append("1 ");
                 } else {

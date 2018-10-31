@@ -82,14 +82,19 @@ public class Bag<Item> implements Iterable<Item> {
      * Class for list iterator.
      */
     private class ListIterator implements Iterator<Item> {
+        /**.
+         * current of Node type
+         */
         private Node current = first;
-
+        /**.
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext()  {
             return current != null;
         }
-        public void remove()      { 
-            throw new UnsupportedOperationException();  
-        }
+        
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException();
             Item item = current.item;

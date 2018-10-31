@@ -39,7 +39,7 @@ public final class Solution {
                               Integer.parseInt(tokens[1]));
             }
 
-            System.out.println(graph.V() + " vertices, "
+            System.out.println(graph.V() + " vertices, "   
                                + graph.E() + " edges");
             if (graph.E() == 0) {
                 System.out.println("No edges");

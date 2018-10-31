@@ -33,7 +33,9 @@ public class AdjMatrixGraph {
      * @param      vertices1    { number of vertices }
      */
     public AdjMatrixGraph(final int vertices1) {
-        if (vertices1 < 0) throw new IllegalArgumentException("Too few vertices");
+        if (vertices1 < 0) {
+            throw new IllegalArgumentException("Too few vertices");
+        }
         this.vertices = vertices1;
         this.edges = 0;
         this.adj = new boolean[vertices][vertices];
@@ -61,8 +63,12 @@ public class AdjMatrixGraph {
      * @param      w     { integer type }
      */
     public void addEdge(final int v, final int w) {
-        if (v == w) return;
-        if (!adj[v][w]) edges++;
+        if (v == w) {
+            return;
+        }
+        if (!adj[v][w]) {
+            edges++;
+        }
         adj[v][w] = true;
         adj[w][v] = true;
     }
@@ -85,7 +91,8 @@ public class AdjMatrixGraph {
     }
 
     // support iteration over graph vertices
-    private class AdjIterator implements Iterator<Integer>, Iterable<Integer> {
+    private final class AdjIterator implements 
+    Iterator<Integer>, Iterable<Integer> {
         private int v;
         private int w = 0;
 
@@ -109,7 +116,7 @@ public class AdjMatrixGraph {
             return false;
         }
         /**.
-         * 
+         *
          * @return     { returns integer type }
          */
         public Integer next() {

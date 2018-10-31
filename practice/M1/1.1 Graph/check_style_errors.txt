@@ -1,25 +1,21 @@
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:36: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:36: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:46:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:54:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:64: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:65: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:83:5: Class 'AdjMatrixGraph' looks like designed for extension (can be subclassed), but the method 'adj' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AdjMatrixGraph' final or making the method 'adj' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:83:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:88: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:89:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:90:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:92:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:92:31: 'v' hides a field. [HiddenField]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:96:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:106: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:112: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:131: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:131:31: Expression can be simplified. [SimplifyBooleanExpression]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:133: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:48:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:56:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:89:5: Class 'AdjMatrixGraph' looks like designed for extension (can be subclassed), but the method 'adj' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AdjMatrixGraph' final or making the method 'adj' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:89:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:94: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:94: Missing a Javadoc comment. [JavadocType]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:96:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:97:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:99:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:99:31: 'v' hides a field. [HiddenField]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:103:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:113: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:138: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:138:31: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\AdjMatrixGraph.java:140: 'else' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 19 errors.
+Checkstyle ends with 15 errors.
 Starting audit...
 Audit done.
 Starting audit...

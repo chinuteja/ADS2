@@ -4,18 +4,13 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:4:8: Unused import - java.util.NoSuchElementException. [UnusedImports]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:22: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:32:18: Parameter vertices1 should be final. [FinalParameters]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:33: Line is longer than 80 characters (found 106). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:64:33: Parameter v should be final. [FinalParameters]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:65:36: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:66: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:68:13: '(' should be on the previous line. [MethodParamPad]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:68:66: '-' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:68:67: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:76: Line is longer than 80 characters (found 93). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:78:25: Parameter v should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:78:32: Parameter w should be final. [FinalParameters]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:79:11: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:79:19: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:80: Line has trailing spaces. [RegexpSingleline]
@@ -25,10 +20,8 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:82:12: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:83: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:83:15: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:102:34: Parameter v should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M1\1.1 Graph\Graph.java:113:23: Parameter v should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 24 errors.
+Checkstyle ends with 17 errors.
 Starting audit...
 Audit done.
 Starting audit...

@@ -58,7 +58,7 @@ public class LinearProbingHashST<Key, Value> {
      * @return     {hash number of int tuype }
      */
     private int hash(final Key key) {
-        return (key.hashCode() * (10 + 1)) % m;
+        return (key.hashCode() * (5 + 5 + 1)) % m;
     }
     /**.
      * check if the key contains or not
@@ -79,8 +79,9 @@ public class LinearProbingHashST<Key, Value> {
      * Time complexity is N because loop iterates till end.
      * @param      capacity  The capacity
      */
-    private void resize(int capacity) {
-        LinearProbingHashST<Key, Value> temp = new LinearProbingHashST<Key, Value>(capacity);
+    private void resize(final int capacity) {
+        LinearProbingHashST<Key, Value> temp =
+            new LinearProbingHashST<Key, Value>(capacity);
         for (int i = 0; i < m; i++) {
             if (keys[i] != null) {
                 temp.put(keys[i], vals[i]);
@@ -91,7 +92,8 @@ public class LinearProbingHashST<Key, Value> {
         m    = temp.m;
     }
     /**.
-     * Inserts the specified key-value pair into the symbol table, overwriting the old
+     * Inserts the specified key-value pair into the symbol
+     * table, overwriting the old
      * Time complexity is N because loop iterates till end.
      * @param      key   The key
      * @param      val   The value
@@ -176,7 +178,9 @@ public class LinearProbingHashST<Key, Value> {
         }
         n--;
         // halves size of array if it's 12.5% full or less
-        if (n > 0 && n <= m / 8) resize(m / 2);
+        if (n > 0 && n <= m / (4 + 4)) {
+            resize(m / 2);
+        }
     }
     /**.
      * displays the hash table in dictonary format

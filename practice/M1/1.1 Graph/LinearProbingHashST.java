@@ -58,7 +58,7 @@ public class LinearProbingHashST<Key, Value> {
      * @return     {hash number of int tuype }
      */
     private int hash(final Key key) {
-        return (key.hashCode() * (5 + 5 + 1)) % m;
+        return (key.hashCode() * (2 + 3 + 2 + 3 + 1)) % m;
     }
     /**.
      * check if the key contains or not
@@ -178,7 +178,7 @@ public class LinearProbingHashST<Key, Value> {
         }
         n--;
         // halves size of array if it's 12.5% full or less
-        if (n > 0 && n <= m / (4 + 4)) {
+        if (n > 0 && n <= m / (2 + 2 + 2 + 2)) {
             resize(m / 2);
         }
     }

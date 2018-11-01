@@ -2,47 +2,28 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:4:8: Unused import - java.util.NoSuchElementException. [UnusedImports]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:10: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:28: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:34:20: Parameter V should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:34:24: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:48:20: Parameter G should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:48:28: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:34:30: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:48:34: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:51: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:64: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:82: First sentence should end with a period. [JavadocStyle]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:87:33: Parameter v should be final. [FinalParameters]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:88: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:89: Line is longer than 80 characters (found 104). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:89:100: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:89:101: '-' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:97: Line is longer than 80 characters (found 93). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:99:25: Parameter v should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:99:32: Parameter w should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:111: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:114:26: Parameter v should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:124: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:127:25: Parameter v should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:135: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:138:34: Parameter v should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:89:62: '+' should be on a new line. [OperatorWrap]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:98: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 24 errors.
+Checkstyle ends with 7 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:20: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:26:26: Parameter G should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:26:34: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:30: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:31: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:41:22: Parameter G should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:41:30: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:41:33: Parameter v should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:47: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:53:13: '}' at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:79: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:99: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:103: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:22: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:27:40: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:31: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:32: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:42:36: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:48: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:54:13: '}' at column 13 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:80: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:100: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:104: Line is longer than 80 characters (found 90). [LineLength]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 11 errors.
 Starting audit...
 Audit done.
 Starting audit...
@@ -54,8 +35,7 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:28:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:41: Expected @return tag. [JavadocMethod]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:47: Expected @return tag. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:54:22: Parameter item should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:54:27: Expected @param tag for 'item'. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:54:33: Expected @param tag for 'item'. [JavadocMethod]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:67: Expected @return tag. [JavadocMethod]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:68: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:80: Expected @return tag. [JavadocMethod]
@@ -76,4 +56,4 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:109: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:111: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 29 errors.
+Checkstyle ends with 28 errors.

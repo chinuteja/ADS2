@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
  */
 public class Digraph {
     /**.
-     * New line 
+     * New line
      */
     private static final String NEWLINE = System.getProperty("line.separator");
     /**.
@@ -25,13 +25,13 @@ public class Digraph {
     /**.
      *  indegree[v] = indegree of vertex v
      */
-    private int[] indegree;       
+    private int[] indegree;
     /**.
      * Constructs the object. for digraph
      *
      * @param      V     { vertex }
      */
-    public Digraph(int V) {
+    public Digraph(final int V) {
         this.vertices = V;
         this.edges = 0;
         indegree = new int[vertices];
@@ -45,7 +45,7 @@ public class Digraph {
      *
      * @param  G the digraph to copy
      */
-    public Digraph(Digraph G) {
+    public Digraph(final Digraph G) {
         this(G.numberofVertices());
         this.edges = G.numberofEdges();
         for (int v = 0; v < vertices; v++)
@@ -61,7 +61,7 @@ public class Digraph {
             }
         }
     }
-        
+
     /**.
      * Returns the number of vertices in this digraph.
      *
@@ -79,14 +79,15 @@ public class Digraph {
     public int numberofEdges() {
         return edges;
     }
-    /**
+    /**.
      * checks if the given vertex is valid or not
      *
      * @param      v     { vertex of int type }
      */
-    private void validateVertex(int v) {
+    private void validateVertex(final int v) {
         if (v < 0 || v >= vertices)
-            throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (vertices-1));
+            throw new IllegalArgumentException("vertex " + v +
+             " is not between 0 and " + (vertices - 1));
     }
 
     /**.
@@ -94,37 +95,38 @@ public class Digraph {
      *
      * @param  v the tail vertex
      * @param  w the head vertex
-     * @throws IllegalArgumentException unless both {@code 0 <= v < V} and {@code 0 <= w < V}
+     * @throws IllegalArgumentException unless 
+     * both {@code 0 <= v < V} and {@code 0 <= w < V}
      */
-    public void addEdge(int v, int w) {
+    public void addEdge(final int v, final int w) {
         validateVertex(v);
         validateVertex(w);
         adj[v].add(w);
         indegree[w]++;
         edges++;
     }
-    /**
+    /**.
      * Returns the number of directed edges incident from vertex {@code v}.
      * This is known as the <em>outdegree</em> of vertex {@code v}.
      *
      * @param  v the vertex
-     * @return the outdegree of vertex {@code v}               
+     * @return the outdegree of vertex {@code v}
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
      */
-    public int outdegree(int v) {
+    public int outdegree(final int v) {
         validateVertex(v);
         return adj[v].size();
     }
 
-    /**
+    /**.
      * Returns the number of directed edges incident to vertex {@code v}.
      * This is known as the <em>indegree</em> of vertex {@code v}.
      *
      * @param  v the vertex
-     * @return the indegree of vertex {@code v}               
+     * @return the indegree of vertex {@code v}
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
      */
-    public int indegree(int v) {
+    public int indegree(final int v) {
         validateVertex(v);
         return indegree[v];
     }
@@ -132,10 +134,11 @@ public class Digraph {
      * Returns the vertices adjacent from vertex {@code v} in this digraph.
      *
      * @param  v the vertex
-     * @return the vertices adjacent from vertex {@code v} in this digraph, as an iterable
+     * @return the vertices adjacent from vertex {@code v} in this digraph,
+     *  as an iterable
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
      */
-    public Iterable<Integer> adj(int v) {
+    public Iterable<Integer> adj(final int v) {
         validateVertex(v);
         return adj[v];
     }

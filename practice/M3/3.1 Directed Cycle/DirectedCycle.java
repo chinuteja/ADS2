@@ -19,11 +19,12 @@ public class DirectedCycle {
      */
     private Stack<Integer> cycle;    
     /**.
-     * Determines whether the digraph {@code G} has a directed cycle and, if so,
+     * Determines whether the digraph {@code G} 
+     * has a directed cycle and, if so,
      * finds such a cycle.
      * @param G the digraph
      */
-    public DirectedCycle(Digraph G) {
+    public DirectedCycle(final Digraph G) {
         marked  = new boolean[G.numberofVertices()];
         onStack = new boolean[G.numberofVertices()];
         edgeTo  = new int[G.numberofVertices()];
@@ -38,7 +39,7 @@ public class DirectedCycle {
      * @param      G     { Digraph G }
      * @param      v     { vertex of int type }
      */
-    private void dfs(Digraph G, int v) {
+    private void dfs(final Digraph G, final int v) {
         onStack[v] = true;
         marked[v] = true;
         for (int w : G.adj(v)) {

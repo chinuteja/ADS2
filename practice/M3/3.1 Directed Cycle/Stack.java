@@ -51,7 +51,7 @@ public class Stack<Item> implements Iterable<Item> {
      * Add the item to the stack.
      * TIme complexity is constant bcz each statement is executed onlyonce.
      */
-    public void push(Item item) {
+    public void push(final Item item) {
         Node oldfirst = first;
         first = new Node();
         first.item = item;

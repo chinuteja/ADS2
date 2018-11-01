@@ -1,8 +1,23 @@
+/**.
+ * imports Scanner package
+ */
 import java.util.Scanner;
+/**.
+ * class for SOlution
+ */
 public final class Solution {
+	/**.
+	 * Constructs the object.
+	 * @author Teja
+	 */
 	private Solution() {
 
 	}
+	/**.
+	 * main function which checks if graph is bipartite or not
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int numberofvertices = scan.nextInt();

@@ -7,7 +7,4 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:144:28: '{' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 2 errors.

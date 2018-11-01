@@ -49,10 +49,7 @@ public class DirectedCycle {
             // short circuit if directed cycle found
             if (cycle != null) {
                 return;
-            }
-
-            // found new vertex, so recur
-            else if (!marked[w]) {
+            } else if (!marked[w]) {
                 edgeTo[w] = v;
                 dfs(digraph1, w);
             } else if (onStack[w]) {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**.
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**.
      * Constructs the object for SOlution
      * @author Teja
@@ -14,7 +14,7 @@ public class Solution {
 
     }
     /**.
-     * main function which explians wheather cycle 
+     * main function which explians wheather cycle
      * exits or not
      *
      * @param      args  The arguments
@@ -27,13 +27,13 @@ public class Solution {
         Digraph digraph = new Digraph(vertices);
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(" ");
-            digraph.addEdge(Integer.parseInt(tokens[0]),Integer.parseInt(tokens[1]));
+            digraph.addEdge(Integer.parseInt(tokens[0]),
+                            Integer.parseInt(tokens[1]));
         }
         DirectedCycle directedcycle = new DirectedCycle(digraph);
         if(directedcycle.hasCycle()) {
-            System.out.println("Cycle exists.");            
-        }
-        else {
+            System.out.println("Cycle exists.");
+        } else {
             System.out.println("Cycle doesn't exists.");
         }
     }

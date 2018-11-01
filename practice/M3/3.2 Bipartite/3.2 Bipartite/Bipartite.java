@@ -5,7 +5,7 @@ public class Bipartite {
     /**.
      * // is the graph bipartite?
      */
-    private boolean isBipartite; 
+    private boolean isBipartite;
     /**.
      * // color[v] gives vertices on one side of bipartition
      */
@@ -13,12 +13,12 @@ public class Bipartite {
     /**.
      * // marked[v] = true iff v has been visited in DFS
      */
-    private boolean[] marked; 
+    private boolean[] marked;
     /**.
      * // edgeTo[v] = last edge on path to v
      */
     private int[] edgeTo;
-    /**. 
+    /**.
      * // odd-length cycle
      */
     private Stack<Integer> cycle;
@@ -47,25 +47,24 @@ public class Bipartite {
      * @param      graph1  The graph 1
      * @param      v       { vertex }
      */
-    private void dfs(final Graph graph1, final int v) { 
+    private void dfs(final Graph graph1, final int v) {
         marked[v] = true;
         for (int w : graph1.adj(v)) {
 
             // short circuit if odd-length cycle found
-            if (cycle != null) return;
+            if (cycle != null)  {
+                return;
+            }
 
             // found uncolored vertex, so recur
             if (!marked[w]) {
                 edgeTo[w] = v;
                 color[w] = !color[v];
                 dfs(graph1, w);
-            } 
-
-            // if v-w create an odd-length cycle, find it
-            else if (color[w] == color[v]) {
+            } else if (color[w] == color[v]) {
                 isBipartite = false;
                 cycle = new Stack<Integer>();
-                cycle.push(w);  // don't need this unless you want to include start vertex twice
+                cycle.push(w);
                 for (int x = v; x != w; x = edgeTo[x]) {
                     cycle.push(x);
                 }
@@ -90,7 +89,7 @@ public class Bipartite {
      *         otherwise
      */
     public Iterable<Integer> oddCycle() {
-        return cycle; 
+        return cycle;
     }
     /**.
      * checks if the given vertex is valid or not
@@ -100,9 +99,9 @@ public class Bipartite {
     private void validateVertex(final int v) {
         int vertex = marked.length;
         if (v < 0 || v >= vertex) {
-            throw new 
-            IllegalArgumentException("vertex " + v + 
-                " is not between 0 and " + (vertex-1));
+            throw new
+            IllegalArgumentException("vertex " + v
+                                     + " is not between 0 and " + (vertex - 1));
         }
     }
 }

@@ -29,31 +29,31 @@ public class Digraph {
     /**.
      * Constructs the object. for digraph
      *
-     * @param      V     { vertex }
+     * @param      vertices1     { vertex }
      */
-    public Digraph(final int V) {
-        this.vertices = V;
+    public Digraph(final int vertices1) {
+        this.vertices = vertices1;
         this.edges = 0;
         indegree = new int[vertices];
         adj = (Bag<Integer>[]) new Bag[vertices];
-        for (int v = 0; v < V; v++) {
+        for (int v = 0; v < vertices; v++) {
             adj[v] = new Bag<Integer>();
         }
     }
     /**
      * Initializes a new digraph that is a deep copy of the specified digraph.
      *
-     * @param  G the digraph to copy
+     * @param  digraph the digraph to copy
      */
-    public Digraph(final Digraph G) {
-        this(G.numberofVertices());
-        this.edges = G.numberofEdges();
+    public Digraph(final Digraph digraph) {
+        this(digraph.numberofVertices());
+        this.edges = digraph.numberofEdges();
         for (int v = 0; v < vertices; v++)
-            this.indegree[v] = G.indegree(v);
-        for (int v = 0; v < G.numberofVertices(); v++) {
+            this.indegree[v] = digraph.indegree(v);
+        for (int v = 0; v < digraph.numberofVertices(); v++) {
             // reverse so that adjacency list is in same order as original
             Stack<Integer> reverse = new Stack<Integer>();
-            for (int w : G.adj[v]) {
+            for (int w : digraph.adj[v]) {
                 reverse.push(w);
             }
             for (int w : reverse) {

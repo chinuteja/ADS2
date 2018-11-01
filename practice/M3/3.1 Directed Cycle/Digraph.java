@@ -82,9 +82,10 @@ public class Digraph {
      * @param      v     { vertex of int type }
      */
     private void validateVertex(final int v) {
-        if (v < 0 || v >= vertices)
-            throw new IllegalArgumentException("vertex " + v +
-                           " is not between 0 and " + (vertices - 1));
+        if (v < 0 || v >= vertices) {
+            throw new IllegalArgumentException("vertex " + v
+                + " is not between 0 and " + (vertices - 1));
+        }
     }
     /**.
      * Adds the directed edge v→w to this digraph.

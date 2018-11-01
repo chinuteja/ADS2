@@ -15,100 +15,108 @@ public class Stack<Item> implements Iterable<Item> {
     /**.
      * size of the stack
      */
-    private int N;  
+    private int size;
     /**.
      * // top of stack
      */
-    private Node first;     
+    private Node first;
     /**.
      * Class for node.
      */
     private class Node {
+        /**.
+         * item of Item type
+         */
         private Item item;
+        /**.
+         * Next of node type
+         */
         private Node next;
     }
 
-   /**.
-     * Create an empty stack.
-     */
+    /**.
+      * Create an empty stack.
+      */
     public Stack() {
         first = null;
-        N = 0;
+        size = 0;
     }
-   /**.
-     * Is the stack empty?
-     */
+    /**.
+      * Is the stack empty?
+      */
     public boolean isEmpty() {
         return first == null;
     }
-   /**.
-     * Return the number of items in the stack.
-     */
+    /**.
+      * Return the number of items in the stack.
+      * @return size of Stack
+      */
     public int size() {
-        return N;
+        return size;
     }
-   /**.
-     * Add the item to the stack.
-     * TIme complexity is constant bcz each statement is executed onlyonce.
-     */
+    /**.
+      * Add the item to the stack.
+      * TIme complexity is constant bcz each statement is executed onlyonce.
+      */
     public void push(final Item item) {
         Node oldfirst = first;
         first = new Node();
         first.item = item;
         first.next = oldfirst;
-        N++;
+        size++;
     }
 
-   /**
-     * Delete and return the item most recently added to the stack.
-     * Throw an exception if no such item exists because the stack is empty.
-     * TIme complexity is constant bcz each statement is executed onlyonce.
-     */
+    /**
+      * Delete and return the item most recently added to the stack.
+      * Throw an exception if no such item exists because the stack is empty.
+      * TIme complexity is constant bcz each statement is executed onlyonce.
+      * @return return the saved item
+      */
     public Item pop() {
         if (isEmpty()) throw new RuntimeException("Stack underflow");
         Item item = first.item;        // save item to return
         first = first.next;            // delete first node
-        N--;
+        size--;
         return item;                   // return the saved item
     }
-
-
-   /**
-     * Return the item most recently added to the stack.
-     * Throw an exception if no such item exists because the stack is empty.
-     */
+    /**
+      * Return the item most recently added to the stack.
+      * Throw an exception if no such item exists because the stack is empty.
+      * @return returns recently added to stack
+      */
     public Item peek() {
         if (isEmpty()) throw new RuntimeException("Stack underflow");
         return first.item;
     }
-
-   /**
-     * Return string representation.
-     * Time complexity is N bcz for iterates till the end of loop.
-     */
+    /**.
+      * Return string representation.
+      * Time complexity is N bcz for iterates till the end of loop.
+      * @return returns String
+      */
     public String toString() {
         StringBuilder s = new StringBuilder();
         for (Item item : this)
             s.append(item + " ");
         return s.toString();
     }
-       
-
-   /**
-     * Return an iterator to the stack that iterates through the items in LIFO order.
-     */
+    /**.
+      * Return an iterator to the stack that iterates through the items in LIFO order.
+      */
     public Iterator<Item> iterator()  { return new ListIterator();  }
 
     // an iterator, doesn't implement remove() since it's optional
     private class ListIterator implements Iterator<Item> {
         private Node current = first;
-        public boolean hasNext()  { return current != null;                     }
-        public void remove()      { throw new UnsupportedOperationException();  }
-
+        public boolean hasNext()  {
+            return current != null;
+        }
+        public void remove()      {
+            throw new UnsupportedOperationException();
+        }
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException();
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             return item;
         }
     }

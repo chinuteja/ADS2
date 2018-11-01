@@ -1,7 +1,5 @@
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M3\3.2 Bipartite\3.2 Bipartite\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M3\3.2 Bipartite\3.2 Bipartite\Bipartite.java:1: Missing a Javadoc comment. [JavadocType]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.2 Bipartite\3.2 Bipartite\Bipartite.java:2:5: Missing a Javadoc comment. [JavadocVariable]

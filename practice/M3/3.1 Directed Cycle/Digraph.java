@@ -26,7 +26,7 @@ public class Digraph {
      *  indegree[v] = indegree of vertex v
      */
     private int[] indegree;       
-    /**
+    /**.
      * Constructs the object. for digraph
      *
      * @param      V     { vertex }
@@ -139,5 +139,4 @@ public class Digraph {
         validateVertex(v);
         return adj[v];
     }
-
 }

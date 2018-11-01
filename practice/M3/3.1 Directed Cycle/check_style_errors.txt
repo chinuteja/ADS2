@@ -1,13 +1,10 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:4:8: Unused import - java.util.NoSuchElementException. [UnusedImports]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:51: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:88: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:89:62: '+' should be on a new line. [OperatorWrap]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:98: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:85: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Digraph.java:86:62: '+' should be on a new line. [OperatorWrap]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:20: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\DirectedCycle.java:22: Line has trailing spaces. [RegexpSingleline]

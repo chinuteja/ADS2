@@ -1,8 +1,4 @@
 /**.
- * imports NoSuchElementException
- */
-import java.util.NoSuchElementException;
-/**.
  * Class for digraph.
  */
 public class Digraph {
@@ -48,8 +44,9 @@ public class Digraph {
     public Digraph(final Digraph digraph) {
         this(digraph.numberofVertices());
         this.edges = digraph.numberofEdges();
-        for (int v = 0; v < vertices; v++)
+        for (int v = 0; v < vertices; v++) {
             this.indegree[v] = digraph.indegree(v);
+        }
         for (int v = 0; v < digraph.numberofVertices(); v++) {
             // reverse so that adjacency list is in same order as original
             Stack<Integer> reverse = new Stack<Integer>();
@@ -87,15 +84,14 @@ public class Digraph {
     private void validateVertex(final int v) {
         if (v < 0 || v >= vertices)
             throw new IllegalArgumentException("vertex " + v +
-             " is not between 0 and " + (vertices - 1));
+                           " is not between 0 and " + (vertices - 1));
     }
-
     /**.
      * Adds the directed edge v→w to this digraph.
      *
      * @param  v the tail vertex
      * @param  w the head vertex
-     * @throws IllegalArgumentException unless 
+     * @throws IllegalArgumentException unless
      * both {@code 0 <= v < V} and {@code 0 <= w < V}
      */
     public void addEdge(final int v, final int w) {
@@ -117,7 +113,6 @@ public class Digraph {
         validateVertex(v);
         return adj[v].size();
     }
-
     /**.
      * Returns the number of directed edges incident to vertex {@code v}.
      * This is known as the <em>indegree</em> of vertex {@code v}.

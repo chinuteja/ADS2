@@ -55,10 +55,7 @@ public class DirectedCycle {
             else if (!marked[w]) {
                 edgeTo[w] = v;
                 dfs(digraph1, w);
-            }
-
-            // trace back directed cycle
-            else if (onStack[w]) {
+            } else if (onStack[w]) {
                 cycle = new Stack<Integer>();
                 for (int x = v; x != w; x = edgeTo[x]) {
                     cycle.push(x);

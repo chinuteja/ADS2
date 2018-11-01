@@ -12,10 +12,11 @@ class Solution {
         }
         DirectedCycle directedcycle = new DirectedCycle(digraph);
         if(directedcycle.hasCycle()) {
-            System.out.println("Cycle exists");
+            System.out.println("Cycle exists.");
+            
         }
         else {
-            System.out.println("Cycle doesn't exists");
+            System.out.println("Cycle doesn't exists.");
         }
     }
 }

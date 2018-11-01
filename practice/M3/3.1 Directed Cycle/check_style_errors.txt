@@ -80,9 +80,10 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Solution.java:11: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Solution.java:11:57: ',' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Solution.java:14:11: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Solution.java:16:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Solution.java:16: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Solution.java:17:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 10 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:7: Line has trailing spaces. [RegexpSingleline]

@@ -1,6 +1,25 @@
+/**.
+ * imports Scanner package
+ */
 import java.util.Scanner;
-class Solution {
-    public static void main(String[] args) {
+/**.
+ * Class for solution.
+ */
+public class Solution {
+    /**.
+     * Constructs the object for SOlution
+     * @author Teja
+     */
+    private Solution() {
+
+    }
+    /**.
+     * main function which explians wheather cycle 
+     * exits or not
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int vertices = scan.nextInt();
         int edges = scan.nextInt();
@@ -12,8 +31,7 @@ class Solution {
         }
         DirectedCycle directedcycle = new DirectedCycle(digraph);
         if(directedcycle.hasCycle()) {
-            System.out.println("Cycle exists.");
-            
+            System.out.println("Cycle exists.");            
         }
         else {
             System.out.println("Cycle doesn't exists.");

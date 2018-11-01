@@ -72,9 +72,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 23 errors.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Solution.java:34:11: 'if' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:7: Line has trailing spaces. [RegexpSingleline]

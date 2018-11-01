@@ -31,7 +31,7 @@ public final class Solution {
                             Integer.parseInt(tokens[1]));
         }
         DirectedCycle directedcycle = new DirectedCycle(digraph);
-        if(directedcycle.hasCycle()) {
+        if (directedcycle.hasCycle()) {
             System.out.println("Cycle exists.");
         } else {
             System.out.println("Cycle doesn't exists.");

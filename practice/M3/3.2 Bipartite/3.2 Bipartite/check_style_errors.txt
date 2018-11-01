@@ -49,12 +49,6 @@ Checkstyle ends with 41 errors.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M3\3.2 Bipartite\3.2 Bipartite\Solution.java:9:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.2 Bipartite\3.2 Bipartite\Solution.java:29: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.2 Bipartite\3.2 Bipartite\Solution.java:29: Line is longer than 80 characters (found 120). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.2 Bipartite\3.2 Bipartite\Solution.java:34:18: 'else' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.2 Bipartite\3.2 Bipartite\Solution.java:34:18: '}' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 5 errors.
 Starting audit...
 Audit done.

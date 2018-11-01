@@ -8,19 +8,15 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:47: Expected @return tag. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:61:33: Expected @param tag for 'item'. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:76: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:88: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:98: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:103: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:105: Expected @return tag. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:105:39: '{' at column 39 should have line break after. [LeftCurly]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:108: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:109:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:110:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:113:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:91: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:109: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:111: Expected @return tag. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:111:39: '{' at column 39 should have line break after. [LeftCurly]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:114: Missing a Javadoc comment. [JavadocType]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:115:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:116:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:117: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:119:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:122:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M3\3.1 Directed Cycle\Stack.java:123: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 15 errors.
+Checkstyle ends with 11 errors.

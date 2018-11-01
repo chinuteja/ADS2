@@ -43,6 +43,7 @@ public class Stack<Item> implements Iterable<Item> {
     }
     /**.
       * Is the stack empty?
+      * @return boolean type
       */
     public boolean isEmpty() {
         return first == null;
@@ -57,6 +58,7 @@ public class Stack<Item> implements Iterable<Item> {
     /**.
       * Add the item to the stack.
       * TIme complexity is constant bcz each statement is executed onlyonce.
+      * @param item item of type ITem
       */
     public void push(final Item item) {
         Node oldfirst = first;
@@ -65,15 +67,16 @@ public class Stack<Item> implements Iterable<Item> {
         first.next = oldfirst;
         size++;
     }
-
-    /**
+    /**.
       * Delete and return the item most recently added to the stack.
       * Throw an exception if no such item exists because the stack is empty.
       * TIme complexity is constant bcz each statement is executed onlyonce.
       * @return return the saved item
       */
     public Item pop() {
-        if (isEmpty()) throw new RuntimeException("Stack underflow");
+        if (isEmpty()) {
+            throw new RuntimeException("Stack underflow");
+        }
         Item item = first.item;        // save item to return
         first = first.next;            // delete first node
         size--;
@@ -85,7 +88,9 @@ public class Stack<Item> implements Iterable<Item> {
       * @return returns recently added to stack
       */
     public Item peek() {
-        if (isEmpty()) throw new RuntimeException("Stack underflow");
+        if (isEmpty()) { 
+            throw new RuntimeException("Stack underflow");
+        }
         return first.item;
     }
     /**.
@@ -95,8 +100,9 @@ public class Stack<Item> implements Iterable<Item> {
       */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        for (Item item : this)
+        for (Item item : this) {
             s.append(item + " ");
+        }
         return s.toString();
     }
     /**.

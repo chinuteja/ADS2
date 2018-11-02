@@ -39,6 +39,10 @@ public class WordNet {
     public WordNet(String synsets, String hypernyms) {
         int count = processSynsets(synsets);
         graph = buildGraph(hypernyms, count);
+        DirectedCycle directedcycle = new DirectedCycle(graph);
+        if (directedcycle.hasCycle()) {
+            System.out.println("Multiple roots");
+        }
         //printGraph();
         //System.out.println("Count = " + count);
     }

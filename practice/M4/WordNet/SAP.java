@@ -1,4 +1,4 @@
-/*public class SAP {
+public class SAP {
 
     // constructor takes a digraph (not necessarily a DAG)
     public SAP(Digraph G)
@@ -16,5 +16,5 @@
     public int ancestor(Iterable<Integer> v, Iterable<Integer> w)
 
     // do unit testing of this class
-    public static void main(String[] args)
-}*/
+    //public static void main(String[] args)
+}

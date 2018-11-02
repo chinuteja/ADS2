@@ -1,13 +1,13 @@
 import java.util.Scanner;
 class Solution {
 
-	public static void readFile(String fileName) {
-		In in = new In("\\Files\\" + fileName);
-		while (!in.isEmpty()) {
+	// public static void readFile(String fileName) {
+	// 	In in = new In("\\Files\\" + fileName);
+	// 	while (!in.isEmpty()) {
 
-		}
-		System.out.println("After while loopp....");
- 	}
+	// 	}
+	// 	System.out.println("After while loopp....");
+ // 	}
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

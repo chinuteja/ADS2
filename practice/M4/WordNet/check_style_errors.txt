@@ -269,9 +269,13 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Solution.java:12:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Solution.java:12:33: Parameter args should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Solution.java:18: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Solution.java:18: Line is longer than 80 characters (found 106). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Solution.java:18:58: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Solution.java:18:59: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Solution.java:18:87: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Solution.java:18:88: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 11 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Stack.java:13: Line has trailing spaces. [RegexpSingleline]

@@ -13,9 +13,9 @@ class Solution {
 		Scanner scan = new Scanner(System.in);
 		String synsetsFileName = scan.nextLine();
 		String hypernymsFileName = scan.nextLine();
-		synsetsFileName = "\\Files\\" + synsetsFileName;
-		hypernymsFileName = "\\Files\\" + hypernymsFileName;
-		WordNet wordNet = new WordNet(synsetsFileName, hypernymsFileName);
+		// synsetsFileName = "\\Files\\" + synsetsFileName;
+		// hypernymsFileName = "\\Files\\" + hypernymsFileName;
+		WordNet wordNet = new WordNet("\\Files\\"+synsetsFileName, "\\Files\\"+hypernymsFileName);
 		String line = scan.nextLine();
 		switch (line) {
 		case "Graph":

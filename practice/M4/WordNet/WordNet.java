@@ -38,8 +38,8 @@ public class WordNet {
     public WordNet(String synsets, String hypernyms) {
         int count = processSynsets(synsets);
         graph = buildGraph(hypernyms, count);
-        printGraph();
-        System.out.println("Count = " + count);
+        //printGraph();
+        //System.out.println("Count = " + count);
     }
 
     // returns all WordNet nouns
@@ -63,7 +63,7 @@ public class WordNet {
     }
 
     // do unit testing of this class
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
 
-    }
+    // }
 }

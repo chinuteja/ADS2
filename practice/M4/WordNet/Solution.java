@@ -7,7 +7,7 @@ class Solution {
 
 	// 	}
 	// 	System.out.println("After while loopp....");
- // 	}
+// 	}
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -17,13 +17,13 @@ class Solution {
 		hypernymsFileName = "\\Files\\" + hypernymsFileName;
 		WordNet wordNet = new WordNet(synsetsFileName, hypernymsFileName);
 		String line = scan.nextLine();
-		switch(line) {
-			case "Graph":
+		switch (line) {
+		case "Graph":
 			wordNet.printGraph();
 			break;
-			case "Queries":
+		case "Queries":
 			break;
-			default:
+		default:
 			break;
 		}
 	}

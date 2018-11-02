@@ -28,6 +28,20 @@ public class WordNet {
         }
         return graph;
     }
+    private boolean multipleRoot(Digraph graph) {
+        int count = 0;
+        for (int i=0;i<graph.numberofVertices();i++) {
+            if (graph.outdegree(i) == 0) {
+                count++;
+            }           
+        }
+
+        if (count == 1) {
+            return true;
+            
+        }
+        return false;
+    }
 
     public void printGraph() {
         //System.out.println(graph.numberofVertices()+"vertices, "+graph.numberofEdges()+" edges" )
@@ -36,6 +50,10 @@ public class WordNet {
             System.out.println("Cycle detected");
             return;
         }
+        else if (multipleRoot(graph)) {
+            System.out.println("Multiple Roots");
+        }
+        else
         System.out.println(graph);
     }
 

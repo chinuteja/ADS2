@@ -51,7 +51,7 @@ public class WordNet {
             return;
         }
         else if (!multipleRoot(graph)) {
-            System.out.println("Multiple Roots");
+            System.out.println("Multiple roots");
         }
         else
         System.out.println(graph);

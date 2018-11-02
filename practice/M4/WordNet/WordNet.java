@@ -50,7 +50,7 @@ public class WordNet {
             System.out.println("Cycle detected");
             return;
         }
-        else if (multipleRoot(graph)) {
+        else if (!multipleRoot(graph)) {
             System.out.println("Multiple Roots");
         }
         else

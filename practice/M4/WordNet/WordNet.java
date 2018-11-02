@@ -32,6 +32,10 @@ public class WordNet {
 
     public void printGraph() {
         //System.out.println(graph.numberofVertices()+"vertices, "+graph.numberofEdges()+" edges" );
+        DirectedCycle directedcycle = new DirectedCycle(graph);
+        if (directedcycle.hasCycle()) {
+            System.out.println("Multiple roots");
+        }
         System.out.println(graph);
     }
 
@@ -39,10 +43,6 @@ public class WordNet {
     public WordNet(String synsets, String hypernyms) {
         int count = processSynsets(synsets);
         graph = buildGraph(hypernyms, count);
-        DirectedCycle directedcycle = new DirectedCycle(graph);
-        if (directedcycle.hasCycle()) {
-            System.out.println("Multiple roots");
-        }
         //printGraph();
         //System.out.println("Count = " + count);
     }

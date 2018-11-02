@@ -19,9 +19,7 @@ Expected Output:
 
 Your Output: 
 15vertices, 14 edges
-Digraph@6b2fad11
 15vertices, 14 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -31,7 +29,6 @@ distance = 10, ancestor = entity
 
 Your Output: 
 100vertices, 100 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -45,7 +42,6 @@ distance = 1, ancestor = animal_oil
 
 Your Output: 
 500vertices, 507 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -56,7 +52,6 @@ distance = 2, ancestor = wax
 
 Your Output: 
 1000vertices, 1008 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -69,7 +64,6 @@ distance = 0, ancestor = f
 
 Your Output: 
 6vertices, 6 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -87,7 +81,6 @@ distance = 1, ancestor = k
 
 Your Output: 
 11vertices, 12 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -102,7 +95,6 @@ distance = 1, ancestor = h
 
 Your Output: 
 8vertices, 8 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -120,7 +112,6 @@ distance = 4, ancestor = f
 
 Your Output: 
 11vertices, 16 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -137,9 +128,7 @@ Expected Output:
 
 Your Output: 
 8vertices, 17 edges
-Digraph@6b2fad11
 8vertices, 17 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -148,9 +137,7 @@ Multiple roots
 
 Your Output: 
 6vertices, 5 edges
-Digraph@6b2fad11
 6vertices, 5 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -159,9 +146,7 @@ Multiple roots
 
 Your Output: 
 6vertices, 4 edges
-Digraph@6b2fad11
 6vertices, 4 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -170,7 +155,6 @@ IllegalArgumentException
 
 Your Output: 
 15vertices, 14 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -179,7 +163,6 @@ IllegalArgumentException
 
 Your Output: 
 15vertices, 14 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -204,7 +187,6 @@ distance = 8, ancestor = abstraction abstract_entity
 
 Your Output: 
 82192vertices, 84505 edges
-Digraph@6b2fad11
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -213,8 +195,6 @@ Cycle detected
 
 Your Output: 
 3vertices, 2 edges
-Digraph@6b2fad11
 3vertices, 2 edges
-Digraph@6b2fad11
 ----------------------------------------
 

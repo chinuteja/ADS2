@@ -35,6 +35,7 @@ public class WordNet {
         DirectedCycle directedcycle = new DirectedCycle(graph);
         if (directedcycle.hasCycle()) {
             System.out.println("Multiple roots");
+            return ;
         }
         System.out.println(graph);
     }

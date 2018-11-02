@@ -33,7 +33,7 @@ public class WordNet {
     public void printGraph() {
         //System.out.println(graph.numberofVertices()+"vertices, "+graph.numberofEdges()+" edges" )
         DirectedCycle directedcycle = new DirectedCycle(graph);
-        if (!directedcycle.hasCycle()) {
+        if (directedcycle.hasCycle()) {
             System.out.println("Multiple roots");
         }
         System.out.println(graph);

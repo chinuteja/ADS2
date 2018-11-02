@@ -208,12 +208,11 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\LinearProbingHashST.java:236: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\LinearProbingHashST.java:238: Line is longer than 80 characters (found 104). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\LinearProbingHashST.java:251: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M4\WordNet\LinearProbingHashST.java:251:29: Parameter args should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M4\WordNet\LinearProbingHashST.java:252: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M4\WordNet\LinearProbingHashST.java:252: Line is longer than 80 characters (found 96). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\LinearProbingHashST.java:259: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\LinearProbingHashST.java:260: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 65 errors.
+Checkstyle ends with 64 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Queue.java:5: Line has trailing spaces. [RegexpSingleline]

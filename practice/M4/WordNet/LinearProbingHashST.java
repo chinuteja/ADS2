@@ -243,21 +243,21 @@ public class LinearProbingHashST<Key, Value> {
     }
 
 
-    /**
-     * Unit tests the {@code LinearProbingHashST} data type.
-     *
-     * @param args the command-line arguments
-     */
-    public static void main(String[] args) { 
-        LinearProbingHashST<String, Integer> st = new LinearProbingHashST<String, Integer>();
-        for (int i = 0; !StdIn.isEmpty(); i++) {
-            String key = StdIn.readString();
-            st.put(key, i);
-        }
+    // /**
+    //  * Unit tests the {@code LinearProbingHashST} data type.
+    //  *
+    //  * @param args the command-line arguments
+    //  */
+    // public static void main(String[] args) { 
+    //     LinearProbingHashST<String, Integer> st = new LinearProbingHashST<String, Integer>();
+    //     for (int i = 0; !StdIn.isEmpty(); i++) {
+    //         String key = StdIn.readString();
+    //         st.put(key, i);
+    //     }
 
-        // print keys
-    //     for (String s : st.keys()) 
-    //         StdOut.println(s + " " + st.get(s)); 
-    }
+    //     // print keys
+    // //     for (String s : st.keys()) 
+    // //         StdOut.println(s + " " + st.get(s)); 
+    // }
 }
 

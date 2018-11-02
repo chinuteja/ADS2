@@ -31,8 +31,8 @@ public class WordNet {
     }
 
     public void printGraph() {
-        System.out.println(graph.numberofVertices()+"vertices, "+graph.numberofEdges()+" edges" );
-        //System.out.println(graph);
+        //System.out.println(graph.numberofVertices()+"vertices, "+graph.numberofEdges()+" edges" );
+        System.out.println(graph);
     }
 
     // constructor takes the name of the two input files

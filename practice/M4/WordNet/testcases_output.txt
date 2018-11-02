@@ -18,8 +18,8 @@ Expected Output:
 14: 13
 
 Your Output: 
-15vertices, 14 edges
-15vertices, 14 edges
+Digraph@4411d970
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -28,7 +28,7 @@ distance = 7, ancestor = entity
 distance = 10, ancestor = entity
 
 Your Output: 
-100vertices, 100 edges
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -41,7 +41,7 @@ distance = 7, ancestor = lipid lipide lipoid
 distance = 1, ancestor = animal_oil
 
 Your Output: 
-500vertices, 507 edges
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -51,7 +51,7 @@ distance = 13, ancestor = thing
 distance = 2, ancestor = wax
 
 Your Output: 
-1000vertices, 1008 edges
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -63,7 +63,7 @@ distance = 0, ancestor = e
 distance = 0, ancestor = f
 
 Your Output: 
-6vertices, 6 edges
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -80,7 +80,7 @@ distance = 2, ancestor = j
 distance = 1, ancestor = k
 
 Your Output: 
-11vertices, 12 edges
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -94,7 +94,7 @@ distance = 3, ancestor = h
 distance = 1, ancestor = h
 
 Your Output: 
-8vertices, 8 edges
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -111,7 +111,7 @@ distance = 3, ancestor = f
 distance = 4, ancestor = f
 
 Your Output: 
-11vertices, 16 edges
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -127,8 +127,8 @@ Expected Output:
 7:
 
 Your Output: 
-8vertices, 17 edges
-8vertices, 17 edges
+Digraph@4411d970
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -136,8 +136,8 @@ Expected Output:
 Multiple roots
 
 Your Output: 
-6vertices, 5 edges
-6vertices, 5 edges
+Digraph@4411d970
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -145,8 +145,8 @@ Expected Output:
 Multiple roots
 
 Your Output: 
-6vertices, 4 edges
-6vertices, 4 edges
+Digraph@4411d970
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -154,7 +154,7 @@ Expected Output:
 IllegalArgumentException
 
 Your Output: 
-15vertices, 14 edges
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -162,7 +162,7 @@ Expected Output:
 IllegalArgumentException
 
 Your Output: 
-15vertices, 14 edges
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -186,7 +186,7 @@ distance = 0, ancestor = era epoch
 distance = 8, ancestor = abstraction abstract_entity
 
 Your Output: 
-82192vertices, 84505 edges
+Digraph@4411d970
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -194,7 +194,7 @@ Expected Output:
 Cycle detected
 
 Your Output: 
-3vertices, 2 edges
-3vertices, 2 edges
+Digraph@4411d970
+Digraph@4411d970
 ----------------------------------------
 

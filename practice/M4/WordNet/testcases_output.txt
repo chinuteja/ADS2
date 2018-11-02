@@ -225,7 +225,7 @@ Expected Output:
 Cycle detected
 
 Your Output: 
-Multiple roots
+Cycle detected
 3 vertices, 2 edges 
 0: 1 
 1: 0 

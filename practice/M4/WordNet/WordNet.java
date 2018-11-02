@@ -17,7 +17,6 @@ public class WordNet {
         }
         return count;
     }
-
     private Digraph buildGraph(String hypernyms, int count) {
         Digraph graph = new Digraph(count);
         In in = new In(hypernyms);
@@ -34,7 +33,7 @@ public class WordNet {
         //System.out.println(graph.numberofVertices()+"vertices, "+graph.numberofEdges()+" edges" )
         DirectedCycle directedcycle = new DirectedCycle(graph);
         if (directedcycle.hasCycle()) {
-            System.out.println("Multiple roots");
+            System.out.println("Cycle detected");
         }
         System.out.println(graph);
     }

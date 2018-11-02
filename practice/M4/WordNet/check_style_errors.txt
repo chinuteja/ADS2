@@ -1,7 +1,10 @@
 Starting audit...
 Audit done.
 Starting audit...
+[ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Digraph.java:141:5: Class 'Digraph' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Digraph' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] H:\ADS2\ADS2\practice\M4\WordNet\Digraph.java:141:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
+Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\In.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\M4\WordNet\In.java:28: Line has trailing spaces. [RegexpSingleline]

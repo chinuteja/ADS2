@@ -138,4 +138,16 @@ public class Digraph {
         validateVertex(v);
         return adj[v];
     }
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+        s.append(vertices + " vertices, " + edges + " edges " + NEWLINE);
+        for (int v = 0; v < vertices; v++) {
+            s.append(String.format("%d: ", v));
+            for (int w : adj[v]) {
+                s.append(String.format("%d ", w));
+            }
+            s.append(NEWLINE);
+        }
+        return s.toString();
+    }
 }

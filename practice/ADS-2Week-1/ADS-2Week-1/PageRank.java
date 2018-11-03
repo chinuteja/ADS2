@@ -16,7 +16,7 @@ class PageRank {
 
 			}
 		}
-		return 0.0;
+		return intialvalue;
 	}
 	public  String toString() {
 		return "";

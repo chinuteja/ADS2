@@ -61,7 +61,7 @@ public class Digraph {
 
     /**.
      * Returns the number of vertices in this digraph.
-     *
+     * Time complexity is constant bcz each statement is executed only once
      * @return the number of vertices in this digraph
      */
     public int numberofVertices() {
@@ -70,7 +70,7 @@ public class Digraph {
 
     /**.
      * Returns the number of edges in this digraph.
-     *
+     * Time complexity is constant bcz each statement is executed only once
      * @return the number of edges in this digraph
      */
     public int numberofEdges() {
@@ -78,7 +78,7 @@ public class Digraph {
     }
     /**.
      * checks if the given vertex is valid or not
-     *
+     *Time complexity is constant bcz each statement is executed only once
      * @param      v     { vertex of int type }
      */
     private void validateVertex(final int v) {
@@ -89,7 +89,7 @@ public class Digraph {
     }
     /**.
      * Adds the directed edge v→w to this digraph.
-     *
+     * Time complexity is constant bcz each statement is executed only once
      * @param  v the tail vertex
      * @param  w the head vertex
      * @throws IllegalArgumentException unless
@@ -105,7 +105,7 @@ public class Digraph {
     /**.
      * Returns the number of directed edges incident from vertex {@code v}.
      * This is known as the <em>outdegree</em> of vertex {@code v}.
-     *
+     * Time complexity is constant bcz each statement is executed only once
      * @param  v the vertex
      * @return the outdegree of vertex {@code v}
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
@@ -117,7 +117,7 @@ public class Digraph {
     /**.
      * Returns the number of directed edges incident to vertex {@code v}.
      * This is known as the <em>indegree</em> of vertex {@code v}.
-     *
+     * Time complexity is constant bcz each statement is executed only once
      * @param  v the vertex
      * @return the indegree of vertex {@code v}
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
@@ -128,7 +128,7 @@ public class Digraph {
     }
     /**
      * Returns the vertices adjacent from vertex {@code v} in this digraph.
-     *
+     * Time complexity is outdegree(V) bcz it depends on number of edges
      * @param  v the vertex
      * @return the vertices adjacent from vertex {@code v} in this digraph,
      *  as an iterable

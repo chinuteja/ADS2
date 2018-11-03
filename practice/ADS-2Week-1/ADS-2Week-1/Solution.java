@@ -34,7 +34,8 @@ public class Solution {
 			}
 			System.out.println(sb.toString());
 		}
-
+        PageRank pagerank = new PageRank(digraph);
+        pagerank.getCalculation();
 
 
 		// Create page rank object and pass the graph object to the constructor

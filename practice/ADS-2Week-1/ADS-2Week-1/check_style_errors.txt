@@ -254,8 +254,8 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:19: Line is longer than 80 characters (found 106). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:20: Line is longer than 80 characters (found 86). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:21: Line is longer than 80 characters (found 97). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:40: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:50: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:41: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:51: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
 Checkstyle ends with 15 errors.
 Starting audit...

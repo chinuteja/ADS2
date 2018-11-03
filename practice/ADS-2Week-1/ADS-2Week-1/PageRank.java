@@ -1,3 +1,4 @@
+
 /**.
  * Class for page rank.
  */
@@ -11,7 +12,7 @@ class PageRank {
         prevrank = new double[vertices];
         rank = new double[vertices];
         for (int i = 0; i < vertices; i++) {
-            rank[i] = (double) 1 / vertices;
+            rank[i] = (double) 1.0/vertices;
         }
     }
     public double getPR(int vertex) {

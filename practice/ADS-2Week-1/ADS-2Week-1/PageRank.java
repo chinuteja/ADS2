@@ -1,4 +1,6 @@
-
+/**.
+ * Class for page rank.
+ */
 class PageRank {
 	Digraph digraph;
 	double[] rank;
@@ -36,9 +38,8 @@ class PageRank {
 		String str = "";
 		for (int i = 0; i < digraph.numberofVertices(); i++) {
 			str = str +i +" - "+ rank[i] +"\n";
-			//System.out.print();
+			
 		}
 		return str;
 	}
-
 }

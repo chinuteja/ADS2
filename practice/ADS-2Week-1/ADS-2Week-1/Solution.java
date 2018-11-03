@@ -1,13 +1,30 @@
+/**.
+ * imports Scanner package
+ */
 import java.util.Scanner;
-
-
+/**.
+ * Class for web search.
+ */
 class WebSearch {
 
 }
-
-
-public class Solution {
-	public static void main(String[] args) {
+/**.
+ * Class for solution.
+ */
+public final class Solution {
+	/**.
+	 * Constructs the object for soluiton
+	 * @author Teja
+	 */
+	private Solution() {
+		
+	}
+	/**.
+	 * main method
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		// read the first line of the input to get the number of vertices
 		Scanner scan = new Scanner(System.in);
 		int vertices = scan.nextInt();
@@ -16,9 +33,11 @@ public class Solution {
 		for (int i = 0; i <= vertices; i++) {
 			String[] tokens = scan.nextLine().split(" ");
 			for (int j = 1; j < tokens.length; j++ ) {
-				digraph.addEdge(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[j]));
+				digraph.addEdge(Integer.parseInt(tokens[0]), 
+					Integer.parseInt(tokens[j]));
 				//System.out.println(tokens[0] + "......" +tokens[j]);
-				hs.put(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[j]));
+				hs.put(Integer.parseInt(tokens[0]), 
+					Integer.parseInt(tokens[j]));
 			}
 		}
 		// iterate count of vertices times
@@ -38,6 +57,7 @@ public class Solution {
         pagerank.calculation();
         System.out.println();
         System.out.println(pagerank.toString());
+        //System.out.println(pagerank.getPR);
 
 
 		// Create page rank object and pass the graph object to the constructor

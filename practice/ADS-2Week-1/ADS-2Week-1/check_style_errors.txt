@@ -197,17 +197,15 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:6:26: 'digraph' hides a field. [HiddenField]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:15:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:15:29: Parameter vertex should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:17:48: ')' is preceded with whitespace. [ParenPad]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:20:25: '}' at column 4 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:25:37: Inner assignments should be avoided. [InnerAssignment]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:27:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:31:31: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:31:38: '1000' is a magic number. [MagicNumber]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:32:71: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:32:79: Must have at least one statement. [EmptyBlock]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:39:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:17:49: ')' is preceded with whitespace. [ParenPad]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:24:37: Inner assignments should be avoided. [InnerAssignment]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:26:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:27:37: '1000' is a magic number. [MagicNumber]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:27:46: ')' is preceded with whitespace. [ParenPad]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:35:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:38:36: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 23 errors.
+Checkstyle ends with 21 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Queue.java:5: Line has trailing spaces. [RegexpSingleline]
@@ -259,8 +257,8 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:19: Line is longer than 80 characters (found 106). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:20: Line is longer than 80 characters (found 86). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:21: Line is longer than 80 characters (found 97). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:41: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:51: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:42: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:52: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
 Checkstyle ends with 15 errors.
 Starting audit...

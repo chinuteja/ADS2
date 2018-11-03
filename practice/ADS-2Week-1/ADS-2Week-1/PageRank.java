@@ -14,30 +14,31 @@ class PageRank {
 	}
 	public double getPR(int vertex) {
 		double sum = 0;
-		for (int i :digraph.adj(vertex) ) {
+		for (int i : digraph.adj(vertex) ) {
 			if (digraph.outdegree(i) == 0) {
 				return 0;
-			}
-			else {
+			} else {
 				sum += prevrank[i] / digraph.outdegree(i);
 			}
 		}
 		return rank[vertex] = sum;
 	}
-	public  double getCalculation() {
-		double intialvalue = (1 / digraph.numberofVertices());
-		//System.out.println(digraph.numberofVertices());
-		System.out.println(intialvalue);
-		for (int j = 0 ; j < 1000; j++) {
-			for (int i = 0; i < digraph.numberofVertices() ; i++) {
-
-
+	public  void calculation() {
+		for (int i = 0; i < 1000; i++ ) {
+			for (int j = 0; j < digraph.numberofVertices(); j++) {
+				prevrank[j] = rank[j];
+				rank[j] = getPR(j);
 			}
+
 		}
-		return intialvalue;
 	}
 	public  String toString() {
-		return "";
+		String str = "";
+		for (int i = 0; i < digraph.numberofVertices(); i++) {
+			str = str +i + rank[i];
+			System.out.println();
+		}
+		return str;
 	}
 
 }

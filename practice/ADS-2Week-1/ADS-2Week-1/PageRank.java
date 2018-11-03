@@ -28,9 +28,8 @@ class PageRank {
     public  void calculation() {
         for (int i = 0; i < 1000; i++ ) {
             for (int j = 0; j < digraph.numberofVertices(); j++) {
-                rank[j] = getPR(j);
                 prevrank[j] = rank[j];
-                
+                rank[j] = getPR(j);
             }
 
         }

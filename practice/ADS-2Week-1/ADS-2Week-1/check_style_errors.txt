@@ -199,15 +199,14 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:28:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:29:29: '1000' is a magic number. [MagicNumber]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:29:38: ')' is preceded with whitespace. [ParenPad]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:33: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:38:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:41:24: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:41:27: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:41:32: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:41:43: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:42: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:37:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:40:24: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:40:27: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:40:32: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:40:43: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:41: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 23 errors.
+Checkstyle ends with 22 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Queue.java:5: Line has trailing spaces. [RegexpSingleline]

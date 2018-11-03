@@ -36,6 +36,7 @@ public class Solution {
 		}
         PageRank pagerank = new PageRank(digraph);
         pagerank.calculation();
+        System.out.println();
         System.out.println(pagerank.toString());
 
 

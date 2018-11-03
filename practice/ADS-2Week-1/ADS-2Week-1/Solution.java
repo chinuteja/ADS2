@@ -1,17 +1,5 @@
 import java.util.Scanner;
-class PageRank {
-	Digraph digraph;
-	PageRank(Digraph digraph) {
-		this.digraph = digraph;
-	}
-	public double getPR(int vertex) {
-		return 0;
-	}
-	public  String toString() {
-		return "";
-	}
 
-}
 
 class WebSearch {
 

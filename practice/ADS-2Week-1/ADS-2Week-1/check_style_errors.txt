@@ -204,8 +204,11 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:27:46: ')' is preceded with whitespace. [ParenPad]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:35:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:38:36: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:38:39: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:38:44: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\PageRank.java:38:55: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 21 errors.
+Checkstyle ends with 24 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Queue.java:5: Line has trailing spaces. [RegexpSingleline]

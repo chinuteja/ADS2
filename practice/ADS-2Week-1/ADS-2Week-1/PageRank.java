@@ -35,8 +35,8 @@ class PageRank {
 	public  String toString() {
 		String str = "";
 		for (int i = 0; i < digraph.numberofVertices(); i++) {
-			str = str +i + rank[i];
-			System.out.println();
+			str = str +i +" - "+ rank[i] +"\n";
+			//System.out.print();
 		}
 		return str;
 	}

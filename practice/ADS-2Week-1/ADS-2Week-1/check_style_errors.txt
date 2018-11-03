@@ -32,14 +32,10 @@ Audit done.
 Checkstyle ends with 29 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Digraph.java:87: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Digraph.java:141:5: Class 'Digraph' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Digraph' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Digraph.java:141:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Digraph.java:144:54: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Digraph.java:146:27: '(' is followed by whitespace. [ParenPad]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Digraph.java:147: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Digraph.java:149: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 3 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\In.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\In.java:28: Line has trailing spaces. [RegexpSingleline]
@@ -185,6 +181,8 @@ Starting audit...
 Audit done.
 Checkstyle ends with 141 errors.
 Starting audit...
+Audit done.
+Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Queue.java:5: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Queue.java:9: Line has trailing spaces. [RegexpSingleline]
@@ -224,20 +222,30 @@ Checkstyle ends with 34 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:6: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:11: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:11:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:12:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:12:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:12:33: Parameter args should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:13: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:19:63: ')' is preceded with whitespace. [ParenPad]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:20: Line is longer than 80 characters (found 91). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:20:63: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:30: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:40: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:3:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:3:17: Variable 'digraph' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:4:18: Parameter digraph should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:4:26: 'digraph' hides a field. [HiddenField]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:7:29: Parameter vertex should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:10:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:16: Missing a Javadoc comment. [JavadocType]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:21: Missing a Javadoc comment. [JavadocType]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:21:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:22:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:22:33: Parameter args should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:23: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:27: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:30:63: ')' is preceded with whitespace. [ParenPad]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:31: Line is longer than 80 characters (found 106). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:32: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:33: Line is longer than 80 characters (found 97). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:52: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Week-1\ADS-2Week-1\Solution.java:62: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 24 errors.
 Starting audit...
 Audit done.
 Starting audit...

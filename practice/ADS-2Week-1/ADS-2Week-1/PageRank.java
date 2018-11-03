@@ -12,7 +12,7 @@ class PageRank {
         prevrank = new double[vertices];
         rank = new double[vertices];
         for (int i = 0; i < vertices; i++) {
-            rank[i] = (double) 1.0/vertices;
+            rank[i] = (double) (1.0 / vertices);
         }
     }
     public double getPR(int vertex) {
@@ -38,8 +38,8 @@ class PageRank {
     public  String toString() {
         String str = "";
         for (int i = 0; i < digraph.numberofVertices(); i++) {
-            str = str +i +" - "+ rank[i] +"\n";
-            
+            str = str + i + " - " + rank[i] + "\n";
+
         }
         return str;
     }

@@ -1,8 +1,20 @@
+/**.
+ * Class for breadth first directed paths.
+ */
 public class BreadthFirstDirectedPaths {
     private static final int INFINITY = Integer.MAX_VALUE;
-    private boolean[] marked;  // marked[v] = is there an s->v path?
-    private int[] edgeTo;      // edgeTo[v] = last edge on shortest s->v path
-    private int[] distTo;      // distTo[v] = length of shortest s->v path
+    /**.
+     * // marked[v] = is there an s->v path?
+     */
+    private boolean[] marked; 
+    /**.
+     * // edgeTo[v] = last edge on shortest s->v path
+     */
+    private int[] edgeTo;
+    /**.
+     * // distTo[v] = length of shortest s->v path
+     */
+    private int[] distTo;      
 
     /**
      * Computes the shortest path from {@code s} and every other vertex in graph {@code G}.
@@ -38,7 +50,12 @@ public class BreadthFirstDirectedPaths {
         bfs(G, sources);
     }
 
-    // BFS from single source
+    /**.
+     * // BFS from single source
+     *Time complexityis V as loop iterates till the que is emptuy   
+     * @param      G     { digraph }
+     * @param      s     { source vertex }
+     */
     private void bfs(Digraph G, int s) {
         Queue<Integer> q = new Queue<Integer>();
         marked[s] = true;
@@ -57,7 +74,12 @@ public class BreadthFirstDirectedPaths {
         }
     }
 
-    // BFS from multiple sources
+/**
+ * { bfs }
+ *Time complexityis V as loop iterates till the que is emptuy 
+ * @param      G        { parameter_description }
+ * @param      sources  The sources
+ */
     private void bfs(Digraph G, Iterable<Integer> sources) {
         Queue<Integer> q = new Queue<Integer>();
         for (int s : sources) {
@@ -139,37 +161,4 @@ public class BreadthFirstDirectedPaths {
             }
         }
     }
-
-
-    // /**
-    //  * Unit tests the {@code BreadthFirstDirectedPaths} data type.
-    //  *
-    //  * @param args the command-line arguments
-    //  */
-    // public static void main(String[] args) {
-    //     In in = new In(args[0]);
-    //     Digraph G = new Digraph(in);
-    //     // StdOut.println(G);
-
-    //     int s = Integer.parseInt(args[1]);
-    //     BreadthFirstDirectedPaths bfs = new BreadthFirstDirectedPaths(G, s);
-
-    //     for (int v = 0; v < G.V(); v++) {
-    //         if (bfs.hasPathTo(v)) {
-    //             StdOut.printf("%d to %d (%d):  ", s, v, bfs.distTo(v));
-    //             for (int x : bfs.pathTo(v)) {
-    //                 if (x == s) StdOut.print(x);
-    //                 else        StdOut.print("->" + x);
-    //             }
-    //             StdOut.println();
-    //         }
-
-    //         else {
-    //             StdOut.printf("%d to %d (-):  not connected\n", s, v);
-    //         }
-
-    //     }
-    // }
-
-
 }

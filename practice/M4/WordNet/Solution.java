@@ -13,15 +13,15 @@ class Solution {
             wordNet.printGraph();
             break;
         case "Queries":
-            while (scan.hasNext()) {
-                String[] tokens1 = scan.nextLine().split(" ");
-                if (tokens1[0].equals("null") || tokens1[1].equals("null")) {
-                    System.out.println("IllegalArgumentException");
-                }
+            String[] tokens1 = scan.nextLine().split(" ");
+            if (tokens1[0].equals("null") || tokens1[1].equals("null")) {
+                System.out.println("IllegalArgumentException");
             }
             break;
-        default:
-            break;
         }
+        
+    
+
     }
 }
+

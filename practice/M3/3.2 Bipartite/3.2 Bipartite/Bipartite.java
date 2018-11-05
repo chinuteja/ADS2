@@ -41,7 +41,8 @@ public class Bipartite {
         }
         //assert check(graph);
     }
-    /**.
+    /**Time complexity is degree(V) as it checks number of adjacent
+     *vertices for given vertex 
      * runs dfs
      *
      * @param      graph1  The graph 1
@@ -74,7 +75,7 @@ public class Bipartite {
     }
     /**.
      * Returns true if the graph is bipartite.
-     *
+     *Time complexity is constant as each statement executes only once
      * @return {@code true} if the graph is bipartite; {@code false} otherwise
      */
     public boolean isBipartite() {
@@ -93,7 +94,7 @@ public class Bipartite {
     }
     /**.
      * checks if the given vertex is valid or not
-     *
+     *Time complexity is constant as each statement executes only once
      * @param      v     { vertex of int type }
      */
     private void validateVertex(final int v) {

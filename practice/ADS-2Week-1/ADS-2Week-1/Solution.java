@@ -54,7 +54,7 @@ public final class Solution {
             System.out.println(sb.toString());
         }
         PageRank pagerank = new PageRank(digraph);
-        pagerank.calculation();
+        //pagerank.calculation();
         System.out.println();
         System.out.println(pagerank.toString());
         //System.out.println(pagerank.getPR);

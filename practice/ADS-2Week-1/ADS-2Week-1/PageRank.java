@@ -122,7 +122,7 @@ class PageRank {
             return prevRank[vertex];
         }
         for (int v : digraph.reverse().adj(vertex)) {
-            sum += (pageRank[v] / digraph.outdegree(v));
+            sum += (double)(1.0 * pageRank[v] / digraph.outdegree(v));
         }
         prevRank[vertex] = sum;
         return prevRank[vertex];

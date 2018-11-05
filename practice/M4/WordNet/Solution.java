@@ -1,5 +1,23 @@
+/**.
+ * imports scanner package
+ */
 import java.util.Scanner;
+/**.
+ * Class for solution.
+ */
 class Solution {
+    /**.
+     * Constructs the object.
+     * @author Teja
+     */
+    private Solution() {
+
+    }
+    /**.
+     * main function
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String synsetsFileName = scan.nextLine();
@@ -18,9 +36,7 @@ class Solution {
                 System.out.println("IllegalArgumentException");
             }
             break;
-        }
-        
-    
+        } 
 
     }
 }

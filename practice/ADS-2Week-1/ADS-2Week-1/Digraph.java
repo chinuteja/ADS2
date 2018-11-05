@@ -138,6 +138,20 @@ public class Digraph {
         validateVertex(v);
         return adj[v];
     }
+     /**
+     * Returns the reverse of the digraph.
+     *
+     * @return the reverse of the digraph
+     */
+    public Digraph reverse() {
+        Digraph reverse = new Digraph(vertices);
+        for (int v = 0; v < vertices; v++) {
+            for (int w : adj(v)) {
+                reverse.addEdge(w, v);
+            }
+        }
+        return reverse;
+    }
     // public String toString() {
     //     StringBuilder sb = new StringBuilder();
     //     for (int v = 0; v < numberofVertices(); v++) {

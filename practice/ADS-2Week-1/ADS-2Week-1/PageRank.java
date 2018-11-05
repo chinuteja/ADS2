@@ -1,3 +1,58 @@
+// /**.
+//  * Class for page rank.
+//  */
+// class PageRank {
+//     Digraph digraph;
+//     double[] newrank;
+//     double[] prevrank;
+//     PageRank(Digraph digraph) {
+//         this.digraph = digraph;
+//         int vertices = digraph.numberofVertices();
+//         prevrank = new double[vertices];
+//         newrank = new double[vertices];
+//         for (int i = 0; i < vertices; i++) {
+//             prevrank[i] = (double) (1.0 / vertices);
+//         }
+//         for (int j = 0; j < digraph.numberofVertices( ); j++) {
+//             if (digraph.outdegree(j) == 0) {
+//                 for (int k = 0; k < digraph.numberofVertices(); k++ ) {
+//                     if (k != j) {
+//                         digraph.addEdge(j, k);
+//                     }
+//                 }
+//             }
+
+//         }
+//     }
+//     public double getPR(int vertex) {
+//         double sum = 0;
+//         for (int i : digraph.adj(vertex) ) {
+//             if (digraph.outdegree(i) == 0) {
+//                 return 0;
+//             } else {
+//                 sum += prevrank[i] / digraph.outdegree(i);
+//             }
+//         }
+//         return newrank[vertex] = sum;
+//     }
+//     public  void calculation() {
+//         for (int i = 0; i <= 1000; i++ ) {
+//             for (int j = 0; j < digraph.numberofVertices(); j++) {
+//                 prevrank[j] = newrank[j];
+//                 newrank[j] = getPR(j);
+//             }
+
+//         }
+//     }
+//     public  String toString() {
+//         String str = "";
+//         for (int i = 0; i < digraph.numberofVertices(); i++) {
+//             str = str + i + " - " + newrank[i] + "\n";
+
+//         }
+//         return str;
+//     }
+// }
 import java.util.Scanner;
 import java.util.Arrays;
 /**
@@ -25,7 +80,7 @@ class PageRank {
      * @param      g     digraph object.
      */
     PageRank(final Digraph g) {
-        //graph = g;
+        digraph = g;
         int vertices = digraph.numberofVertices();
         pageRank = new double[vertices];
         prevRank = new double[vertices];
@@ -79,7 +134,7 @@ class PageRank {
      * time complexity is O(V*1000)
      * V is number of vertices.
      */
-    public void calculation() {
+    public void add() {
         for (int i = 0; i < 1000; i++) {
             for (int j = 0; j < digraph.numberofVertices(); j++) {
                 prevRank[j] = pageRank[j];

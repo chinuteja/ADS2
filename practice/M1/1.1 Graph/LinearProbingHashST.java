@@ -94,7 +94,7 @@ public class LinearProbingHashST<Key, Value> {
     /**.
      * Inserts the specified key-value pair into the symbol
      * table, overwriting the old
-     * Time complexity is N because loop iterates till end.
+     * Time complexity is constant.
      * @param      key   The key
      * @param      val   The value
      */
@@ -124,7 +124,7 @@ public class LinearProbingHashST<Key, Value> {
     }
     /**.
      * Returns the value associated with the specified key.
-     * Time complexity is N because loop iterates till end.
+     * Time complexity is constant.
      * @param      key   The key
      *
      * @return     {gets value of Key of value type }
@@ -143,7 +143,8 @@ public class LinearProbingHashST<Key, Value> {
     }
     /**.
      * Removes the specified key and its associated value from this symbol table
-     * Time complexity is N because loop iterates till end.
+     * Time complexity is constant as it takes constant time 
+     * to find a key and delete it.
      * @param      key   The key
      */
     public void delete(final Key key) {

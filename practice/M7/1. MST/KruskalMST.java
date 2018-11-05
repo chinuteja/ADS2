@@ -99,7 +99,8 @@ public class KruskalMST {
             }
         }
 
-        // check that it is a minimal spanning forest (cut optimality conditions)
+        // check that it is a minimal spanning forest
+        // (cut optimality conditions)
         for (Edge e : edges()) {
 
             // all edges in MST except e
@@ -114,7 +115,6 @@ public class KruskalMST {
                 int x = f.either(), y = f.other(x);
                 if (!uf.connected(x, y)) {
                     if (f.weight() < e.weight()) {
-                        System.err.println("Edge " + f + " violates cut optimality conditions");
                         return false;
                     }
                 }

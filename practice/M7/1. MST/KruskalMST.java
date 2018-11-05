@@ -1,10 +1,18 @@
+/**.
+ * Class for kruskal mst.
+ */
 public class KruskalMST {
     private static final double FLOATING_POINT_EPSILON = 1E-12;
+    /**.
+     * // weight of MST
+     */
+    private double weight;  
+    /**.
+     * { // edges in MST}
+     */
+    private Queue<Edge> mst = new Queue<Edge>();  
 
-    private double weight;                        // weight of MST
-    private Queue<Edge> mst = new Queue<Edge>();  // edges in MST
-
-    /**
+    /**.
      * Compute a minimum spanning tree (or forest) of an edge-weighted graph.
      * @param G the edge-weighted graph
      */
@@ -34,6 +42,7 @@ public class KruskalMST {
 
     /**
      * Returns the edges in a minimum spanning tree (or forest).
+     * TIme complexity is E as it iterates through all the edges
      * @return the edges in a minimum spanning tree (or forest) as
      *    an iterable of edges
      */
@@ -42,14 +51,23 @@ public class KruskalMST {
     }
 
     /**
-     * Returns the sum of the edge weights in a minimum spanning tree (or forest).
-     * @return the sum of the edge weights in a minimum spanning tree (or forest)
+     * Returns the sum of the edge weights in a minimum 
+     * spanning tree (or forest).
+     * Time complexity is constant as each statement is executed only once
+     * @return the sum of the edge weights in a minimum 
+     * spanning tree (or forest)
      */
     public double weight() {
         return weight;
     }
-    
-    // check optimality conditions (takes time proportional to E V lg* V)
+    /**.
+     * // check optimality conditions (takes time proportional to E V lg* V)
+     *
+     * @param      G     { edge weighted graph }
+     *
+     * @return     { returns true if  graph is edge weighted
+     * else returns flalse }
+     */
     private boolean check(EdgeWeightedGraph G) {
 
         // check total weight
@@ -58,7 +76,6 @@ public class KruskalMST {
             total += e.weight();
         }
         if (Math.abs(total - weight()) > FLOATING_POINT_EPSILON) {
-            System.err.printf("Weight of edges does not equal weight(): %f vs. %f\n", total, weight());
             return false;
         }
 

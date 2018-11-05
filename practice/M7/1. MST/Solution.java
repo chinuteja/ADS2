@@ -2,18 +2,18 @@
  * imports Scanner package
  */
 import java.util.Scanner;
-/**
+/**.
  * Class for solution.
  */
 final class Solution {
-    /**
+    /**.
      * Constructs the object.
      * @author Teja
      */
     private Solution() {
 
     }
-    /**
+    /**.
      * main method to perform operations.
      * Time complexity of this method is O(E).
      * E is number of edges.

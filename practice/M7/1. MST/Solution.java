@@ -1,3 +1,6 @@
+/**.
+ * imports Scanner package
+ */
 import java.util.Scanner;
 /**
  * Class for solution.
@@ -5,6 +8,7 @@ import java.util.Scanner;
 final class Solution {
     /**
      * Constructs the object.
+     * @author Teja
      */
     private Solution() {
 
@@ -32,6 +36,6 @@ final class Solution {
         }
         KruskalMST kruskalmst = new KruskalMST(graph);
         double result = kruskalmst.weight();
-        System.out.format("%.5f", result);
+        System.out.println(result);
     }
 }

@@ -35,16 +35,16 @@ public class Graph {
     }
     /**.
      * Returns the number of vertices in this graph.
-     *
+     * Time complexity is constant as each statement executes only once
      * @return the number of vertices in this graph
      */
     public int numberofVertices() {
         return vertices;
     }
 
-    /**
+    /**.
      * Returns the number of edges in this graph.
-     *
+     * Time complexity is constant as each statement executes only once
      * @return the number of edges in this graph
      */
     public int numberofEdges() {
@@ -53,7 +53,7 @@ public class Graph {
     }
     /**.
      * / throw an IllegalArgumentException unless {@code 0 <= v < V}
-     *
+     * Time complexity is constant as each statement executes only once
      * @param      v     { vertex }
      */
     private void validateVertex(final int v) {
@@ -65,7 +65,7 @@ public class Graph {
     }
     /**.
      * Adds the undirected edge v-w to this graph.
-     *
+     * Time complexity is constant as each statement executes only once
      * @param  v one vertex in the edge
      * @param  w the other vertex in the edge
      * @throws IllegalArgumentException unless both
@@ -91,7 +91,7 @@ public class Graph {
     }
     /**.
      * Returns the vertices adjacent to vertex {@code v}.
-     *
+     * TIme complexity is V as it iterates through v vertices.
      * @param  v the vertex
      * @return the vertices adjacent to vertex {@code v}, as an iterable
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
@@ -102,7 +102,7 @@ public class Graph {
     }
     /**.
      * Returns the degree of vertex {@code v}.
-     *
+     * Time complexity is constant as each statement executes only once
      * @param  v the vertex
      * @return the degree of vertex {@code v}
      * @throws IllegalArgumentException unless {@code 0 <= v < V}

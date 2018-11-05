@@ -1,8 +1,6 @@
 public class WordNet {
-
     LinearProbingHashST<String, Integer> ht;
     Digraph graph;
-
     private int processSynsets(String synsets) {
         In in = new In(synsets);
         int count = 0;
@@ -35,10 +33,8 @@ public class WordNet {
                 count++;
             }           
         }
-
         if (count == 1) {
-            return true;
-            
+            return true;            
         }
         return false;
     }

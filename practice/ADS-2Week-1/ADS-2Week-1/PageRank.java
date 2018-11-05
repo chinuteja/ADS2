@@ -121,8 +121,10 @@ class PageRank {
             prevRank[vertex] = 0;
             return prevRank[vertex];
         }
-        for (int v : digraph.reverse().adj(vertex)) {
-            sum += (double)(1.0 * pageRank[v] / digraph.outdegree(v));
+        Digraph gr = digraph.reverse();
+        System.out.println(gr.toString());
+        for (int v : gr.adj(vertex)) {
+            sum += (double) ((1.0 * pageRank[v] / digraph.outdegree(v)));
         }
         prevRank[vertex] = sum;
         return prevRank[vertex];
@@ -155,7 +157,7 @@ class PageRank {
     public String toString() {
         String str = "";
         for (int i = 0; i < digraph.numberofVertices(); i++) {
-            str += i + " - " + pageRank[i] + "\n";
+            str += i + " - " + prevRank[i] + "\n";
         }
         return str;
     }

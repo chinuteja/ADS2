@@ -36,6 +36,6 @@ final class Solution {
         }
         KruskalMST kruskalmst = new KruskalMST(graph);
         double result = kruskalmst.weight();
-        System.out.println(result);
+        System.out.format("%.5f", +result);
     }
 }

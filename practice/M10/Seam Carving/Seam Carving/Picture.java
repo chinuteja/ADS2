@@ -117,6 +117,7 @@ public final class Picture implements ActionListener {
         if (picture == null) throw new IllegalArgumentException("constructor argument is null");
 
         width  = picture.width();
+        System.out.println("width of picture" +width);
         height = picture.height();
         image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
         filename = picture.filename;

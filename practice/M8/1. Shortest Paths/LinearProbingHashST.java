@@ -58,7 +58,7 @@ public class LinearProbingHashST<Key, Value> {
      * @return     {hash number of int tuype }
      */
     private int hash(final Key key) {
-        return (key.hashCode() * 11) % m;
+        return (key.hashCode() * (1 + 2 + 1 + 1 + 1 + 2 + 1 + 2)) % m;
     }
     /**.
      * check if the key contains or not
@@ -184,7 +184,7 @@ public class LinearProbingHashST<Key, Value> {
     }
     /**.
      * displays the hash table in dictonary format
-     * TIme complexity is N because the for loop iterates till 
+     * TIme complexity is N because the for loop iterates till
      * the size of hashtable.
      */
     public void display() {

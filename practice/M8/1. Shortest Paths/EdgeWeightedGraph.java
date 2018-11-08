@@ -33,15 +33,15 @@ public class EdgeWeightedGraph {
     }
     /**.
      * Initializes a new edge-weighted graph that is a deep copy of {@code G}.
-     * @param  G the edge-weighted graph to copy
+     * @param  graph the edge-weighted graph to copy
      */
-    public EdgeWeightedGraph(final EdgeWeightedGraph G) {
-        this(G.vertices());
-        this.edges = G.edges();
-        for (int v = 0; v < G.vertices(); v++) {
+    public EdgeWeightedGraph(final EdgeWeightedGraph graph) {
+        this(graph.vertices());
+        this.edges = graph.edges();
+        for (int v = 0; v < graph.vertices(); v++) {
             // reverse so that adjacency list is in same order as original
             Stack<Edge> reverse = new Stack<Edge>();
-            for (Edge e : G.adj[v]) {
+            for (Edge e : graph.adj[v]) {
                 reverse.push(e);
             }
             for (Edge e : reverse) {
@@ -73,16 +73,16 @@ public class EdgeWeightedGraph {
     private void validateVertex(final int v) {
         if (v < 0 || v >= vertices) {
             throw new
-            IllegalArgumentException("vertex " +
-                                     v + " is not between 0 and " +
-                                     (vertices - 1));
+            IllegalArgumentException("vertex "
+                                     + v + " is not between 0 and "
+                                     + (vertices - 1));
         }
     }
     /**.
      * Adds the undirected edge {@code e} to this edge-weighted graph.
      *Time complexity is constant bcz each statement is executed only once
      * @param  e the edge
-     * @throws IllegalArgumentException unless both endpoints 
+     * @throws IllegalArgumentException unless both endpoints
      * are between {@code 0} and {@code V-1}
      */
     public void addEdge(final Edge e) {
@@ -119,7 +119,8 @@ public class EdgeWeightedGraph {
 
     /**.
      * Returns all edges in this edge-weighted graph.
-     * To iterate over the edges in this edge-weighted graph, use foreach notation:
+     * To iterate over the edges in this edge-weighted graph,
+     * use foreach notation:
      * {@code for (Edge e : G.edges())}.
      *Time complexity is E because it iterates through all the edges
      * @return all edges in this edge-weighted graph, as an iterable
@@ -131,10 +132,10 @@ public class EdgeWeightedGraph {
             for (Edge e : adj(v)) {
                 if (e.other(v) > v) {
                     list.add(e);
-                }
-                // add only one copy of each self loop (self loops will be consecutive)
-                else if (e.other(v) == v) {
-                    if (selfLoops % 2 == 0) list.add(e);
+                } else if (e.other(v) == v) {
+                    if (selfLoops % 2 == 0) {
+                        list.add(e);
+                    }
                     selfLoops++;
                 }
             }

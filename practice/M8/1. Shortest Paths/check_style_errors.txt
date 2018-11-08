@@ -5,16 +5,7 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:38:54: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:76:48: '+' should be on a new line. [OperatorWrap]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:77:67: '+' should be on a new line. [OperatorWrap]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:85: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:122: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:134:17: '}' at column 17 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:135: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:137: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 8 errors.
 Starting audit...
 Audit done.
 Starting audit...

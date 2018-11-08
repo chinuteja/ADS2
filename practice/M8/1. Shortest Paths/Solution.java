@@ -21,7 +21,7 @@ public final class Solution {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String[] tokens = scan.nextLine().split(" ");
-        LinearProbingHashST<String , Integer> hashst =
+        LinearProbingHashST<String, Integer> hashst =
             new LinearProbingHashST<>();
         int vertices = Integer.parseInt(tokens[0]);
         int edges = Integer.parseInt(tokens[1]);

@@ -1,9 +1,7 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\DijkstraSP.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:1: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:1: Missing a Javadoc comment. [JavadocType]
@@ -110,8 +108,7 @@ Audit done.
 Checkstyle ends with 38 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Solution.java:17: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Solution.java:24:35: ',' is preceded with whitespace. [NoWhitespaceBefore]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.

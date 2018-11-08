@@ -6,11 +6,13 @@ Expected Output:
 30
 80
 50
+
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
 	at LinearProbingHashST.put(LinearProbingHashST.java:113)
 	at Solution.main(Solution.java:25)
 ----------------------------------------
+
 ########## Testcase 1: Failed ##########
 Expected Output: 
 10
@@ -19,11 +21,13 @@ Expected Output:
 20
 10
 30
+
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
 	at LinearProbingHashST.put(LinearProbingHashST.java:113)
 	at Solution.main(Solution.java:25)
 ----------------------------------------
+
 ########## Testcase 2: Failed ##########
 Expected Output: 
 28
@@ -725,11 +729,13 @@ Expected Output:
 10
 31
 29
+
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
 	at LinearProbingHashST.put(LinearProbingHashST.java:113)
 	at Solution.main(Solution.java:25)
 ----------------------------------------
+
 ########## Testcase 3: Failed ##########
 Expected Output: 
 17
@@ -4184,11 +4190,13 @@ Expected Output:
 28
 20
 22
+
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -13
 	at LinearProbingHashST.put(LinearProbingHashST.java:113)
 	at Solution.main(Solution.java:25)
 ----------------------------------------
+
 ########## Testcase 4: Failed ##########
 Expected Output: 
 334
@@ -6558,11 +6566,13 @@ Expected Output:
 67
 160
 216
+
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -5
 	at LinearProbingHashST.put(LinearProbingHashST.java:113)
 	at Solution.main(Solution.java:25)
 ----------------------------------------
+
 ########## Testcase 5: Failed ##########
 Expected Output: 
 6
@@ -11515,8 +11525,10 @@ Expected Output:
 7
 67
 60
+
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -2
 	at LinearProbingHashST.put(LinearProbingHashST.java:113)
 	at Solution.main(Solution.java:25)
 ----------------------------------------
+

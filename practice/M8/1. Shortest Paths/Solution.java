@@ -14,7 +14,7 @@ public final class Solution {
 
     }
     /**.
-     * main funciton 
+     * main funciton
      *
      * @param      args  The arguments
      */

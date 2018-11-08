@@ -43,7 +43,7 @@ public class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String cases = scan.nextLine();
-        SeamCarver seamCarver = null;
+        SeamCarver seamCarver;
         try {
             switch (cases) {
             case "width":

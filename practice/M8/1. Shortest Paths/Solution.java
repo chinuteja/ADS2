@@ -11,7 +11,7 @@ public final class Solution {
 		int edges = Integer.parseInt(tokens[1]);
 		String[] stations = scan.nextLine().split(" ");
 		for (int i = 0; i < stations.length; i++ ) {
-			hashst.put(stations[i], i);
+			hashst.put(stations[i], i + 1);
 		}
 		EdgeWeightedGraph edgeweightedgraph = new EdgeWeightedGraph(vertices);
 		for (int i = 0; i < vertices ; i++ ) {
@@ -22,9 +22,9 @@ public final class Solution {
 		int quires = scan.nextInt();
 		for (int i = 0; i < quires ; i++ ) {
 			String[] tokens2 = scan.nextLine().split(" ");
-                DijkstraSP dijkstrasp = new DijkstraSP(edgeweightedgraph,hashst.get(tokens2[0]));
-                System.out.println(dijkstrasp.getDistance(hashst.get(tokens2[1])));
-                
+			DijkstraSP dijkstrasp = new DijkstraSP(edgeweightedgraph, hashst.get(tokens2[0]));
+			System.out.println(dijkstrasp.getDistance(hashst.get(tokens2[1])));
+
 		}
 	}
 }

@@ -3,16 +3,7 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:24:17: Parameter v1 should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:24:25: Parameter w1 should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:24:33: Parameter weight1 should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:59: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:63: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:65: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:68: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:74:26: Parameter that should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 8 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:1: Missing a Javadoc comment. [JavadocType]
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:2:5: Missing a Javadoc comment. [JavadocVariable]

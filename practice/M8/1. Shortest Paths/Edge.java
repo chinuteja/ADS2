@@ -21,7 +21,7 @@ public class Edge implements Comparable<Edge> {
      * @param  w1 the other vertex
      * @param  weight1 the weight of this edge
      */
-    public Edge(int v1, int w1, double weight1) {
+    public Edge(final int v1, final int w1, final double weight1) {
         this.v = v1;
         this.w = w1;
         this.weight = weight1;
@@ -56,22 +56,24 @@ public class Edge implements Comparable<Edge> {
             return w;
         } else if (vertex == w) {
             return v;
-        } else throw new IllegalArgumentException("Illegal endpoint");
+        } else {
+            throw new IllegalArgumentException("Illegal endpoint");
+        }
     }
     /**.
      * Compares two edges by weight.
-     * Note that {@code compareTo()} is not consistent 
+     * Note that {@code compareTo()} is not consistent
      * with {@code equals()},
-     * which uses the reference equality implementation 
+     * which uses the reference equality implementation
      * inherited from {@code Object}.
      * @param  that the other edge
-     * @return a negative integer, zero, or positive integer 
+     * @return a negative integer, zero, or positive integer
      * depending on whether
      *  the weight of this is less than, equal to, or greater than the
      * argument edge
      */
     @Override
-    public int compareTo(Edge that) {
+    public int compareTo(final Edge that) {
         return Double.compare(this.weight, that.weight);
     }
 }

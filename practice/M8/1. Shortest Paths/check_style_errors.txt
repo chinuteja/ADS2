@@ -70,7 +70,7 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\LinearProbingHashST.java:24: First sentence should end with a period. [JavadocStyle]
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\LinearProbingHashST.java:42:32: Parameter capacity should be final. [FinalParameters]
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\LinearProbingHashST.java:64:22: Parameter key should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\LinearProbingHashST.java:65:34: '11' is a magic number. [MagicNumber]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\LinearProbingHashST.java:65:34: '0x7fffffff' is a magic number. [MagicNumber]
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\LinearProbingHashST.java:74:29: Parameter key should be final. [FinalParameters]
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\LinearProbingHashST.java:75: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\LinearProbingHashST.java:75: Line is longer than 80 characters (found 94). [LineLength]

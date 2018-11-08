@@ -43,7 +43,7 @@ public class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String cases = scan.nextLine();
-        SeamCarver seamCarver;
+        SeamCarver seamCarver = null;
         try {
             switch (cases) {
             case "width":
@@ -119,7 +119,7 @@ public class Solution {
                 break;
             }
         } catch (Exception ex) {
-            System.out.println(ex.getMessage());
+            System.out.println("picture is null");
         }
     }
 }

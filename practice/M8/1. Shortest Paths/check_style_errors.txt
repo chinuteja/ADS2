@@ -3,34 +3,16 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:1: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:14: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:18:17: Parameter v should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:18:21: 'v' hides a field. [HiddenField]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:18:24: Parameter w should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:18:28: 'w' hides a field. [HiddenField]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:18:31: Parameter weight should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:18:38: 'weight' hides a field. [HiddenField]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:19: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:19: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:20: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:20: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:21: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:21: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:46: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:53:22: Parameter vertex should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:54: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:55: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:56: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:62: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:65: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:70:26: Parameter that should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:24:17: Parameter v1 should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:24:25: Parameter w1 should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:24:33: Parameter weight1 should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:59: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:63: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:65: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:68: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:74:26: Parameter that should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 26 errors.
+Checkstyle ends with 8 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:1: Missing a Javadoc comment. [JavadocType]
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\EdgeWeightedGraph.java:2:5: Missing a Javadoc comment. [JavadocVariable]

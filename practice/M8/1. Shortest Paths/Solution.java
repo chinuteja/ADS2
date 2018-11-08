@@ -10,8 +10,8 @@ public final class Solution {
 		int vertices = Integer.parseInt(tokens[0]);
 		int edges = Integer.parseInt(tokens[1]);
 		String[] stations = scan.nextLine().split(" ");
-		for (int i = 0; i < stations.length; i++ ) {
-			hashst.put(stations[i], i + 1);
+		for (int i = 0; i < vertices; i++ ) {
+			hashst.put(stations[i], i);
 		}
 		EdgeWeightedGraph edgeweightedgraph = new EdgeWeightedGraph(vertices);
 		for (int i = 0; i < vertices ; i++ ) {

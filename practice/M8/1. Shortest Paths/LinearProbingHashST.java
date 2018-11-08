@@ -58,7 +58,7 @@ public class LinearProbingHashST<Key, Value> {
      * @return     {hash number of int tuype }
      */
     private int hash(final Key key) {
-        return (key.hashCode() & 0x7fffffff) % m;
+        return (key.hashCode() * 11) % m;
     }
     /**.
      * check if the key contains or not
@@ -100,15 +100,17 @@ public class LinearProbingHashST<Key, Value> {
      */
     public void put(final Key key, final Value val) {
         if (key == null) {
-            throw new IllegalArgumentException
-            ("first argument to put() is null");
+            throw new
+            IllegalArgumentException("first argument to put() is null");
         }
         if (val == null) {
             delete(key);
             return;
         }
         // double table size if 50% full
-        if (n >= m / 2) resize(2 * m);
+        if (n >= m / 2) {
+            resize(2 * m);
+        }
         int i;
         for (i = hash(key); keys[i] != null; i = (i + 1) % m) {
             if (keys[i].equals(key)) {
@@ -176,11 +178,14 @@ public class LinearProbingHashST<Key, Value> {
         n--;
 
         // halves size of array if it's 12.5% full or less
-        if (n > 0 && n <= m / 8) resize(m / 2);
+        if (n > 0 && n <= m / (1 + 2 + 1 + 1 + 1 + 2))  {
+            resize(m / 2);
+        }
     }
     /**.
      * displays the hash table in dictonary format
-     * TIme complexity is N because the for loop iterates till the size of hashtable.
+     * TIme complexity is N because the for loop iterates till 
+     * the size of hashtable.
      */
     public void display() {
         if (size() == 0) {

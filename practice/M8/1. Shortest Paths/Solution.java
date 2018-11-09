@@ -39,8 +39,10 @@ public final class Solution {
             edgeweightedgraph.addEdge(edge);
         }
         int quires = scan.nextInt();
+        scan.nextLine();
         for (int i = 0; i < quires; i++) {
             String[] tokens2 = scan.nextLine().split(" ");
+            //System.out.println(hashst.get(tokens2[0]));
             DijkstraSP dijkstrasp =
                 new DijkstraSP(edgeweightedgraph, hashst.get(tokens2[0]));
             System.out.println(dijkstrasp.getDistance(hashst.get(tokens2[1])));

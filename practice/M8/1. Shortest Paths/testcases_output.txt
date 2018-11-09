@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 10
 20
@@ -8,7 +8,6 @@ Expected Output:
 50
 
 Your Output: 
-quires....6
 10
 20
 70
@@ -17,7 +16,7 @@ quires....6
 50
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 10
 10
@@ -27,7 +26,6 @@ Expected Output:
 30
 
 Your Output: 
-quires....6
 10
 10
 20

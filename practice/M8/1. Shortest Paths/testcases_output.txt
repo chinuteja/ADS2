@@ -741,7 +741,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:43)
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -4204,7 +4204,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "V
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:43)
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -6582,7 +6582,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "k
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:43)
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -11543,6 +11543,6 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "s
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:43)
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 

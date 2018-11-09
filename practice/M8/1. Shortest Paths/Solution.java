@@ -38,9 +38,9 @@ public final class Solution {
                                  Double.parseDouble(tokens1[2]));
             edgeweightedgraph.addEdge(edge);
         }
-        int quires = scan.nextInt();
-        scan.nextLine();
-        for (int i = 0; i < quires; i++) {
+        String quires = scan.nextLine();
+        //scan.nextLine();
+        for (int i = 0; i < Integer.parseInt(quires); i++) {
             String[] tokens2 = scan.nextLine().split(" ");
             //System.out.println(hashst.get(tokens2[0]));
             DijkstraSP dijkstrasp =

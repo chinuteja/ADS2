@@ -737,12 +737,11 @@ Expected Output:
 29
 
 Your Output: 
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Unknown Source)
-	at java.base/java.util.Scanner.next(Unknown Source)
-	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at Solution.main(Solution.java:41)
+Exception in thread "main" java.lang.NumberFormatException: For input string: "t HVhxWrtj 43"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at Solution.main(Solution.java:43)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -4201,12 +4200,11 @@ Expected Output:
 22
 
 Your Output: 
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Unknown Source)
-	at java.base/java.util.Scanner.next(Unknown Source)
-	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at Solution.main(Solution.java:41)
+Exception in thread "main" java.lang.NumberFormatException: For input string: "VCOpwHGIf P 64"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at Solution.main(Solution.java:43)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -6580,12 +6578,11 @@ Expected Output:
 216
 
 Your Output: 
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Unknown Source)
-	at java.base/java.util.Scanner.next(Unknown Source)
-	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at Solution.main(Solution.java:41)
+Exception in thread "main" java.lang.NumberFormatException: For input string: "kJFJjA l 86"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at Solution.main(Solution.java:43)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -11542,11 +11539,10 @@ Expected Output:
 60
 
 Your Output: 
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Unknown Source)
-	at java.base/java.util.Scanner.next(Unknown Source)
-	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at Solution.main(Solution.java:41)
+Exception in thread "main" java.lang.NumberFormatException: For input string: "suIAfujj MDboRN 62"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at Solution.main(Solution.java:43)
 ----------------------------------------
 

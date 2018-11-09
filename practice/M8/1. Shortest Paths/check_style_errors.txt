@@ -13,9 +13,10 @@ Starting audit...
 Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Solution.java:48: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Solution.java:48:37: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Solution.java:42:42: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Solution.java:49: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Solution.java:49:37: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 3 errors.
 Starting audit...
 Audit done.

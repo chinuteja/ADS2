@@ -31,7 +31,7 @@ public final class Solution {
         }
         EdgeWeightedGraph edgeweightedgraph =
             new EdgeWeightedGraph(vertices);
-        for (int i = 0; i < vertices; i++) {
+        for (int i = 0; i < edges; i++) {
             String[] tokens1 = scan.nextLine().split(" ");
             Edge edge = new Edge(hashst.get(tokens1[0]),
                                  hashst.get(tokens1[1]),
@@ -39,7 +39,7 @@ public final class Solution {
             edgeweightedgraph.addEdge(edge);
         }
         int quires = Integer.parseInt(scan.nextLine());
-        //System.out.println("quires...." +quires);
+        //	System.out.println("quires...." +quires);
         //scan.nextLine();
         for (int i = 0; i < quires; i++) {
             String[] tokens2 = scan.nextLine().split(" ");

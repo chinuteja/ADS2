@@ -8,9 +8,8 @@ Expected Output:
 50
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at LinearProbingHashST.put(LinearProbingHashST.java:115)
-	at Solution.main(Solution.java:30)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:36)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -23,9 +22,8 @@ Expected Output:
 30
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at LinearProbingHashST.put(LinearProbingHashST.java:115)
-	at Solution.main(Solution.java:30)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:36)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -731,9 +729,8 @@ Expected Output:
 29
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at LinearProbingHashST.put(LinearProbingHashST.java:115)
-	at Solution.main(Solution.java:30)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:36)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -4192,9 +4189,8 @@ Expected Output:
 22
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -13
-	at LinearProbingHashST.put(LinearProbingHashST.java:115)
-	at Solution.main(Solution.java:30)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:36)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -6568,9 +6564,8 @@ Expected Output:
 216
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -5
-	at LinearProbingHashST.put(LinearProbingHashST.java:115)
-	at Solution.main(Solution.java:30)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:36)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -11527,8 +11522,7 @@ Expected Output:
 60
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -2
-	at LinearProbingHashST.put(LinearProbingHashST.java:115)
-	at Solution.main(Solution.java:30)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:36)
 ----------------------------------------
 

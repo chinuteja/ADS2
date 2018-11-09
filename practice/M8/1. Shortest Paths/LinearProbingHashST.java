@@ -58,7 +58,7 @@ public class LinearProbingHashST<Key, Value> {
      * @return     {hash number of int tuype }
      */
     private int hash(final Key key) {
-        return (key.hashCode() * (1 + 2 + 1 + 1 + 1 + 2 + 1 + 2)) % m;
+        return (key.hashCode() & 0x7fffffff) % m;
     }
     /**.
      * check if the key contains or not

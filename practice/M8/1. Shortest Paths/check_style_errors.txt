@@ -14,8 +14,7 @@ Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Solution.java:49:32: '(' is followed by whitespace. [ParenPad]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Solution.java:50:17: '(' should be on the previous line. [MethodParamPad]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.

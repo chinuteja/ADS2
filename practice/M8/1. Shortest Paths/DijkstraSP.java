@@ -108,8 +108,8 @@ class DijkstraSP {
      *
      * @return shortest distance between two vertices.
      */
-    public int getDistance(final int vertex) {
-        int sum = 0;
+    public double getDistance(final int vertex) {
+        double sum = 0;
         for (Edge each : pathTo(vertex)) {
             sum += each.weight();
         }

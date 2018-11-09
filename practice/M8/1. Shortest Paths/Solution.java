@@ -45,7 +45,7 @@ public final class Solution {
             //System.out.println(hashst.get(tokens2[0]));
             DijkstraSP dijkstrasp =
                 new DijkstraSP(edgeweightedgraph, hashst.get(tokens2[0]));
-            System.out.println(dijkstrasp.getDistance(hashst.get(tokens2[1])));
+            System.out.println((int)dijkstrasp.getDistance(hashst.get(tokens2[1])));
         }
     }
 }

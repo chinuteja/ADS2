@@ -25,10 +25,9 @@ public class LinearProbingHashST<Key, Value> {
      * values of Value type
      */
     private Value[] vals;
-    /**
-       * A constant holding the maximum value an {@code int} can
-       * have, 2<sup>31</sup>-1.
-       */
+    /**.
+     * Max value
+     */
     public static final int   MAX_VALUE = 0x7fffffff;
     /**.
      * Initializes an empty symbol table.

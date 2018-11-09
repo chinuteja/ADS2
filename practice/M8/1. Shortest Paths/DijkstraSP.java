@@ -20,7 +20,6 @@ class DijkstraSP {
     private EdgeWeightedGraph graph;
     /**
      * The constructor to initialize the objects.
-     * The time complexity is O(E + V).
      * @param      g  graph object.
      * @param      source  The source
      */
@@ -62,7 +61,7 @@ class DijkstraSP {
     }
     /**
      * returns the distance of two vertices.
-     *
+     *Time complexity is constant bcz each statement is executed only once
      * @param      v  vertex
      *
      * @return distance between two vertices.
@@ -73,7 +72,7 @@ class DijkstraSP {
     /**
      * returns the boolean value if the path is present
      * or not.
-     *
+     *Time complexity is constant bcz each statement is executed only once
      * @param      v another vertex.
      *
      * @return     True if has path to, False otherwise.
@@ -103,7 +102,7 @@ class DijkstraSP {
     /**
      * returns the shortest distance between.
      * two vertices.
-     * Time complexity O(E)
+     * Time complexity O(E) bcz it iterates through all edges.
      * @param      vertex  The vertex
      *
      * @return shortest distance between two vertices.

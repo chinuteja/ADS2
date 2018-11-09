@@ -39,7 +39,7 @@ public final class Solution {
             edgeweightedgraph.addEdge(edge);
         }
         int quires = Integer.parseInt(scan.nextLine());
-        //	System.out.println("quires...." +quires);
+        //  System.out.println("quires...." +quires);
         //scan.nextLine();
         for (int i = 0; i < quires; i++) {
             String[] tokens2 = scan.nextLine().split(" ");

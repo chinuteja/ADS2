@@ -9,7 +9,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:36)
+	at Solution.main(Solution.java:45)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -23,7 +23,7 @@ Expected Output:
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:36)
+	at Solution.main(Solution.java:45)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -729,8 +729,12 @@ Expected Output:
 29
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:36)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Unknown Source)
+	at java.base/java.util.Scanner.next(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -4189,8 +4193,12 @@ Expected Output:
 22
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:36)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Unknown Source)
+	at java.base/java.util.Scanner.next(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -6564,8 +6572,12 @@ Expected Output:
 216
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:36)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Unknown Source)
+	at java.base/java.util.Scanner.next(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -11522,7 +11534,11 @@ Expected Output:
 60
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:36)
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Unknown Source)
+	at java.base/java.util.Scanner.next(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at Solution.main(Solution.java:41)
 ----------------------------------------
 

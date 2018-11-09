@@ -33,9 +33,9 @@ public final class Solution {
             new EdgeWeightedGraph(vertices);
         for (int i = 0; i < vertices; i++) {
             String[] tokens1 = scan.nextLine().split(" ");
-            Edge edge = new Edge(hashst.get(tokens[0]),
-                                 hashst.get(tokens[1]),
-                                 Double.parseDouble(tokens[2]));
+            Edge edge = new Edge(hashst.get(tokens1[0]),
+                                 hashst.get(tokens1[1]),
+                                 Double.parseDouble(tokens1[2]));
             edgeweightedgraph.addEdge(edge);
         }
         int quires = scan.nextInt();

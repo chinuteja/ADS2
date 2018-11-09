@@ -25,6 +25,11 @@ public class LinearProbingHashST<Key, Value> {
      * values of Value type
      */
     private Value[] vals;
+    /**
+       * A constant holding the maximum value an {@code int} can
+       * have, 2<sup>31</sup>-1.
+       */
+    public static final int   MAX_VALUE = 0x7fffffff;
     /**.
      * Initializes an empty symbol table.
      */
@@ -58,7 +63,7 @@ public class LinearProbingHashST<Key, Value> {
      * @return     {hash number of int tuype }
      */
     private int hash(final Key key) {
-        return (key.hashCode() & 0x7fffffff) % m;
+        return (key.hashCode() & MAX_VALUE) % m;
     }
     /**.
      * check if the key contains or not

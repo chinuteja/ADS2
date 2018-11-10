@@ -23,9 +23,9 @@ public final class Solution {
         // Parallel Edges are allowed...
         // Take the Graph input here...
         Scanner scan = new Scanner(System.in);
-        int vertices = scan.nextInt();
-        int edges = scan.nextInt();
-        scan.nextLine();
+        int vertices = Integer.parseInt(scan.nextLine());
+        int edges = Integer.parseInt(scan.nextLine());
+        //scan.nextLine();
         EdgeWeightedGraph edgeweightedgraph =
             new EdgeWeightedGraph(vertices);
         for (int i = 0; i < edges; i++) {
@@ -43,10 +43,6 @@ public final class Solution {
             System.out.println(edgeweightedgraph);
             break;
         case "DirectedPaths":
-            // Handle the case of DirectedPaths, where two integers are given.
-            // First is the source and second is the destination.
-            // If the path exists print the distance between them.
-            // Other wise print "No Path Found."
             String[] tokens1 = scan.nextLine().split(" ");
             DijkstraSP dijkstrasp = new DijkstraSP(edgeweightedgraph,
                                        Integer.parseInt(tokens1[0]));

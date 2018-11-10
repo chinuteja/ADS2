@@ -46,12 +46,12 @@ Your Output:
 9: Edge@3567135c  Edge@614c5515
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 No Path Found.
 
 Your Output: 
-No path found.
+No Path Found.
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########

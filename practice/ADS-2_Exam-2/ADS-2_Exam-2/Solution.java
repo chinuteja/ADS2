@@ -35,7 +35,7 @@ public class Solution {
 			if (dijkstrasp.hasPathTo(Integer.parseInt(tokens1[1]))) {
 				System.out.println(dijkstrasp.getDistance(Integer.parseInt(tokens1[1])));
 			} else {
-				System.out.println("No path found.");
+				System.out.println("No Path Found.");
 			}
 			break;
 

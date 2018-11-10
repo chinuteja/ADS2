@@ -3,7 +3,7 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Edge.java:4: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Edge.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
@@ -12,10 +12,7 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:73: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:76:35: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:81: Line is longer than 80 characters (found 82). [LineLength]
 Audit done.
-Checkstyle ends with 4 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.

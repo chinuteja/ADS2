@@ -70,15 +70,11 @@ public final class Solution {
                 for (Edge e : dijkstra1.pathTo(Integer.parseInt(tokens2[1]))) {
                     sb.append(e.either() + " ");
                 }
-                
                 for (Edge e : dijkstra2.pathTo(Integer.parseInt(tokens2[2]))) {
                      v = e.other(v);
-                     sb.append(v +" ");
+                     sb.append(v + " ");
                 }
                 System.out.println(sb.toString());
-                // System.out.println(dijkstra1.pathTo(
-                //     Integer.parseInt(tokens2[1])) + " "
-                //              + dijkstra2.pathTo(Integer.parseInt(tokens2[2])));
             } else {
                 System.out.println("No Path Found.");
             }

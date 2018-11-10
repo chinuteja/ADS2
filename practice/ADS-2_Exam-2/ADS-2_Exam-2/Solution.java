@@ -55,6 +55,7 @@ public final class Solution {
             break;
         case "ViaPaths":
             String[] tokens2 = scan.nextLine().split(" ");
+            int v = Integer.parseInt(tokens2[1]);
             DijkstraSP dijkstra1 =
             new DijkstraSP(edgeweightedgraph, Integer.parseInt(tokens2[0]));
             DijkstraSP dijkstra2 =
@@ -64,9 +65,20 @@ public final class Solution {
                  double c1 = dijkstra1.distTo(Integer.parseInt(tokens2[1]));
                  double c2 = dijkstra2.distTo(Integer.parseInt(tokens2[2]));
                 System.out.println(c1 + c2);
-                System.out.println(dijkstra1.pathTo(
-                    Integer.parseInt(tokens2[1])) + " "
-                             + dijkstra2.pathTo(Integer.parseInt(tokens2[2])));
+                StringBuffer sb = new StringBuffer();
+                sb.append(Integer.parseInt(tokens2[0]) + " ");
+                for (Edge e : dijkstra1.pathTo(Integer.parseInt(tokens2[1]))) {
+                    sb.append(e.either() + " ");
+                }
+                
+                for (Edge e : dijkstra2.pathTo(Integer.parseInt(tokens2[2]))) {
+                     v = e.other(v);
+                     sb.append(v +" ");
+                }
+                System.out.println(sb.toString());
+                // System.out.println(dijkstra1.pathTo(
+                //     Integer.parseInt(tokens2[1])) + " "
+                //              + dijkstra2.pathTo(Integer.parseInt(tokens2[2])));
             } else {
                 System.out.println("No Path Found.");
             }

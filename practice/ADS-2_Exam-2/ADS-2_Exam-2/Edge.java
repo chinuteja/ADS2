@@ -1,7 +1,8 @@
 /**.
  * Class for edge.
  */
-public final class Edge implements Comparable<Edge> {
+public final 
+class Edge implements Comparable<Edge> {
     /**.
      * vertex
      */

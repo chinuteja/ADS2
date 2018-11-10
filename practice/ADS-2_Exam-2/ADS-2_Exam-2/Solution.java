@@ -64,9 +64,9 @@ public final class Solution {
                 System.out.println(dijkstra1.pathTo(
                     Integer.parseInt(tokens2[1])) + " "
                              + dijkstra2.pathTo(Integer.parseInt(tokens2[2])));
-            System.out.println(dijkstra1.pathTo(
+            System.out.println(dijkstra1.distTo(
                                        Integer.parseInt(
-                                           tokens2[1])) + "" + dijkstra2.pathTo(
+                                           tokens2[1])) + "" + dijkstra2.distTo(
                                        Integer.parseInt(
                                            tokens2[2])) + tokens2[2]);
             } else {

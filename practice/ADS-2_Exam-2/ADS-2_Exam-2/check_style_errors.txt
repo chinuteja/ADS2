@@ -10,8 +10,7 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:66:62: '+' should be on a new line. [OperatorWrap]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.

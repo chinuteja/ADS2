@@ -76,6 +76,7 @@ Expected Output:
 5 2 4 0 7 1
 
 Your Output: 
-Edge@79698539  Edge@73f792cf Edge@2ed94a8b Edge@38082d64 Edge@dfd3711
+Edge@79698539  Edge@73f792cf Edge@2ed94a8b Edge@38082d64 Edge@dfd3711 
+Edge@79698539 Edge@73f792cf Edge@2ed94a8b Edge@38082d64 Edge@dfd3711 1
 ----------------------------------------
 

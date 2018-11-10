@@ -22,7 +22,7 @@ public class Solution {
 		String caseToGo = scan.nextLine();
 		switch (caseToGo) {
 		case "Graph":
-		    System.out.println(edgeweightedgraph.toString());	
+		    System.out.println(edgeweightedgraph);	
 			break;
 
 		case "DirectedPaths":

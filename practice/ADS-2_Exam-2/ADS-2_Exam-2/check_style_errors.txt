@@ -33,7 +33,21 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:36: Line is longer than 80 characters (found 105). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:43: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:44: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:49: Line is longer than 80 characters (found 111). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:50: Line is longer than 80 characters (found 111). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:51: Line is longer than 80 characters (found 129). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:51:27: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:51:77: '&&' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:51:79: '&&' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:51:129: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:52: Line is longer than 80 characters (found 150). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:52:98: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:52:99: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:52:102: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:52:103: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:53:31: 'else' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2_Exam-2\ADS-2_Exam-2\Solution.java:53:31: '{' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 16 errors.
+Checkstyle ends with 30 errors.
 Starting audit...
 Audit done.

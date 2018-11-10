@@ -45,6 +45,14 @@ public class Solution {
 			// third is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
+			String[] tokens2 = scan.nextLine().split(" ");
+			DijkstraSP dijkstra1 = new DijkstraSP(edgeweightedgraph, Integer.parseInt(tokens2[0]));
+			DijkstraSP dijkstra2 = new DijkstraSP(edgeweightedgraph, Integer.parseInt(tokens2[1]));
+			if(dijkstra1.hasPathTo(Integer.parseInt(tokens2[1]))&&dijkstra2.hasPathTo(Integer.parseInt(tokens2[2]))){
+				System.out.println(dijkstra1.pathTo(Integer.parseInt(tokens2[1]))+" "+dijkstra2.pathTo(Integer.parseInt(tokens2[2])));
+			} else{
+				System.out.println("No Path Found.");
+			}
 			break;
 
 		default:

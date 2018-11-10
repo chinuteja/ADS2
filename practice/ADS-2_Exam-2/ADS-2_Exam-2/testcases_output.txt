@@ -9,12 +9,12 @@ Expected Output:
 5:
 
 Your Output: 
-6 6
-0: Edge@13fee20c  Edge@60addb54  
-1: Edge@3f2a3a5  Edge@4cb2c100  Edge@60addb54  
-2: Edge@6fb554cc  Edge@614c5515  Edge@3f2a3a5  
-3: Edge@614c5515  Edge@13fee20c  
-4: Edge@6fb554cc  Edge@4cb2c100  
+6 vertices 6 edges
+0: Edge@735f7ae5  Edge@180bc464  
+1: Edge@1324409e  Edge@2c6a3f77  Edge@180bc464  
+2: Edge@246ae04d  Edge@62043840  Edge@1324409e  
+3: Edge@62043840  Edge@735f7ae5  
+4: Edge@246ae04d  Edge@2c6a3f77  
 5:
 ----------------------------------------
 
@@ -33,17 +33,17 @@ Expected Output:
 9: 7-9 157.00000  2-9 237.00000
 
 Your Output: 
-10 11
-0: Edge@13fee20c  Edge@60addb54  
-1: Edge@3f2a3a5  Edge@4cb2c100  Edge@6fb554cc  
-2: Edge@614c5515  Edge@77b52d12  Edge@2d554825  
-3: Edge@68837a77  
-4: Edge@6be46e8f  Edge@2d554825  Edge@60addb54  
-5: Edge@6be46e8f  Edge@77b52d12  
-6: Edge@6fb554cc  
-7: Edge@3567135c  Edge@68837a77  Edge@3f2a3a5  Edge@4cb2c100  Edge@13fee20c  
+10 vertices 11 edges
+0: Edge@735f7ae5  Edge@180bc464  
+1: Edge@1324409e  Edge@2c6a3f77  Edge@246ae04d  
+2: Edge@62043840  Edge@5315b42e  Edge@2ef9b8bc  
+3: Edge@5d624da6  
+4: Edge@1e67b872  Edge@2ef9b8bc  Edge@180bc464  
+5: Edge@1e67b872  Edge@5315b42e  
+6: Edge@246ae04d  
+7: Edge@60addb54  Edge@5d624da6  Edge@1324409e  Edge@2c6a3f77  Edge@735f7ae5  
 8: 
-9: Edge@3567135c  Edge@614c5515
+9: Edge@60addb54  Edge@62043840
 ----------------------------------------
 
 ########## Testcase 2: Passed ##########

@@ -66,7 +66,7 @@ public final class Solution {
             if (dijkstra1.hasPathTo(Integer.parseInt(tokens2[1]))
                && dijkstra2.hasPathTo(Integer.parseInt(tokens2[2]))) {
                 System.out.println(dijkstra1.pathTo(
-                    Integer.parseInt(tokens2[1])) + " " 
+                    Integer.parseInt(tokens2[1])) + " "
                              + dijkstra2.pathTo(Integer.parseInt(tokens2[2])));
             } else {
                 System.out.println("No Path Found.");

@@ -40,7 +40,7 @@ public final class Solution {
         String caseToGo = scan.nextLine();
         switch (caseToGo) {
         case "Graph":
-            System.out.println(edgeweightedgraph);
+            System.out.println(edgeweightedgraph.toString());
             break;
         case "DirectedPaths":
             String[] tokens1 = scan.nextLine().split(" ");

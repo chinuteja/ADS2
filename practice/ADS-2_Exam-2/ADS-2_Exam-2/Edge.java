@@ -1,7 +1,7 @@
 /**.
  * Class for edge.
  */
-public class Edge implements Comparable<Edge> {
+public final class Edge implements Comparable<Edge> {
     /**.
      * vertex
      */
@@ -76,6 +76,11 @@ public class Edge implements Comparable<Edge> {
     public int compareTo(final Edge that) {
         return Double.compare(this.weight, that.weight);
     }
+    /**.
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         // String str = "";
         // str += str + v1 + v2 + weight;

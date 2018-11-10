@@ -10,7 +10,10 @@ class EdgeWeightedGraph {
      * adjacent list of one vertex.
      */
     private Bag<Edge>[] adj;
-    private int edges = 0;
+    /**.
+     * edges of int type
+     */
+    private int edges;
     /**
      * Constructs the object.
      *
@@ -71,9 +74,14 @@ class EdgeWeightedGraph {
     public int vertices() {
         return this.vertices;
     }
+    /**.
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(vertices + " vertices " + edges + " edges"+"\n");
+        s.append(vertices + " vertices " + edges + " edges" + "\n");
         for (int v = 0; v < vertices; v++) {
             s.append(v + ": ");
             for (Edge e : adj[v]) {

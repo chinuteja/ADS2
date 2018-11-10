@@ -49,10 +49,10 @@ public final class Solution {
 			// Other wise print "No Path Found."
 			String[] tokens1 = scan.nextLine().split(" ");
 			DijkstraSP dijkstrasp = new DijkstraSP(edgeweightedgraph,
-			                                       Integer.parseInt(tokens1[0]));
+			                           Integer.parseInt(tokens1[0]));
 			if (dijkstrasp.hasPathTo(Integer.parseInt(tokens1[1]))) {
-				System.out.println(dijkstrasp.getDistance
-				                   (Integer.parseInt(tokens1[1])));
+				System.out.println(dijkstrasp.getDistance(
+				                   Integer.parseInt(tokens1[1])));
 			} else {
 				System.out.println("No Path Found.");
 			}
@@ -68,10 +68,11 @@ public final class Solution {
 			new DijkstraSP(edgeweightedgraph, Integer.parseInt(tokens2[0]));
 			DijkstraSP dijkstra2 =
 			new DijkstraSP(edgeweightedgraph, Integer.parseInt(tokens2[1]));
-			if (dijkstra1.hasPathTo(Integer.parseInt(tokens2[1])) &&
-			        dijkstra2.hasPathTo(Integer.parseInt(tokens2[2]))) {
-				System.out.println(dijkstra1.pathTo(Integer.parseInt(tokens2[1])) + " " +
-				                   dijkstra2.pathTo(Integer.parseInt(tokens2[2])));
+			if (dijkstra1.hasPathTo(Integer.parseInt(tokens2[1]))
+			   && dijkstra2.hasPathTo(Integer.parseInt(tokens2[2]))) {
+				System.out.println(dijkstra1.pathTo(
+					Integer.parseInt(tokens2[1])) + " " 
+				             + dijkstra2.pathTo(Integer.parseInt(tokens2[2])));
 			} else {
 				System.out.println("No Path Found.");
 			}

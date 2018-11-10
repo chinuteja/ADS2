@@ -76,4 +76,12 @@ public class Edge implements Comparable<Edge> {
     public int compareTo(final Edge that) {
         return Double.compare(this.weight, that.weight);
     }
+    public String toString() {
+        // String str = "";
+        // str += str + v1 + v2 + weight;
+        // System.out.println("String."+str);
+        // return str;
+        return String.format("%d-%d %.5f", v, w, weight);
+        //return "Hello";
+    }
 }

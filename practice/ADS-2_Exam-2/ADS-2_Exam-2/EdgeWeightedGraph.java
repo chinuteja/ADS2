@@ -85,6 +85,7 @@ class EdgeWeightedGraph {
         for (int v = 0; v < vertices; v++) {
             s.append(v + ": ");
             for (Edge e : adj[v]) {
+                System.out.println(e.toString());
                 s.append(e.toString() + "  ");
             }
             s.append("\n");

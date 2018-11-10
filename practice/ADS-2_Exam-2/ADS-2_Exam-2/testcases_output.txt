@@ -9,6 +9,18 @@ Expected Output:
 5:
 
 Your Output: 
+Edge@380fb434
+Edge@5f2050f6
+Edge@3b81a1bc
+Edge@64616ca2
+Edge@5f2050f6
+Edge@13fee20c
+Edge@4e04a765
+Edge@3b81a1bc
+Edge@4e04a765
+Edge@380fb434
+Edge@13fee20c
+Edge@64616ca2
 6 vertices 6 edges
 0: Edge@380fb434  Edge@5f2050f6  
 1: Edge@3b81a1bc  Edge@64616ca2  Edge@5f2050f6  
@@ -33,6 +45,28 @@ Expected Output:
 9: 7-9 157.00000  2-9 237.00000
 
 Your Output: 
+Edge@380fb434
+Edge@5f2050f6
+Edge@3b81a1bc
+Edge@64616ca2
+Edge@13fee20c
+Edge@4e04a765
+Edge@783e6358
+Edge@17550481
+Edge@735f7ae5
+Edge@180bc464
+Edge@17550481
+Edge@5f2050f6
+Edge@180bc464
+Edge@783e6358
+Edge@13fee20c
+Edge@1324409e
+Edge@735f7ae5
+Edge@3b81a1bc
+Edge@64616ca2
+Edge@380fb434
+Edge@1324409e
+Edge@4e04a765
 10 vertices 11 edges
 0: Edge@380fb434  Edge@5f2050f6  
 1: Edge@3b81a1bc  Edge@64616ca2  Edge@13fee20c  

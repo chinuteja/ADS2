@@ -41,8 +41,9 @@ public class Bipartite {
         }
         //assert check(graph);
     }
-    /**Time complexity is E+V as it runs on each vertex
-     *vertices for given vertex 
+    /**.
+     *Time complexity is E+V as it runs on each vertex
+     *vertices for given vertex
      * runs dfs
      *
      * @param      graph1  The graph 1

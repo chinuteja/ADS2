@@ -21,6 +21,7 @@ public class EdgeWeightedGraph {
     /**.
      * Initializes an empty edge-weighted graph with
      *  {@code V} vertices and 0 edges.
+     * TIme complexity is O(V) as it iterates through numberof vertices.
      * @param  vertices1 the number of vertices
      */
     public EdgeWeightedGraph(final int vertices1) {
@@ -33,6 +34,7 @@ public class EdgeWeightedGraph {
     }
     /**.
      * Initializes a new edge-weighted graph that is a deep copy of {@code G}.
+     * TIme complexity is O(V) as it iterates through numberof vertices.
      * @param  graph the edge-weighted graph to copy
      */
     public EdgeWeightedGraph(final EdgeWeightedGraph graph) {

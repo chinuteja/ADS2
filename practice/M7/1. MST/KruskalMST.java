@@ -21,13 +21,13 @@ public class KruskalMST {
     public KruskalMST(final EdgeWeightedGraph graph) {
         // more efficient to build heap by passing array of edges
         MinPQ<Edge> pq = new MinPQ<Edge>();
-        for (Edge e : graph.edges()) {
+        for (Edge e : graph.edges1()) {
             pq.insert(e);
         }
 
         // run greedy algorithm
-        UF uf = new UF(graph.V());
-        while (!pq.isEmpty() && mst.size() < graph.V() - 1) {
+        UF uf = new UF(graph.vertices());
+        while (!pq.isEmpty() && mst.size() < graph.vertices() - 1) {
             Edge e = pq.delMin();
             int v = e.either();
             int w = e.other(v);

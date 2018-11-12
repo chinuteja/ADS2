@@ -40,12 +40,12 @@ public class Quick3string {
     }
 
     /**
-     * { function_description }.
-     *
-     * @param      a     { parameter_description }.
+     * { sorts the elements in an array }.
+     * Time complexity is O(N) bcz sort method is called recursively.
+     * @param      a     { String array }.
      * @param      lo    The lower.
      * @param      hi    The higher.
-     * @param      d     { parameter_description }.
+     * @param      d     { intiger value }.
      */
     private static void sort(final String[] a, final int lo, final int hi,
                              final int d) {

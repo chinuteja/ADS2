@@ -1,7 +1,4 @@
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Quick3string.java:137: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Quick3string.java:138: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.

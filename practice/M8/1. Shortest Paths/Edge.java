@@ -67,7 +67,7 @@ class Edge implements Comparable<Edge> {
      *
      * @return     The weight.
      */
-    public double getWeight() {
+    public double weight() {
         return this.weight;
     }
     public String toString() {

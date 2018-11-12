@@ -20,6 +20,7 @@ class DijkstraSP {
     private EdgeWeightedGraph graph;
     /**
      * The constructor to initialize the objects.
+     * Time compelxity is O(ElogV)
      * @param      g  graph object.
      * @param      source  The source
      */
@@ -42,7 +43,7 @@ class DijkstraSP {
     }
     /**
      * This method is to relax the edges.
-     * Time complexity is O(logE)
+     * Time complexity is E
      * @param      edge    The edge
      * @param      vertex  The vertex
      */
@@ -82,7 +83,8 @@ class DijkstraSP {
     }
     /**
      * returns shortest path to given vertex.
-     * Time complexity is O(ElogV)
+     * Time complexity is O(E) because it checks all
+     * the edges through vertex v
      * @param      v  vertex.
      *
      * @return shortest path is returned from the source.

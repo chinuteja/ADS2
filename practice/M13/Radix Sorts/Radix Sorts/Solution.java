@@ -30,7 +30,7 @@ public final class Solution {
         quick3string.sort(a);
         String str = "[";
         int i;
-        for (i = 0; i < noofstrings - 1 ; i++) {            
+        for (i = 0; i < noofstrings - 1; i++) {
             str = str + a[i] + ", ";
         }
         str = str + a[i] + "]";

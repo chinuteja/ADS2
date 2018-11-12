@@ -61,7 +61,4 @@ Starting audit...
 Audit done.
 Checkstyle ends with 59 errors.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:33: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:33:40: ';' is preceded with whitespace. [NoWhitespaceBefore]
 Audit done.
-Checkstyle ends with 2 errors.

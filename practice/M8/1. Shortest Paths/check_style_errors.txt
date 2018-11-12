@@ -5,9 +5,8 @@ Audit done.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:22:8: Unused @param tag for 'weigth1'. [JavadocMethod]
 [ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:24:49: Expected @param tag for 'weight1'. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M8\1. Shortest Paths\Edge.java:73:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
 Starting audit...

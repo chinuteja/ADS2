@@ -28,7 +28,7 @@ class Edge implements Comparable<Edge> {
     }
     /**
      * returns first end of edge.
-     *
+     * Time complexity is constant as each statement is executed only oce
      * @return     returns first end of edge.
      */
     public int either() {
@@ -36,7 +36,7 @@ class Edge implements Comparable<Edge> {
     }
     /**
      * returns other end of edge.
-     *
+     *Time complexity is constant as each statement is executed only oce
      * @param      v     connected vertex.
      *
      * @return      returns other end of edge.
@@ -49,7 +49,7 @@ class Edge implements Comparable<Edge> {
     }
     /**
      * compares both edges weight.
-     *
+     *Time complexity is constant as each statement is executed only oce
      * @param      that  The that
      *
      * @return     returns integer value.
@@ -62,20 +62,25 @@ class Edge implements Comparable<Edge> {
         }
         return 0;
     }
-    /**
+    /**.
      * Gets the weight.
-     *
+     *Time complexity is constant as each statement is executed only oce
      * @return     The weight.
      */
     public double weight() {
         return this.weight;
     }
+    /**.
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         // String str = "";
         // str += str + v1 + v2 + weight;
         // System.out.println("String."+str);
         // return str;
-        //return String.format("%d-%d %.5f", v1, v2, weight);
-        return "Hello";
+        return String.format("%d-%d %.5f", v1, v2, weight);
+        //return "Hello";
     }
 }

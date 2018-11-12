@@ -25,7 +25,7 @@ public class Bipartite {
     /**.
      * Determines whether an undirected graph is bipartite and finds either a
      * bipartition or an odd-length cycle.
-     *
+     * Time complexity is E+V because it calls dfs method.
      * @param  graph the graph
      */
     public Bipartite(final Graph graph) {
@@ -41,7 +41,7 @@ public class Bipartite {
         }
         //assert check(graph);
     }
-    /**Time complexity is degree(V) as it checks number of adjacent
+    /**Time complexity is E+V as it runs on each vertex
      *vertices for given vertex 
      * runs dfs
      *

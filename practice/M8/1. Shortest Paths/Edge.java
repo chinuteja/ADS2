@@ -19,7 +19,7 @@ class Edge implements Comparable<Edge> {
      *
      * @param      v     1st vertex
      * @param      w     2nd vertex
-     * @param      weigth1    weight
+     * @param      weigth1    weight1
      */
     Edge(final int v, final int w, final double weight1) {
         this.v1 = v;

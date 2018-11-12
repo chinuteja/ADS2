@@ -105,7 +105,7 @@ public class Quick3string {
     }
     /**.
      * less function compares  two charecters
-     *Time complexity is O(n) bcz for loop iterates for 
+     *Time complexity is O(n) bcz for loop iterates for
      *max of length of string
      * @param      v     { String }
      * @param      w     { String }

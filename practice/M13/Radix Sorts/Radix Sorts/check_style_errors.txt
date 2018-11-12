@@ -1,6 +1,4 @@
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Quick3string.java:108: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.

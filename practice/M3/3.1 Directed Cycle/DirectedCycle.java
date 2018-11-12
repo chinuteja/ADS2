@@ -22,6 +22,8 @@ public class DirectedCycle {
      * Determines whether the digraph {@code G}
      * has a directed cycle and, if so,
      * finds such a cycle.
+     * Time complexity is O(E+V) because the constructor 
+     * calls dfs
      * @param digraph the digraph
      */
     public DirectedCycle(final Digraph digraph) {
@@ -37,7 +39,7 @@ public class DirectedCycle {
     /**.
      * / check that algorithm computes either the
      *  topological order or finds a directed cycle
-     *
+     *Time complexity is O(E+V) because it runs on each vertex. 
      * @param      digraph1     { Digraph digraph1 }
      * @param      v     { vertex of int type }
      */
@@ -77,6 +79,7 @@ public class DirectedCycle {
     /**.
      * Returns a directed cycle if the digraph has a directed cycle,
      * and {@code null} otherwise.
+     * Time complexity is constant as each statement is executed only once.
      * @return a directed cycle (as an iterable)
      *  if the digraph has a directed cycle,
      *    and {@code null} otherwise

@@ -37,7 +37,7 @@ public class KruskalMST {
         }
 
         // check optimality conditions
-        assert check(G);
+        //assert check(G);
     }
 
     /**
@@ -61,69 +61,69 @@ public class KruskalMST {
         return weight;
     }
     /**.
-     * // check optimality conditions (takes time proportional to E V lg* V)
-     *
+     * // check optimality conditions
+     *takes time proportional to E V lg* V
      * @param      G     { edge weighted graph }
      *
      * @return     { returns true if  graph is edge weighted
      * else returns flalse }
      */
-    private boolean check(EdgeWeightedGraph G) {
+    // private boolean check(EdgeWeightedGraph G) {
 
-        // check total weight
-        double total = 0.0;
-        for (Edge e : edges()) {
-            total += e.weight();
-        }
-        if (Math.abs(total - weight()) > FLOATING_POINT_EPSILON) {
-            return false;
-        }
+    //     // check total weight
+    //     double total = 0.0;
+    //     for (Edge e : edges()) {
+    //         total += e.weight();
+    //     }
+    //     if (Math.abs(total - weight()) > FLOATING_POINT_EPSILON) {
+    //         return false;
+    //     }
 
-        // check that it is acyclic
-        UF uf = new UF(G.V());
-        for (Edge e : edges()) {
-            int v = e.either(), w = e.other(v);
-            if (uf.connected(v, w)) {
-                System.err.println("Not a forest");
-                return false;
-            }
-            uf.union(v, w);
-        }
+    //     // check that it is acyclic
+    //     UF uf = new UF(G.V());
+    //     for (Edge e : edges()) {
+    //         int v = e.either(), w = e.other(v);
+    //         if (uf.connected(v, w)) {
+    //             System.err.println("Not a forest");
+    //             return false;
+    //         }
+    //         uf.union(v, w);
+    //     }
 
-        // check that it is a spanning forest
-        for (Edge e : G.edges()) {
-            int v = e.either(), w = e.other(v);
-            if (!uf.connected(v, w)) {
-                System.err.println("Not a spanning forest");
-                return false;
-            }
-        }
+    //     // check that it is a spanning forest
+    //     for (Edge e : G.edges()) {
+    //         int v = e.either(), w = e.other(v);
+    //         if (!uf.connected(v, w)) {
+    //             System.err.println("Not a spanning forest");
+    //             return false;
+    //         }
+    //     }
 
-        // check that it is a minimal spanning forest
-        // (cut optimality conditions)
-        for (Edge e : edges()) {
+    //     // check that it is a minimal spanning forest
+    //     // (cut optimality conditions)
+    //     for (Edge e : edges()) {
 
-            // all edges in MST except e
-            uf = new UF(G.V());
-            for (Edge f : mst) {
-                int x = f.either(), y = f.other(x);
-                if (f != e) uf.union(x, y);
-            }
+    //         // all edges in MST except e
+    //         uf = new UF(G.V());
+    //         for (Edge f : mst) {
+    //             int x = f.either(), y = f.other(x);
+    //             if (f != e) uf.union(x, y);
+    //         }
             
-            // check that e is min weight edge in crossing cut
-            for (Edge f : G.edges()) {
-                int x = f.either(), y = f.other(x);
-                if (!uf.connected(x, y)) {
-                    if (f.weight() < e.weight()) {
-                        return false;
-                    }
-                }
-            }
+    //         // check that e is min weight edge in crossing cut
+    //         for (Edge f : G.edges()) {
+    //             int x = f.either(), y = f.other(x);
+    //             if (!uf.connected(x, y)) {
+    //                 if (f.weight() < e.weight()) {
+    //                     return false;
+    //                 }
+    //             }
+    //         }
 
-        }
+    //     }
 
-        return true;
-    }
+    //     return true;
+    // }
 
 }
 

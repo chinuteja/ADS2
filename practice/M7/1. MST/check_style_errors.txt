@@ -76,13 +76,11 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:5:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:9: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:13: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:19:23: Parameter G should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:19:41: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:54: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:57: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:112: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:18:47: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:48: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:51: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 6 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M7\1. MST\MinPQ.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\M7\1. MST\MinPQ.java:4: Missing a Javadoc comment. [JavadocType]

@@ -101,19 +101,4 @@ class DijkstraSP {
         }
         return path;
     }
-    /**
-     * returns the shortest distance between.
-     * two vertices.
-     * Time complexity O(E) bcz it iterates through all edges.
-     * @param      vertex  The vertex
-     *
-     * @return shortest distance between two vertices.
-     */
-    public double getDistance(final int vertex) {
-        double sum = 0;
-        for (Edge each : pathTo(vertex)) {
-            sum += each.weight();
-        }
-        return sum;
-    }
 }

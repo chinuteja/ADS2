@@ -2,18 +2,18 @@
  * Class for kruskal mst.
  */
 public class KruskalMST {
-	/**.
-	 * Floating point epsilion
-	 */
+    /**.
+     * Floating point epsilion
+     */
     private static final double FLOATING_POINT_EPSILON = 1E-12;
-    /**
+    /**.
      * // weight of MST
      */
-    private double weight;  
+    private double weight;
     /**.
      * { // edges in MST}
      */
-    private Queue<Edge> mst = new Queue<Edge>();  
+    private Queue<Edge> mst = new Queue<Edge>();
     /**.
      * Compute a minimum spanning tree (or forest) of an edge-weighted graph.
      * @param graph the edge-weighted graph
@@ -48,10 +48,10 @@ public class KruskalMST {
         return mst;
     }
     /**.
-     * Returns the sum of the edge weights in a minimum 
+     * Returns the sum of the edge weights in a minimum
      * spanning tree (or forest).
      * Time complexity is constant as each statement is executed only once
-     * @return the sum of the edge weights in a minimum 
+     * @return the sum of the edge weights in a minimum
      * spanning tree (or forest)
      */
     public double weight() {

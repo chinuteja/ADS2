@@ -61,16 +61,10 @@ Starting audit...
 Audit done.
 Checkstyle ends with 59 errors.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:3: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:7:33: Parameter args should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:20:22: '(' is followed by whitespace. [ParenPad]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:20:49: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:20:55: ')' is preceded with whitespace. [ParenPad]
-[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:21: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:9:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:33:22: '(' is followed by whitespace. [ParenPad]
+[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:33:49: ';' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:33:55: ')' is preceded with whitespace. [ParenPad]
+[ERROR] H:\ADS2\ADS2\practice\M13\Radix Sorts\Radix Sorts\Solution.java:34: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 5 errors.

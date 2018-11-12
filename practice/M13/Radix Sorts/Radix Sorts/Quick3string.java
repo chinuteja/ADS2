@@ -11,7 +11,7 @@ public class Quick3string {
     /**.
      * CUTOFF to insertion sort
      */
-    private static final int CUTOFF =  15;
+    private static final int CUTOFF =  7;
     /** .
      * Rearranges the array of strings in ascending order.
      * Time complexity is O(n) bcz it uses overloaded sort function.
@@ -105,7 +105,7 @@ public class Quick3string {
     }
     /**.
      * less function compares  two charecters
-     *Time complexity is O(n) bcz for loop iterates for l
+     *Time complexity is O(n) bcz for loop iterates for 
      *max of length of string
      * @param      v     { String }
      * @param      w     { String }

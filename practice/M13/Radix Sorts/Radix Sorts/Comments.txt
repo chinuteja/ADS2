@@ -1,0 +1,6 @@
+Here we go with 3way Quick sort because the time complexity is 1.39WNlog(R) and space complexity is 1.39Nlog(N)
+R = radix N = length of string.W = fixed length
+In MSD sort we call more number of partitions and at the same time the time complexity is 2W(N+R)
+In LSD sort the time complexity is 2W(N+R)
+keeping time complexities into considerations we go for 3way Qucik sort
+Moveover 3way Quick sort takes only three partions.

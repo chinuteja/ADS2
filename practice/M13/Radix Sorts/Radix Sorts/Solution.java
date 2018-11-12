@@ -1,4 +1,4 @@
-/**.
+/**. 
  * imports Scanner package
  */
 import java.util.Scanner;

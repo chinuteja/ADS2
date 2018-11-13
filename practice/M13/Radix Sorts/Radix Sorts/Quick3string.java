@@ -42,7 +42,7 @@ public class Quick3string {
     }
     /**
      * { sorts the elements in an array }.
-     * Time complexity is O(1.39*W*N*log(R)) 
+     * Time complexity is O(1.39*W*N*log(R))
      * where W= length of longest substring N = length of string
      * R = radix (here it is 256)
      * @param      a     { String array }.

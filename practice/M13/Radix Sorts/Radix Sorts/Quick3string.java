@@ -14,7 +14,9 @@ public class Quick3string {
     private static final int CUTOFF =  7;
     /** .
      * Rearranges the array of strings in ascending order.
-     * Time complexity is O(n) bcz it uses overloaded sort function.
+     * Time complexity is O(1.39*W*N*log(R)) 
+     * where W= length of longest substring N = length of string
+     * R = radix (here it is 256)
      * @param a the array to be sorted
      */
     public static void sort(final String[] a) {
@@ -41,7 +43,9 @@ public class Quick3string {
 
     /**
      * { sorts the elements in an array }.
-     * Time complexity is O(N) bcz sort method is called recursively.
+     * Time complexity is O(1.39*W*N*log(R)) 
+     * where W= length of longest substring N = length of string
+     * R = radix (here it is 256)
      * @param      a     { String array }.
      * @param      lo    The lower.
      * @param      hi    The higher.

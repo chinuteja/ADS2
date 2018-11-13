@@ -41,7 +41,7 @@ public final class Solution {
      *
      * @return     { returns words from file }
      */
-    public static final String[] loadWords() {
+    public static  String[] loadWords() {
         In in = new In("/Files/dictionary-algs4.txt");
         String[] words = in.readAllStrings();
         return words;

@@ -3,9 +3,4 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\M14\Assignment-1\TST.java:10: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M14\Assignment-1\TST.java:14: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M14\Assignment-1\TST.java:24: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\M14\Assignment-1\TST.java:169: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 4 errors.

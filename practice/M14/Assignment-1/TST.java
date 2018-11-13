@@ -7,11 +7,11 @@ public class TST<Value> {
     /**.
      * { // size }.
      */
-    private int n;              
+    private int n;
     /**.
      * { // root of TST }.
      */
-    private Node<Value> root;   
+    private Node<Value> root;
     /**.
      * Class for node.
      *
@@ -21,7 +21,7 @@ public class TST<Value> {
         /**.
          * { character}.
          */
-        private char c;      
+        private char c;
         /**.
          * { Node of left, mid , right }.
          */
@@ -166,7 +166,7 @@ public class TST<Value> {
     }
     /**.
      * Returns the string in the symbol table that is the longest.
-     * Time complexity is N as while loop iterates till length of 
+     * Time complexity is N as while loop iterates till length of
      * query (i.e String)
      * prefix of {@code query},
      * or {@code null}, if no such string.

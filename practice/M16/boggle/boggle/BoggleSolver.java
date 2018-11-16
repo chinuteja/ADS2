@@ -1,8 +1,8 @@
 public class BoggleSolver {
 	// Initializes the data structure using the given array of strings as the dictionary.
 	// (You can assume each word in the dictionary contains only the uppercase letters A through Z.)
-	TrieST<Integer> tst = new TrieST<>();
-	int row, col;
+	TrieST<Integer> tst = new TrieST<Integer>();
+	int rows, cols;
 	boolean[][] visited;
 	public BoggleSolver(String[] dictionary) {
 		//int[] count = {0,0,0,1,1,2,3,5,11};
@@ -34,11 +34,14 @@ public class BoggleSolver {
 	}
 	private  void findwords(BoggleBoard board, int i, int j,
 	                        Queue queue, String sb) {
+		if (!tst.hasPrefix(sb)) {
+			return;
+		}
+		
 		if (isValid(sb)) {
 			queue.enqueue(sb);
 		}
-		int rows = board.rows();
-		int cols = board.cols();
+
 		visited[i][j] = true;
 		for (int row = i - 1; row <= i + 1 && row < rows; row++) {
 			for (int col = j - 1; col <= j + 1 && col < cols; col++ ) {
@@ -46,11 +49,10 @@ public class BoggleSolver {
 					String sb1 = appendChar(sb, board.getLetter(row, col));
 					findwords(board, row, col, queue, sb1);
 				}
-
 			}
 		}
-		visited[i][j] = false;
 
+		visited[i][j] = false;
 	}
 	public  String appendChar(String s, char c) {
 		if (c == 'Q') {
@@ -63,17 +65,16 @@ public class BoggleSolver {
 	public Iterable<String> getAllValidWords(BoggleBoard board) {
 		if (board == null) {
 			System.out.println("board is null");
-
 		}
 		// Initialize the queue
 		Queue<String> queue = new Queue<>();
 		// Initialise the boolean board;
 
 		// get the rows
-		int rows = board.rows();
+		rows = board.rows();
 
 		// get the cols
-		int cols = board.cols();
+		cols = board.cols();
 		visited = new boolean[rows][cols];
 
 		// iterate the board and get each char from the board and call the method with the particualr ltter
@@ -99,7 +100,6 @@ public class BoggleSolver {
 		if (tst.contains(word)) {
 			return tst.get(word);
 		}
-
 		return 0;
 	}
 }

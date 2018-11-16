@@ -1,9 +1,21 @@
+/**.
+ * Class for trie st.
+ *
+ * @param      <Value>  The value
+ */
 public class TrieST<Value> {
+    /**.
+     * Number of alphabets
+     */
     private static final int R = 26;        // extended ASCII
-
-
-    private Node root;      // root of trie
-    private int n;          // number of keys in trie
+    /**.
+     * root of trie
+     */
+    private Node root;  
+    /**.
+     * number of keys in trie
+     */
+    private int n;           
 
     // R-way trie node
     private static class Node {
@@ -16,8 +28,6 @@ public class TrieST<Value> {
       */
     public TrieST() {
     }
-
-
     /**
      * Returns the value associated with the given key.
      * @param key the key

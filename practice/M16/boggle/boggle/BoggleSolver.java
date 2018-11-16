@@ -53,24 +53,39 @@ public class BoggleSolver {
 	}
 	public  String appendChar(String s, char c) {
 		if (c == 'Q') {
-			return s + "Qu";
-		} else {
-			return s;
+			return s + "QU";
 		}
-
+		return s + c;
 	}
 
 	// Returns the set of all valid words in the given Boggle board, as an Iterable.
 	public Iterable<String> getAllValidWords(BoggleBoard board) {
+		// Initialize the queue
+		Queue<String> queue = new Queue<>();
+		// Initialise the boolean board;
 
+		// get the rows
+		int rows = board.rows();
 
-		return new Bag<String>();
+		// get the cols
+		int cols = board.cols();
+		//visited[rows][cols] = true;
+
+		// iterate the board and get each char from the board and call the method with the particualr ltter
+		// by passing board, queue, row, col, string, visited
+		for (int row = 0; row < rows ; row++ ) {
+			for (int col = 0; col < cols ; col++ ) {
+				String s = appendChar("", board.getLetter(row, col));
+				findwords(board, row, col, queue, s);
+			}
+		}
+		return queue;
 	}
 	private boolean isValid(String key) {
-		if (key.length() <= 2 || tst.contains(key)) {
+		if (key.length() <= 2) {
 			return false;
 		}
-		return true;
+		return tst.contains(key);
 	}
 
 	// Returns the score of the given word if it is in the dictionary, zero otherwise.

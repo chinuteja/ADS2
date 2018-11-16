@@ -157,7 +157,6 @@ public class BoggleBoard {
     public int cols() {
         return n;
     }
-
     /**
      * Returns the letter in row i and column j,
      * with 'Q' representing the two-letter sequence "Qu".

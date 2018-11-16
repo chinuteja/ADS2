@@ -15,7 +15,7 @@ public class Solution {
 	/**
 	 * Main method.
 	 *
-	 * @param      args  The arguments
+	 * @param      args  The arguments 
 	 */
 	public static void main(final String[] args) {
 		String caseType = StdIn.readLine();

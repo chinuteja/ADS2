@@ -3,10 +3,7 @@ Expected Output:
 Score = 33
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 39
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -14,21 +11,15 @@ Expected Output:
 Score = 84
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 120
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 Score = 1
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 1
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -36,10 +27,7 @@ Expected Output:
 Score = 2
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 5
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -47,10 +35,7 @@ Expected Output:
 Score = 3
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 4
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -58,10 +43,7 @@ Expected Output:
 Score = 1000
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 1229
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -69,10 +51,7 @@ Expected Output:
 Score = 400
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 687
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -80,10 +59,7 @@ Expected Output:
 Score = 7
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 1428
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -91,21 +67,15 @@ Expected Output:
 Score = 155
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 209
 ----------------------------------------
 
-########## Testcase 9: Failed ##########
+########## Testcase 9: Passed ##########
 Expected Output: 
 Score = 172
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 172
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -113,10 +83,7 @@ Expected Output:
 Score = 68
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 70
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -124,10 +91,7 @@ Expected Output:
 Score = 147
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -135,32 +99,23 @@ Expected Output:
 Score = 687
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 952
 ----------------------------------------
 
-########## Testcase 13: Failed ##########
+########## Testcase 13: Passed ##########
 Expected Output: 
 Score = 0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 0
 ----------------------------------------
 
-########## Testcase 14: Failed ##########
+########## Testcase 14: Passed ##########
 Expected Output: 
 Score = 172
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 172
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -168,10 +123,7 @@ Expected Output:
 Score = 129
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -179,10 +131,7 @@ Expected Output:
 Score = 2
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 176
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -190,10 +139,7 @@ Expected Output:
 Score = 1
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 36
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -201,10 +147,7 @@ Expected Output:
 Score = 14
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 204
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -212,10 +155,7 @@ Expected Output:
 Score = 11
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -223,32 +163,23 @@ Expected Output:
 Score = 33
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+
 ----------------------------------------
 
-########## Testcase 21: Failed ##########
+########## Testcase 21: Passed ##########
 Expected Output: 
 Score = 23
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 23
 ----------------------------------------
 
-########## Testcase 22: Failed ##########
+########## Testcase 22: Passed ##########
 Expected Output: 
 Score = 24
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 24
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -256,21 +187,15 @@ Expected Output:
 Score = 30
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+
 ----------------------------------------
 
-########## Testcase 24: Failed ##########
+########## Testcase 24: Passed ##########
 Expected Output: 
 Score = 0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+Score = 0
 ----------------------------------------
 
 ########## Testcase 25: Failed ##########
@@ -278,10 +203,7 @@ Expected Output:
 Score = 26539
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+
 ----------------------------------------
 
 ########## Testcase 26: Failed ##########
@@ -289,10 +211,7 @@ Expected Output:
 Score = 19797
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+
 ----------------------------------------
 
 ########## Testcase 27: Failed ##########
@@ -300,10 +219,7 @@ Expected Output:
 Score = 27325
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+
 ----------------------------------------
 
 ########## Testcase 28: Failed ##########
@@ -311,10 +227,7 @@ Expected Output:
 Score = 32175
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BoggleSolver.findwords(BoggleSolver.java:41)
-	at BoggleSolver.getAllValidWords(BoggleSolver.java:79)
-	at Solution.main(Solution.java:32)
+
 ----------------------------------------
 
 ########## Testcase 29: Failed ##########

@@ -60,6 +60,10 @@ public class BoggleSolver {
 
 	// Returns the set of all valid words in the given Boggle board, as an Iterable.
 	public Iterable<String> getAllValidWords(BoggleBoard board) {
+		if (board == null) {
+			System.out.println("board is null");
+
+		}
 		// Initialize the queue
 		Queue<String> queue = new Queue<>();
 		// Initialise the boolean board;
@@ -69,7 +73,7 @@ public class BoggleSolver {
 
 		// get the cols
 		int cols = board.cols();
-		//visited[rows][cols] = true;
+		visited = new boolean[rows][cols];
 
 		// iterate the board and get each char from the board and call the method with the particualr ltter
 		// by passing board, queue, row, col, string, visited

@@ -149,7 +149,7 @@ public class TrieST<Value> {
         if (x.val != null) results.enqueue(prefix.toString());
         for (char c = 0; c < R; c++) {
             prefix.append(c);
-            collect(x.next[c], prefix, results);
+            collect(x.next[c - 65], prefix, results);
             prefix.deleteCharAt(prefix.length() - 1);
         }
     }

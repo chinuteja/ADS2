@@ -599,21 +599,21 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:62:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'getAllValidWords' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'getAllValidWords' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:62:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:62:50: Parameter board should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:74: Line is longer than 80 characters (found 115). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:76:26: 'row' hides a field. [HiddenField]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:76:45: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:76:53: ')' is preceded with whitespace. [ParenPad]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:77:34: 'col' hides a field. [HiddenField]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:77:53: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:77:61: ')' is preceded with whitespace. [ParenPad]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:78: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:84:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:84:33: Parameter key should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:91: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:92: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:93:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:93:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:93:28: Parameter word should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:78: Line is longer than 80 characters (found 115). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:80:26: 'row' hides a field. [HiddenField]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:80:45: ';' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:80:53: ')' is preceded with whitespace. [ParenPad]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:81:34: 'col' hides a field. [HiddenField]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:81:53: ';' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:81:61: ')' is preceded with whitespace. [ParenPad]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:82: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:88:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:88:33: Parameter key should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:95: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:96: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:97:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:97:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\BoggleSolver.java:97:28: Parameter word should be final. [FinalParameters]
 Audit done.
 Checkstyle ends with 62 errors.
 Starting audit...
@@ -1235,6 +1235,7 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\TrieST.java:147:56: Parameter results should be final. [FinalParameters]
 [ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\TrieST.java:148: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\TrieST.java:149: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\TrieST.java:152:32: '65' is a magic number. [MagicNumber]
 [ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\TrieST.java:164:43: Parameter pattern should be final. [FinalParameters]
 [ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\TrieST.java:170: Line is longer than 80 characters (found 95). [LineLength]
 [ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\TrieST.java:170:5: Missing a Javadoc comment. [JavadocMethod]
@@ -1284,6 +1285,6 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\TrieST.java:248:26: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] H:\ADS2\ADS2\practice\M16\boggle\boggle\TrieST.java:248:26: '65' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 109 errors.
+Checkstyle ends with 110 errors.
 Starting audit...
 Audit done.

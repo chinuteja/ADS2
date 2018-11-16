@@ -8,6 +8,7 @@ public class BoggleSolver {
 		//int[] count = {0,0,0,1,1,2,3,5,11};
 		int count = 0;
 		for (int i = 0; i < dictionary.length ; i++ ) {
+			//System.out.println("dictionary words....." +dictionary[i]);
 
 			if (dictionary[i].length() == 0 || dictionary[i].length() == 1 || dictionary[i].length() == 2) {
 				count = 0;

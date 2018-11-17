@@ -91,15 +91,6 @@ public class Solution {
 		//File file = new File(file);
 		int count = 0;
 		String[] tokens = toReadFile(file);
-		// for (int i = 0; i < tokens.length; i++ ) {
-		// 	if (st.contains(tokens[i])) {
-		// 		st.put(tokens[i], count);
-		// 		count++;
-		// 	} else {
-		// 		st.put(tokens[i], i);
-		// 	}
-
-		// }
 		for (String key  : tokens ) {
 			String key1 = key.toLowerCase();
 			Integer n = st.get(key1);

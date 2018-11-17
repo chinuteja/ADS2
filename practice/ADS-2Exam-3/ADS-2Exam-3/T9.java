@@ -77,7 +77,7 @@ class T9 {
                 }
             }
         }
-        //Collections.sort(list);
+        Collections.sort(list);
         return list;
     }
     // final output

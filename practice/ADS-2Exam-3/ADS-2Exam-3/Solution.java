@@ -101,9 +101,10 @@ public class Solution {
 
 		// }
 		for (String key  : tokens ) {
-			Integer n = st.get(key);
+			String key1 = key.toLowerCase();
+			Integer n = st.get(key1);
 			n = (n == null) ? 1 : ++n;
-			st.put(key, n);
+			st.put(key1, n);
 		}
 		return st;
 	}

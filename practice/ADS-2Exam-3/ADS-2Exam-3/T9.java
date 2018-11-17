@@ -24,29 +24,29 @@ class T9 {
         for(String word : tst.keys()) {
             String[] chars = word.split("");
             String str = "";
-            for (String ch : chars) {
-                if (ch.equals("a") || ch.equals("b") || ch.equals("c")) {
+            for (String str1 : chars) {
+                if (str1.equals("a") || str1.equals("b") || str1.equals("c")) {
                     str = str + 2;
                 }
-                if (ch.equals("d") || ch.equals("e") || ch.equals("f")) {
+                if (str1.equals("d") || str1.equals("e") || str1.equals("f")) {
                     str = str + 3;
                 }
-                if (ch.equals("g") || ch.equals("h") || ch.equals("i")) {
+                if (str1.equals("g") || str1.equals("h") || str1.equals("i")) {
                     str = str + 4;
                 }
-                if (ch.equals("j") || ch.equals("k") || ch.equals("l")) {
+                if (str1.equals("j") || str1.equals("k") || str1.equals("l")) {
                     str = str + 5;
                 }
-                if (ch.equals("m") || ch.equals("n") || ch.equals("o")) {
+                if (str1.equals("m") || str1.equals("n") || str1.equals("o")) {
                     str = str + 6;
                 }
-                if (ch.equals("p") || ch.equals("q") || ch.equals("r") || ch.equals("s")) {
+                if (str1.equals("p") || str1.equals("q") || str1.equals("r") || str1.equals("s")) {
                     str = str + 7;
                 }
-                if (ch.equals("t") || ch.equals("u") || ch.equals("v")) {
+                if (str1.equals("t") || str1.equals("u") || str1.equals("v")) {
                     str = str + 8;
                 }
-                if (ch.equals("w") || ch.equals("x") || ch.equals("y") || ch.equals("z")) {
+                if (str1.equals("w") || str1.equals("x") || str1.equals("y") || str1.equals("z")) {
                     str = str + 9;
                 }
             }
@@ -66,7 +66,8 @@ class T9 {
        ArrayList<String> list = new ArrayList<String>();
         MaxPQ<Integer> pq = new MaxPQ<Integer>();
         for (String i : words) {
-            pq.insert(tst.get(i));
+            int x = tst.get(i);
+            pq.insert(x);
         }
         for (int i = 0; i < k; i++) {
             int maxval = pq.delMax();
@@ -79,8 +80,6 @@ class T9 {
         Collections.sort(list);
         return list;
     }
-        //return maxpq;
-    
     // final output
     // Don't modify this method.
     // ArrayList<String> list = new ArrayList<String>();

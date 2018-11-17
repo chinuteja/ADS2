@@ -84,7 +84,6 @@ public class Solution {
 		In in = new In(file);
 		return in.readAllStrings();
 	}
-
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
@@ -103,19 +102,27 @@ public class Solution {
 }
 
 class T9 {
-
+	TST<Integer> tst;
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
+		tst = new TST<Integer>();
+		for (int i = 0; i < st.size(); i++) {
+			String temp = st.select(i);
+			tst.put(temp, i);
+		}
+
 	}
 
 	// get all the prefixes that match with given prefix.
 	public Iterable<String> getAllWords(String prefix) {
 		// your code goes here
-		return null;
+		return tst.keysWithPrefix(prefix);
+		//return null;
 	}
 
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
+
 		return null;
 	}
 

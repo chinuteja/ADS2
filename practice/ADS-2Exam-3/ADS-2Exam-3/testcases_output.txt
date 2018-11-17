@@ -228,10 +228,10 @@ right
 words
 
 Your Output: 
-right
-rights
-within
 words
+within
+rights
+right
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -286,7 +286,7 @@ Your Output:
 Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
 	at MaxPQ.delMax(MaxPQ.java:156)
 	at T9.getSuggestions(T9.java:73)
-	at T9.t9(T9.java:89)
+	at T9.t9(T9.java:86)
 	at Solution.main(Solution.java:79)
 ----------------------------------------
 

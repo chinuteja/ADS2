@@ -77,14 +77,11 @@ class T9 {
                 }
             }
         }
-        Collections.sort(list);
+        //Collections.sort(list);
         return list;
     }
     // final output
     // Don't modify this method.
-    // ArrayList<String> list = new ArrayList<String>();
-        
-
     public Iterable<String> t9(String t9Signature, int k) {
         return getSuggestions(potentialWords(t9Signature), k);
     }

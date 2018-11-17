@@ -1,8 +1,17 @@
+/**.
+ * imports Scanner package
+ */
 import java.util.Scanner;
+/**.
+ * Class for solution.
+ */
+public final class Solution {
+	/**.
+	 * Constructs the object.
+	 */
+    private Solution() {
 
-
-public class Solution {
-
+    }
 	// Don't modify this method.
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -88,7 +97,7 @@ public class Solution {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
 		//File file = new File(file);
-		int count = 0;
+		//int count = 0;
 		String[] tokens = toReadFile(file);
 		for (String key  : tokens ) {
 			String key1 = key.toLowerCase();

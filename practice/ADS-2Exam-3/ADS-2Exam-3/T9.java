@@ -26,10 +26,8 @@ class T9 {
 
     // return all possibilities(words), find top k with highest frequency.
     public Iterable<String> getSuggestions(Iterable<String> words, int k) {
-        //tst.keysWithPrefix(words);
-        // MaxPQ<String> maxpq = new MaxPQ<>();
-       ArrayList<String> list = new ArrayList<>();
-       MaxPQ<Integer> pq = new MaxPQ<Integer>();
+       ArrayList<String> list = new ArrayList<String>();
+        MaxPQ<Integer> pq = new MaxPQ<Integer>();
         for (String i : words) {
             pq.insert(tst.get(i));
         }

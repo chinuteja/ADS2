@@ -411,11 +411,11 @@ Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:28:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:28:44: Parameter words should be final. [FinalParameters]
 [ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:28:68: Parameter k should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:48: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:52: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:54:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:54:32: Parameter t9Signature should be final. [FinalParameters]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:54:52: Parameter k should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:46: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:50: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:52:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:52:32: Parameter t9Signature should be final. [FinalParameters]
+[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\T9.java:52:52: Parameter k should be final. [FinalParameters]
 Audit done.
 Checkstyle ends with 19 errors.
 Starting audit...

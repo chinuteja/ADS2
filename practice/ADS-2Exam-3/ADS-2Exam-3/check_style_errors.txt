@@ -402,7 +402,4 @@ Starting audit...
 Audit done.
 Checkstyle ends with 28 errors.
 Starting audit...
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\TST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\ADS2\ADS2\practice\ADS-2Exam-3\ADS-2Exam-3\TST.java:294: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 2 errors.

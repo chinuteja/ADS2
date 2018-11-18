@@ -1,105 +1,87 @@
+import java.util.*;
+
 public class BoggleSolver {
-	// Initializes the data structure using the given array of strings as the dictionary.
-	// (You can assume each word in the dictionary contains only the uppercase letters A through Z.)
-	TrieST<Integer> tst = new TrieST<Integer>();
-	int rows, cols;
-	boolean[][] visited;
-	public BoggleSolver(String[] dictionary) {
-		//int[] count = {0,0,0,1,1,2,3,5,11};
-		int count = 0;
-		for (int i = 0; i < dictionary.length ; i++ ) {
-			//System.out.println("dictionary words....." +dictionary[i]);
+    // Initializes the data structure using the given array of strings as the dictionary.
+    // (You can assume each word in the dictionary contains only the uppercase letters A through Z.)
+    private int rows;
+    private int cols;
+    private boolean[][] visited;
+    private final TrieST<Integer> dictTST;
 
-			if (dictionary[i].length() == 0 || dictionary[i].length() == 1 || dictionary[i].length() == 2) {
-				count = 0;
-			} else if (dictionary[i].length() == 3 || dictionary[i].length() == 4) {
-				count = 1;
-			} else if (dictionary[i].length() == 5) {
-				count = 2;
-			} else if (dictionary[i].length() == 6) {
-				count = 3;
-			} else if (dictionary[i].length() == 7) {
-				count = 5;
-			} else if (dictionary[i].length() >= 8) {
-				count = 11;
-			}
-			// score = count[dictionary[i].length()];
-			//System.out.println("word .." +dictionary[i]);
-			//System.out.println("count ..." +count);
-			tst.put(dictionary[i], count);
+    public BoggleSolver(String[] dictionary) {
+        dictTST = new TrieST<Integer>();
+        int[] scores = {0, 0, 0, 1, 1, 2, 3, 5, 11};
+        int count = 0;
+        for (String word : dictionary) {
+            count++;
+            if (word.length() < scores.length)
+                dictTST.put(word, scores[word.length()]);
+            else
+                dictTST.put(word, 11);
+        }
+    }
 
+    private boolean isValidWord(String str) {
+        if (str.length() <= 2)
+            return false;
+        return dictTST.contains(str);
+    }
 
-		}
+    private void findWords(BoggleBoard board, int i, int j,
+        Queue<String> queue, String sb) {
+        if (!dictTST.hasPrefix(sb)) {
+            return;
+        }
+        if (isValidWord(sb)) {
+            queue.enqueue(sb);
+        }
+        visited[i][j] = true;
+        for (int row = i - 1; row <= i + 1 && row < rows; row++) {
+            for (int col = j - 1; col <= j + 1 && col < cols; col++) {
+                if (row >= 0 && col >= 0 && !visited[row][col]) {
+                    String newSB = appendChar(sb, board.getLetter(row, col));
+                    findWords(board, row, col, queue, newSB);
+                }
+            }
+        }
+        visited[i][j] = false;
+    }
 
-	}
-	private  void findwords(BoggleBoard board, int i, int j,
-	                        Queue queue, String sb) {
-		if (!tst.hasPrefix(sb)) {
-			return;
-		}
-		
-		if (isValid(sb)) {
-			queue.enqueue(sb);
-		}
+    private String appendChar(String sb, char ch) {
+        if (ch == 'Q') return sb + "QU";
+        return sb + ch;
+    }
 
-		visited[i][j] = true;
-		for (int row = i - 1; row <= i + 1 && row < rows; row++) {
-			for (int col = j - 1; col <= j + 1 && col < cols; col++ ) {
-				if (row >= 0 && col >= 0 && !visited[row][col]) {
-					String sb1 = appendChar(sb, board.getLetter(row, col));
-					findwords(board, row, col, queue, sb1);
-				}
-			}
-		}
+    private Iterable<String> findAllWords(BoggleBoard board) {
 
-		visited[i][j] = false;
-	}
-	public  String appendChar(String s, char c) {
-		if (c == 'Q') {
-			return s + "QU";
-		}
-		return s + c;
-	}
+        rows = board.rows();
+        cols = board.cols();
 
-	// Returns the set of all valid words in the given Boggle board, as an Iterable.
-	public Iterable<String> getAllValidWords(BoggleBoard board) {
-		if (board == null) {
-			System.out.println("board is null");
-		}
-		// Initialize the queue
-		Queue<String> queue = new Queue<>();
-		// Initialise the boolean board;
+        visited = new boolean[rows][cols];
+        Queue<String> queue = new Queue<String>();
+        for (int row = 0; row < rows; row++) {
+            for (int col = 0; col < cols; col++) {
+                String sb = appendChar("", board.getLetter(row, col));
+                findWords(board, row, col, queue, sb);
+            }
+        }
+        return queue;
+    }
 
-		// get the rows
-		rows = board.rows();
+    // Returns the set of all valid words in the given Boggle board, as an Iterable.
+    public Iterable<String> getAllValidWords(BoggleBoard board) {
+        if (board == null) {
+            throw new IllegalArgumentException("board is null");
+        }
 
-		// get the cols
-		cols = board.cols();
-		visited = new boolean[rows][cols];
+        return findAllWords(board);
+    }
 
-		// iterate the board and get each char from the board and call the method with the particualr ltter
-		// by passing board, queue, row, col, string, visited
-		for (int row = 0; row < rows ; row++ ) {
-			for (int col = 0; col < cols ; col++ ) {
-				String s = appendChar("", board.getLetter(row, col));
-				findwords(board, row, col, queue, s);
-			}
-		}
-		return queue;
-	}
-	private boolean isValid(String key) {
-		if (key.length() <= 2) {
-			return false;
-		}
-		return tst.contains(key);
-	}
-
-	// Returns the score of the given word if it is in the dictionary, zero otherwise.
-	// (You can assume the word contains only the uppercase letters A through Z.)
-	public int scoreOf(String word) {
-		if (tst.contains(word)) {
-			return tst.get(word);
-		}
-		return 0;
-	}
+    // Returns the score of the given word if it is in the dictionary, zero otherwise.
+    // (You can assume the word contains only the uppercase letters A through Z.)
+    public int scoreOf(String word) {
+        if (dictTST.get(word) == null)
+            return 0;
+        return dictTST.get(word);
+    }
 }

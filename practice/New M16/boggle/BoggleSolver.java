@@ -36,7 +36,8 @@ public class BoggleSolver {
     public static final int E_L_E = 11;
     /**.
      * Constructs the object.
-     *
+     * Time complexity is N bcz the for loop iterates till 
+     * length of each string in dictornary
      * @param      dictionary  The dictionary
      */
     public BoggleSolver(final String[] dictionary) {

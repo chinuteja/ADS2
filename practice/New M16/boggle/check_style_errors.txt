@@ -531,7 +531,11 @@ Starting audit...
 Audit done.
 Checkstyle ends with 465 errors.
 Starting audit...
+[ERROR] H:\ADS2\ADS2\practice\New M16\boggle\BoggleSolver.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] H:\ADS2\ADS2\practice\New M16\boggle\BoggleSolver.java:52: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS2\ADS2\practice\New M16\boggle\BoggleSolver.java:71: Line has trailing spaces. [RegexpSingleline]
 Audit done.
+Checkstyle ends with 3 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\New M16\boggle\Queue.java:5: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS2\ADS2\practice\New M16\boggle\Queue.java:9: Line has trailing spaces. [RegexpSingleline]

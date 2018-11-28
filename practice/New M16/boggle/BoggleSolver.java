@@ -49,7 +49,8 @@ public class BoggleSolver {
      * Gets all valid words.
      *
      * @param      board  The board
-     *
+     *Time complexity is N2 bcz each for loop iterates till the 
+     *total no of rows and columsn.
      * @return     All valid words.
      */
     public HashSet<String> getAllValidWords(final BoggleBoard board) {
@@ -67,7 +68,8 @@ public class BoggleSolver {
     }
     /**.
      * { Searchswords in the board }
-     *
+     * TIme complexity is N2 bcz inner and outer for loop 
+     * iterates for N times
      * @param      board    The board
      * @param      i        { index }
      * @param      j        { index }

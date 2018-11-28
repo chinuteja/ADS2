@@ -5,7 +5,9 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
+[ERROR] H:\ADS2\ADS2\practice\M7\1. MST\KruskalMST.java:19: Line has trailing spaces. [RegexpSingleline]
 Audit done.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] H:\ADS2\ADS2\practice\M7\1. MST\MinPQ.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS2\ADS2\practice\M7\1. MST\MinPQ.java:4: Missing a Javadoc comment. [JavadocType]

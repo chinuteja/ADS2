@@ -16,6 +16,7 @@ public class KruskalMST {
     private Queue<Edge> mst = new Queue<Edge>();
     /**.
      * Compute a minimum spanning tree (or forest) of an edge-weighted graph.
+     * Time complexity is Elog(E)  
      * @param graph the edge-weighted graph
      */
     public KruskalMST(final EdgeWeightedGraph graph) {

@@ -21,7 +21,8 @@ public class Graph {
     /**.
      * Initializes an empty graph with {@code V} vertices and 0 edges.
      * param V the number of vertices
-     *
+     *Time complexity is N as loop iterates till
+     * no of vertices
      * @param  vertices1 number of vertices
      * @throws IllegalArgumentException if {@code V < 0}
      */

@@ -24,7 +24,8 @@ public class Digraph {
     private int[] indegree;
     /**.
      * Constructs the object. for digraph
-     *
+     * Time complexity is N as loop iterates till
+     * no of vertices
      * @param      vertices1     { vertex }
      */
     public Digraph(final int vertices1) {
@@ -38,7 +39,7 @@ public class Digraph {
     }
     /**
      * Initializes a new digraph that is a deep copy of the specified digraph.
-     *
+     * Time complexity is N*2 as two for loops iterates till N times.
      * @param  digraph the digraph to copy
      */
     public Digraph(final Digraph digraph) {
